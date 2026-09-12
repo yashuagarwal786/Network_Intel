@@ -1,4 +1,6 @@
 """Golden-flow API with reversible resolution decisions; legacy detection is disabled."""
+from dotenv import load_dotenv
+load_dotenv()
 from fastapi import FastAPI, Query, Request
 from fastapi.exceptions import RequestValidationError
 from fastapi.responses import JSONResponse
