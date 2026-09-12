@@ -1,6 +1,6 @@
 # Network Intel — Controlled Prototype Evaluation Report
 
-**Generated:** 2026-09-11T18:02:36.386147+00:00  
+**Generated:** 2026-09-12T11:48:42.573518+00:00  
 **Evaluation Target:** 9.0 / 10 internal prototype  
 **Criteria Passed:** 12 / 12  
 
