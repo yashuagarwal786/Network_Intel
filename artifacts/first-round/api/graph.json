@@ -1,0 +1,2041 @@
+{
+  "case_id": "VEIL-DEMO-001",
+  "synthetic": true,
+  "data_version": "golden-v1",
+  "nodes": [
+    {
+      "id": "A17",
+      "label": "Account A17",
+      "display_label": "A17",
+      "type": "Account",
+      "identifier": "DEMO-BANK-A17",
+      "description": "Synthetic bank account. Listed control is a record assertion, not independent verification.",
+      "x": 565.0,
+      "y": 245.0,
+      "evidence_ids": [
+        "E-ACC-01",
+        "E-TX-01",
+        "E-TX-02"
+      ],
+      "aliases": [],
+      "original_entity_ids": [
+        "A17"
+      ],
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "A31",
+      "label": "Account A31",
+      "display_label": "A31",
+      "type": "Account",
+      "identifier": "DEMO-BANK-A31",
+      "description": "Synthetic bank account. Listed control is a record assertion, not independent verification.",
+      "x": 390.0,
+      "y": 245.0,
+      "evidence_ids": [
+        "E-ACC-02",
+        "E-TX-01",
+        "E-TX-03"
+      ],
+      "aliases": [],
+      "original_entity_ids": [
+        "A31"
+      ],
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "A44",
+      "label": "Account A44",
+      "display_label": "A44",
+      "type": "Account",
+      "identifier": "DEMO-BANK-A44",
+      "description": "Synthetic bank account. Listed control is a record assertion, not independent verification.",
+      "x": 665.0,
+      "y": 280.0,
+      "evidence_ids": [
+        "E-ACC-03",
+        "E-TX-02",
+        "E-TX-03"
+      ],
+      "aliases": [],
+      "original_entity_ids": [
+        "A44"
+      ],
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "A52",
+      "label": "Account A52",
+      "display_label": "A52",
+      "type": "Account",
+      "identifier": "DEMO-BANK-A52",
+      "description": "Synthetic bank account. Listed control is a record assertion, not independent verification.",
+      "x": 720.0,
+      "y": 940.0,
+      "evidence_ids": [
+        "E-ACC-04"
+      ],
+      "aliases": [],
+      "original_entity_ids": [
+        "A52"
+      ],
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "A63",
+      "label": "Account A63",
+      "display_label": "A63",
+      "type": "Account",
+      "identifier": "DEMO-BANK-A63",
+      "description": "Synthetic bank account. Listed control is a record assertion, not independent verification.",
+      "x": 0.0,
+      "y": 1140.0,
+      "evidence_ids": [
+        "E-ACC-05"
+      ],
+      "aliases": [],
+      "original_entity_ids": [
+        "A63"
+      ],
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "A74",
+      "label": "Account A74",
+      "display_label": "A74",
+      "type": "Account",
+      "identifier": "DEMO-BANK-A74",
+      "description": "Synthetic bank account. Listed control is a record assertion, not independent verification.",
+      "x": 240.0,
+      "y": 1140.0,
+      "evidence_ids": [
+        "E-ACC-06"
+      ],
+      "aliases": [],
+      "original_entity_ids": [
+        "A74"
+      ],
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "A85",
+      "label": "Account A85",
+      "display_label": "A85",
+      "type": "Account",
+      "identifier": "DEMO-BANK-A85",
+      "description": "Synthetic bank account. Listed control is a record assertion, not independent verification.",
+      "x": 480.0,
+      "y": 1140.0,
+      "evidence_ids": [
+        "E-ACC-07"
+      ],
+      "aliases": [],
+      "original_entity_ids": [
+        "A85"
+      ],
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "A96",
+      "label": "Account A96",
+      "display_label": "A96",
+      "type": "Account",
+      "identifier": "DEMO-BANK-A96",
+      "description": "Synthetic bank account. Listed control is a record assertion, not independent verification.",
+      "x": 720.0,
+      "y": 1140.0,
+      "evidence_ids": [
+        "E-ACC-08"
+      ],
+      "aliases": [],
+      "original_entity_ids": [
+        "A96"
+      ],
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "I-0657c0e4f781ed75550c",
+      "label": "Amit Verma (report.txt)",
+      "display_label": "Amit Verma",
+      "type": "Person",
+      "identifier": "Amit Verma",
+      "description": "Machine-extracted source mention from report.txt. UNVERIFIED; names are not automatically merged with existing people.",
+      "x": 50.0,
+      "y": 50.0,
+      "evidence_ids": [
+        "E-F-f6a1e88dd6f4b1669d94-r6"
+      ],
+      "aliases": [],
+      "original_entity_ids": [
+        "I-0657c0e4f781ed75550c"
+      ],
+      "verification_status": "UNVERIFIED",
+      "extractor_version": "controlled-intake-v1"
+    },
+    {
+      "id": "I-0fed290e433100f7b67d",
+      "label": "DEMO-VH-09",
+      "display_label": "DEMO-VH-09",
+      "type": "Vehicle",
+      "identifier": "DEMO-VH-09",
+      "description": "Machine-extracted source mention from report.txt. UNVERIFIED; names are not automatically merged with existing people.",
+      "x": 50.0,
+      "y": 50.0,
+      "evidence_ids": [
+        "E-F-131b5d2093a9b4572289-r1",
+        "E-F-131b5d2093a9b4572289-r2",
+        "E-F-f6a1e88dd6f4b1669d94-r3"
+      ],
+      "aliases": [],
+      "original_entity_ids": [
+        "I-0fed290e433100f7b67d"
+      ],
+      "verification_status": "UNVERIFIED",
+      "extractor_version": "controlled-intake-v1"
+    },
+    {
+      "id": "I-139ad16324278011ae1f",
+      "label": "Rahul Sharma (vehicles.csv)",
+      "display_label": "Rahul Sharma",
+      "type": "Person",
+      "identifier": "Rahul Sharma",
+      "description": "Machine-extracted source mention from vehicles.csv. UNVERIFIED; names are not automatically merged with existing people.",
+      "x": 50.0,
+      "y": 50.0,
+      "evidence_ids": [
+        "E-F-131b5d2093a9b4572289-r2"
+      ],
+      "aliases": [],
+      "original_entity_ids": [
+        "I-139ad16324278011ae1f"
+      ],
+      "verification_status": "UNVERIFIED",
+      "extractor_version": "controlled-intake-v1"
+    },
+    {
+      "id": "I-19c09fcdfb563755e407",
+      "label": "DEMO-A902",
+      "display_label": "DEMO-A902",
+      "type": "Account",
+      "identifier": "DEMO-A902",
+      "description": "Machine-extracted source mention from transactions.csv. UNVERIFIED; names are not automatically merged with existing people.",
+      "x": 50.0,
+      "y": 50.0,
+      "evidence_ids": [
+        "E-F-ea3c2b8c497d396902f5-r1",
+        "E-F-ea3c2b8c497d396902f5-r2"
+      ],
+      "aliases": [],
+      "original_entity_ids": [
+        "I-19c09fcdfb563755e407"
+      ],
+      "verification_status": "UNVERIFIED",
+      "extractor_version": "controlled-intake-v1"
+    },
+    {
+      "id": "I-2c4b879e57d6b9183c55",
+      "label": "Amit Verma",
+      "display_label": "Amit Verma",
+      "type": "Location",
+      "identifier": "Amit Verma",
+      "description": "Machine-extracted source mention from report.txt. UNVERIFIED; names are not automatically merged with existing people.",
+      "x": 50.0,
+      "y": 50.0,
+      "evidence_ids": [
+        "E-F-f6a1e88dd6f4b1669d94-r6"
+      ],
+      "aliases": [],
+      "original_entity_ids": [
+        "I-2c4b879e57d6b9183c55"
+      ],
+      "verification_status": "UNVERIFIED",
+      "extractor_version": "spacy-en_core_web_sm"
+    },
+    {
+      "id": "I-3768b18f2af964e165e4",
+      "label": "East market",
+      "display_label": "East market",
+      "type": "Location",
+      "identifier": "East market",
+      "description": "Machine-extracted source mention from cdr.csv. UNVERIFIED; names are not automatically merged with existing people.",
+      "x": 50.0,
+      "y": 50.0,
+      "evidence_ids": [
+        "E-F-131b5d2093a9b4572289-r2",
+        "E-F-407fb147afef3ebc7ddb-r2"
+      ],
+      "aliases": [],
+      "original_entity_ids": [
+        "I-3768b18f2af964e165e4"
+      ],
+      "verification_status": "UNVERIFIED",
+      "extractor_version": "controlled-intake-v1"
+    },
+    {
+      "id": "I-4d9bf984339ad5054382",
+      "label": "Neha Kapoor (vehicles.csv)",
+      "display_label": "Neha Kapoor",
+      "type": "Person",
+      "identifier": "Neha Kapoor",
+      "description": "Machine-extracted source mention from vehicles.csv. UNVERIFIED; names are not automatically merged with existing people.",
+      "x": 50.0,
+      "y": 50.0,
+      "evidence_ids": [
+        "E-F-131b5d2093a9b4572289-r1"
+      ],
+      "aliases": [],
+      "original_entity_ids": [
+        "I-4d9bf984339ad5054382"
+      ],
+      "verification_status": "UNVERIFIED",
+      "extractor_version": "controlled-intake-v1"
+    },
+    {
+      "id": "I-811a863d34070ab71c39",
+      "label": "+910000000101",
+      "display_label": "+910000000101",
+      "type": "Phone",
+      "identifier": "+910000000101",
+      "description": "Machine-extracted source mention from report.txt. UNVERIFIED; names are not automatically merged with existing people.",
+      "x": 50.0,
+      "y": 50.0,
+      "evidence_ids": [
+        "E-F-407fb147afef3ebc7ddb-r1",
+        "E-F-f6a1e88dd6f4b1669d94-r2"
+      ],
+      "aliases": [],
+      "original_entity_ids": [
+        "I-811a863d34070ab71c39"
+      ],
+      "verification_status": "UNVERIFIED",
+      "extractor_version": "controlled-intake-v1"
+    },
+    {
+      "id": "I-9cdea8af1311a7e84749",
+      "label": "+910000000305",
+      "display_label": "+910000000305",
+      "type": "Phone",
+      "identifier": "+910000000305",
+      "description": "Machine-extracted source mention from cdr.csv. UNVERIFIED; names are not automatically merged with existing people.",
+      "x": 50.0,
+      "y": 50.0,
+      "evidence_ids": [
+        "E-F-407fb147afef3ebc7ddb-r2"
+      ],
+      "aliases": [],
+      "original_entity_ids": [
+        "I-9cdea8af1311a7e84749"
+      ],
+      "verification_status": "UNVERIFIED",
+      "extractor_version": "controlled-intake-v1"
+    },
+    {
+      "id": "I-a72c9f4e36d3c8ae516e",
+      "label": "Synthetic Demonstration Data",
+      "display_label": "Synthetic Demonstration Data",
+      "type": "Organization",
+      "identifier": "Synthetic Demonstration Data",
+      "description": "Machine-extracted source mention from report.txt. UNVERIFIED; names are not automatically merged with existing people.",
+      "x": 50.0,
+      "y": 50.0,
+      "evidence_ids": [
+        "E-F-f6a1e88dd6f4b1669d94-r1"
+      ],
+      "aliases": [],
+      "original_entity_ids": [
+        "I-a72c9f4e36d3c8ae516e"
+      ],
+      "verification_status": "UNVERIFIED",
+      "extractor_version": "spacy-en_core_web_sm"
+    },
+    {
+      "id": "I-add56ab07cb090b13f45",
+      "label": "Mira Logistics",
+      "display_label": "Mira Logistics",
+      "type": "Organization",
+      "identifier": "Mira Logistics",
+      "description": "Machine-extracted source mention from report.txt. UNVERIFIED; names are not automatically merged with existing people.",
+      "x": 50.0,
+      "y": 50.0,
+      "evidence_ids": [
+        "E-F-f6a1e88dd6f4b1669d94-r4",
+        "E-F-f6a1e88dd6f4b1669d94-r8"
+      ],
+      "aliases": [],
+      "original_entity_ids": [
+        "I-add56ab07cb090b13f45"
+      ],
+      "verification_status": "UNVERIFIED",
+      "extractor_version": "spacy-en_core_web_sm"
+    },
+    {
+      "id": "I-bd6a5bf267d56b864e56",
+      "label": "Vikram Singh (report.txt)",
+      "display_label": "Vikram Singh",
+      "type": "Person",
+      "identifier": "Vikram Singh",
+      "description": "Machine-extracted source mention from report.txt. UNVERIFIED; names are not automatically merged with existing people.",
+      "x": 50.0,
+      "y": 50.0,
+      "evidence_ids": [
+        "E-F-f6a1e88dd6f4b1669d94-r5"
+      ],
+      "aliases": [],
+      "original_entity_ids": [
+        "I-bd6a5bf267d56b864e56"
+      ],
+      "verification_status": "UNVERIFIED",
+      "extractor_version": "spacy-en_core_web_sm"
+    },
+    {
+      "id": "I-ced4c916f2961fedc89a",
+      "label": "DEMO-A901",
+      "display_label": "DEMO-A901",
+      "type": "Account",
+      "identifier": "DEMO-A901",
+      "description": "Machine-extracted source mention from transactions.csv. UNVERIFIED; names are not automatically merged with existing people.",
+      "x": 50.0,
+      "y": 50.0,
+      "evidence_ids": [
+        "E-F-ea3c2b8c497d396902f5-r1"
+      ],
+      "aliases": [],
+      "original_entity_ids": [
+        "I-ced4c916f2961fedc89a"
+      ],
+      "verification_status": "UNVERIFIED",
+      "extractor_version": "controlled-intake-v1"
+    },
+    {
+      "id": "I-d04cab7ee67746895070",
+      "label": "Neha Kapoor (report.txt)",
+      "display_label": "Neha Kapoor",
+      "type": "Person",
+      "identifier": "Neha Kapoor",
+      "description": "Machine-extracted source mention from report.txt. UNVERIFIED; names are not automatically merged with existing people.",
+      "x": 50.0,
+      "y": 50.0,
+      "evidence_ids": [
+        "E-F-f6a1e88dd6f4b1669d94-r3"
+      ],
+      "aliases": [],
+      "original_entity_ids": [
+        "I-d04cab7ee67746895070"
+      ],
+      "verification_status": "UNVERIFIED",
+      "extractor_version": "spacy-en_core_web_sm"
+    },
+    {
+      "id": "I-de6836f9b12d10924b1e",
+      "label": "Rahul Sharma (report.txt)",
+      "display_label": "Rahul Sharma",
+      "type": "Person",
+      "identifier": "Rahul Sharma",
+      "description": "Machine-extracted source mention from report.txt. UNVERIFIED; names are not automatically merged with existing people.",
+      "x": 50.0,
+      "y": 50.0,
+      "evidence_ids": [
+        "E-F-f6a1e88dd6f4b1669d94-r2",
+        "E-F-f6a1e88dd6f4b1669d94-r5",
+        "E-F-f6a1e88dd6f4b1669d94-r6",
+        "E-F-f6a1e88dd6f4b1669d94-r8"
+      ],
+      "aliases": [],
+      "original_entity_ids": [
+        "I-de6836f9b12d10924b1e"
+      ],
+      "verification_status": "UNVERIFIED",
+      "extractor_version": "spacy-en_core_web_sm"
+    },
+    {
+      "id": "I-de9bde9d22b1c67ce74c",
+      "label": "+910000000204",
+      "display_label": "+910000000204",
+      "type": "Phone",
+      "identifier": "+910000000204",
+      "description": "Machine-extracted source mention from cdr.csv. UNVERIFIED; names are not automatically merged with existing people.",
+      "x": 50.0,
+      "y": 50.0,
+      "evidence_ids": [
+        "E-F-407fb147afef3ebc7ddb-r1",
+        "E-F-407fb147afef3ebc7ddb-r2"
+      ],
+      "aliases": [],
+      "original_entity_ids": [
+        "I-de9bde9d22b1c67ce74c"
+      ],
+      "verification_status": "UNVERIFIED",
+      "extractor_version": "controlled-intake-v1"
+    },
+    {
+      "id": "I-e41fbbff00f640d0f4f7",
+      "label": "Rivergate depot",
+      "display_label": "Rivergate depot",
+      "type": "Location",
+      "identifier": "Rivergate depot",
+      "description": "Machine-extracted source mention from report.txt. UNVERIFIED; names are not automatically merged with existing people.",
+      "x": 50.0,
+      "y": 50.0,
+      "evidence_ids": [
+        "E-F-131b5d2093a9b4572289-r1",
+        "E-F-407fb147afef3ebc7ddb-r1",
+        "E-F-f6a1e88dd6f4b1669d94-r4"
+      ],
+      "aliases": [],
+      "original_entity_ids": [
+        "I-e41fbbff00f640d0f4f7"
+      ],
+      "verification_status": "UNVERIFIED",
+      "extractor_version": "controlled-intake-v1"
+    },
+    {
+      "id": "I-fc3f6d30ff192496c854",
+      "label": "DEMO-A903",
+      "display_label": "DEMO-A903",
+      "type": "Account",
+      "identifier": "DEMO-A903",
+      "description": "Machine-extracted source mention from transactions.csv. UNVERIFIED; names are not automatically merged with existing people.",
+      "x": 50.0,
+      "y": 50.0,
+      "evidence_ids": [
+        "E-F-ea3c2b8c497d396902f5-r2"
+      ],
+      "aliases": [],
+      "original_entity_ids": [
+        "I-fc3f6d30ff192496c854"
+      ],
+      "verification_status": "UNVERIFIED",
+      "extractor_version": "controlled-intake-v1"
+    },
+    {
+      "id": "L01",
+      "label": "Rivergate depot",
+      "display_label": "Rivergate depot",
+      "type": "Location",
+      "identifier": "L01",
+      "description": "Fictional location record. No real-world allegation.",
+      "x": 545.0,
+      "y": 450.0,
+      "evidence_ids": [
+        "E-CTX-04",
+        "E-CTX-05",
+        "E-REPORT-01"
+      ],
+      "aliases": [],
+      "original_entity_ids": [
+        "L01"
+      ],
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "L02",
+      "label": "East market",
+      "display_label": "East market",
+      "type": "Location",
+      "identifier": "L02",
+      "description": "Fictional location record. No real-world allegation.",
+      "x": 240.0,
+      "y": 1580.0,
+      "evidence_ids": [
+        "E-CTX-08"
+      ],
+      "aliases": [],
+      "original_entity_ids": [
+        "L02"
+      ],
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "L03",
+      "label": "Canal junction",
+      "display_label": "Canal junction",
+      "type": "Location",
+      "identifier": "L03",
+      "description": "Fictional location record. No real-world allegation.",
+      "x": 480.0,
+      "y": 1580.0,
+      "evidence_ids": [
+        "E-CTX-09"
+      ],
+      "aliases": [],
+      "original_entity_ids": [
+        "L03"
+      ],
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "L04",
+      "label": "North yard",
+      "display_label": "North yard",
+      "type": "Location",
+      "identifier": "L04",
+      "description": "Fictional location record. No real-world allegation.",
+      "x": 720.0,
+      "y": 1580.0,
+      "evidence_ids": [
+        "E-CTX-10"
+      ],
+      "aliases": [],
+      "original_entity_ids": [
+        "L04"
+      ],
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "O01",
+      "label": "Mira Logistics",
+      "display_label": "Mira Logistics",
+      "type": "Organization",
+      "identifier": "O01",
+      "description": "Fictional organization record. No real-world allegation.",
+      "x": 650.0,
+      "y": 450.0,
+      "evidence_ids": [
+        "E-CTX-05",
+        "E-CTX-06"
+      ],
+      "aliases": [],
+      "original_entity_ids": [
+        "O01"
+      ],
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "O02",
+      "label": "Northline Trading",
+      "display_label": "Northline Trading",
+      "type": "Organization",
+      "identifier": "O02",
+      "description": "Fictional organization record. No real-world allegation.",
+      "x": 240.0,
+      "y": 1780.0,
+      "evidence_ids": [
+        "E-CTX-07",
+        "E-CTX-08"
+      ],
+      "aliases": [],
+      "original_entity_ids": [
+        "O02"
+      ],
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "O03",
+      "label": "Cedar Services",
+      "display_label": "Cedar Services",
+      "type": "Organization",
+      "identifier": "O03",
+      "description": "Fictional organization record. No real-world allegation.",
+      "x": 480.0,
+      "y": 1780.0,
+      "evidence_ids": [
+        "E-CTX-09"
+      ],
+      "aliases": [],
+      "original_entity_ids": [
+        "O03"
+      ],
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "P101",
+      "label": "Phone P101",
+      "display_label": "P101",
+      "type": "Phone",
+      "identifier": "+91 DEMO 1000 (non-dialable)",
+      "description": "Synthetic phone number. Association does not establish who made a call.",
+      "x": 215.0,
+      "y": 85.0,
+      "evidence_ids": [
+        "E-BASE-08-0",
+        "E-BASE-08-1",
+        "E-BASE-09-0",
+        "E-BASE-09-1",
+        "E-BASE-10-0",
+        "E-BASE-10-1",
+        "E-BASE-11-0",
+        "E-BASE-11-1",
+        "E-BASE-12-0",
+        "E-BASE-12-1",
+        "E-BASE-13-0",
+        "E-BASE-13-1",
+        "E-BASE-14-0",
+        "E-BASE-14-1",
+        "E-CDR-01",
+        "E-CDR-02",
+        "E-CDR-03",
+        "E-CDR-04",
+        "E-CDR-05",
+        "E-CDR-06",
+        "E-CDR-07",
+        "E-CDR-08",
+        "E-CDR-09",
+        "E-CDR-10",
+        "E-CDR-11",
+        "E-RES-01",
+        "E-SUB-01"
+      ],
+      "aliases": [],
+      "original_entity_ids": [
+        "P101"
+      ],
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "P204",
+      "label": "Phone P204",
+      "display_label": "P204",
+      "type": "Phone",
+      "identifier": "+91 DEMO 1001 (non-dialable)",
+      "description": "Synthetic phone number. Association does not establish who made a call.",
+      "x": 390.0,
+      "y": 85.0,
+      "evidence_ids": [
+        "E-BASE-08-0",
+        "E-BASE-09-0",
+        "E-BASE-10-0",
+        "E-BASE-11-0",
+        "E-BASE-12-0",
+        "E-BASE-13-0",
+        "E-BASE-14-0",
+        "E-CDR-01",
+        "E-CDR-02",
+        "E-CDR-03",
+        "E-SUB-02"
+      ],
+      "aliases": [],
+      "original_entity_ids": [
+        "P204"
+      ],
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "P305",
+      "label": "Phone P305",
+      "display_label": "P305",
+      "type": "Phone",
+      "identifier": "+91 DEMO 1002 (non-dialable)",
+      "description": "Synthetic phone number. Association does not establish who made a call.",
+      "x": 20.0,
+      "y": 450.0,
+      "evidence_ids": [
+        "E-CDR-04",
+        "E-SUB-03"
+      ],
+      "aliases": [],
+      "original_entity_ids": [
+        "P305"
+      ],
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "P306",
+      "label": "Phone P306",
+      "display_label": "P306",
+      "type": "Phone",
+      "identifier": "+91 DEMO 1003 (non-dialable)",
+      "description": "Synthetic phone number. Association does not establish who made a call.",
+      "x": 230.0,
+      "y": 450.0,
+      "evidence_ids": [
+        "E-CDR-05",
+        "E-SUB-04"
+      ],
+      "aliases": [],
+      "original_entity_ids": [
+        "P306"
+      ],
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "P307",
+      "label": "Phone P307",
+      "display_label": "P307",
+      "type": "Phone",
+      "identifier": "+91 DEMO 1004 (non-dialable)",
+      "description": "Synthetic phone number. Association does not establish who made a call.",
+      "x": 580.0,
+      "y": 480.0,
+      "evidence_ids": [
+        "E-CDR-06",
+        "E-SUB-05"
+      ],
+      "aliases": [],
+      "original_entity_ids": [
+        "P307"
+      ],
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "P308",
+      "label": "Phone P308",
+      "display_label": "P308",
+      "type": "Phone",
+      "identifier": "+91 DEMO 1005 (non-dialable)",
+      "description": "Synthetic phone number. Association does not establish who made a call.",
+      "x": 725.0,
+      "y": 480.0,
+      "evidence_ids": [
+        "E-CDR-07",
+        "E-SUB-06"
+      ],
+      "aliases": [],
+      "original_entity_ids": [
+        "P308"
+      ],
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "P309",
+      "label": "Phone P309",
+      "display_label": "P309",
+      "type": "Phone",
+      "identifier": "+91 DEMO 1006 (non-dialable)",
+      "description": "Synthetic phone number. Association does not establish who made a call.",
+      "x": 0.0,
+      "y": 680.0,
+      "evidence_ids": [
+        "E-CDR-08",
+        "E-SUB-07"
+      ],
+      "aliases": [],
+      "original_entity_ids": [
+        "P309"
+      ],
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "P310",
+      "label": "Phone P310",
+      "display_label": "P310",
+      "type": "Phone",
+      "identifier": "+91 DEMO 1007 (non-dialable)",
+      "description": "Synthetic phone number. Association does not establish who made a call.",
+      "x": 145.0,
+      "y": 680.0,
+      "evidence_ids": [
+        "E-CDR-09",
+        "E-SUB-08"
+      ],
+      "aliases": [],
+      "original_entity_ids": [
+        "P310"
+      ],
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "P311",
+      "label": "Phone P311",
+      "display_label": "P311",
+      "type": "Phone",
+      "identifier": "+91 DEMO 1008 (non-dialable)",
+      "description": "Synthetic phone number. Association does not establish who made a call.",
+      "x": 290.0,
+      "y": 680.0,
+      "evidence_ids": [
+        "E-CDR-10",
+        "E-SUB-09"
+      ],
+      "aliases": [],
+      "original_entity_ids": [
+        "P311"
+      ],
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "P312",
+      "label": "Phone P312",
+      "display_label": "P312",
+      "type": "Phone",
+      "identifier": "+91 DEMO 1009 (non-dialable)",
+      "description": "Synthetic phone number. Association does not establish who made a call.",
+      "x": 435.0,
+      "y": 680.0,
+      "evidence_ids": [
+        "E-SUB-10"
+      ],
+      "aliases": [],
+      "original_entity_ids": [
+        "P312"
+      ],
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "P313",
+      "label": "Phone P313",
+      "display_label": "P313",
+      "type": "Phone",
+      "identifier": "+91 DEMO 1010 (non-dialable)",
+      "description": "Synthetic phone number. Association does not establish who made a call.",
+      "x": 580.0,
+      "y": 680.0,
+      "evidence_ids": [
+        "E-BASE-08-1",
+        "E-BASE-09-1",
+        "E-BASE-10-1",
+        "E-BASE-11-1",
+        "E-BASE-12-1",
+        "E-BASE-13-1",
+        "E-BASE-14-1",
+        "E-CDR-11"
+      ],
+      "aliases": [],
+      "original_entity_ids": [
+        "P313"
+      ],
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "P314",
+      "label": "Phone P314",
+      "display_label": "P314",
+      "type": "Phone",
+      "identifier": "+91 DEMO 1011 (non-dialable)",
+      "description": "Synthetic phone number. Association does not establish who made a call.",
+      "x": 725.0,
+      "y": 680.0,
+      "evidence_ids": [
+        "E-CTX-10"
+      ],
+      "aliases": [],
+      "original_entity_ids": [
+        "P314"
+      ],
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "V01",
+      "label": "DEMO-VH-01",
+      "display_label": "DEMO-VH-01",
+      "type": "Vehicle",
+      "identifier": "V01",
+      "description": "Fictional vehicle record. No real-world allegation.",
+      "x": 440.0,
+      "y": 450.0,
+      "evidence_ids": [
+        "E-CTX-01",
+        "E-CTX-04"
+      ],
+      "aliases": [],
+      "original_entity_ids": [
+        "V01"
+      ],
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "V02",
+      "label": "DEMO-VH-02",
+      "display_label": "DEMO-VH-02",
+      "type": "Vehicle",
+      "identifier": "V02",
+      "description": "Fictional vehicle record. No real-world allegation.",
+      "x": 240.0,
+      "y": 1380.0,
+      "evidence_ids": [
+        "E-CTX-02",
+        "E-RES-02",
+        "E-RES-03"
+      ],
+      "aliases": [],
+      "original_entity_ids": [
+        "V02"
+      ],
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "V03",
+      "label": "DEMO-VH-03",
+      "display_label": "DEMO-VH-03",
+      "type": "Vehicle",
+      "identifier": "V03",
+      "description": "Fictional vehicle record. No real-world allegation.",
+      "x": 480.0,
+      "y": 1380.0,
+      "evidence_ids": [
+        "E-CTX-03"
+      ],
+      "aliases": [],
+      "original_entity_ids": [
+        "V03"
+      ],
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "a-verma",
+      "label": "A. Verma",
+      "display_label": "A. Verma",
+      "type": "Person",
+      "identifier": "a-verma",
+      "description": "Unresolved synthetic source mention. Similarity does not establish identity.",
+      "x": 665.0,
+      "y": 390.0,
+      "evidence_ids": [
+        "E-RES-04"
+      ],
+      "aliases": [],
+      "original_entity_ids": [
+        "a-verma"
+      ],
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "amit",
+      "label": "Amit Verma",
+      "display_label": "Amit Verma",
+      "type": "Person",
+      "identifier": "DEMO-PER-02",
+      "description": "Fictional person listed in authorized demonstration records.",
+      "x": 565.0,
+      "y": 85.0,
+      "evidence_ids": [
+        "E-ACC-01",
+        "E-RES-05",
+        "E-SUB-02"
+      ],
+      "aliases": [],
+      "original_entity_ids": [
+        "amit"
+      ],
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "arjun",
+      "label": "Arjun Mehta",
+      "display_label": "Arjun Mehta",
+      "type": "Person",
+      "identifier": "DEMO-PER-05",
+      "description": "Fictional person listed in authorized demonstration records.",
+      "x": 335.0,
+      "y": 450.0,
+      "evidence_ids": [
+        "E-ACC-05",
+        "E-CTX-07",
+        "E-SUB-04"
+      ],
+      "aliases": [],
+      "original_entity_ids": [
+        "arjun"
+      ],
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "dev",
+      "label": "Dev Malhotra",
+      "display_label": "Dev Malhotra",
+      "type": "Person",
+      "identifier": "DEMO-PER-07",
+      "description": "Fictional person listed in authorized demonstration records.",
+      "x": 170.0,
+      "y": 210.0,
+      "evidence_ids": [
+        "E-ACC-07",
+        "E-SUB-06"
+      ],
+      "aliases": [],
+      "original_entity_ids": [
+        "dev"
+      ],
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "kabir",
+      "label": "Kabir Joshi",
+      "display_label": "Kabir Joshi",
+      "type": "Person",
+      "identifier": "DEMO-PER-09",
+      "description": "Fictional person listed in authorized demonstration records.",
+      "x": 510.0,
+      "y": 210.0,
+      "evidence_ids": [
+        "E-CTX-02",
+        "E-SUB-08"
+      ],
+      "aliases": [],
+      "original_entity_ids": [
+        "kabir"
+      ],
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "meera",
+      "label": "Meera Das",
+      "display_label": "Meera Das",
+      "type": "Person",
+      "identifier": "DEMO-PER-10",
+      "description": "Fictional person listed in authorized demonstration records.",
+      "x": 680.0,
+      "y": 210.0,
+      "evidence_ids": [
+        "E-CTX-03",
+        "E-SUB-09"
+      ],
+      "aliases": [],
+      "original_entity_ids": [
+        "meera"
+      ],
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "neha",
+      "label": "Neha Kapoor",
+      "display_label": "Neha Kapoor",
+      "type": "Person",
+      "identifier": "DEMO-PER-04",
+      "description": "Fictional person listed in authorized demonstration records.",
+      "x": 125.0,
+      "y": 450.0,
+      "evidence_ids": [
+        "E-ACC-04",
+        "E-CTX-01",
+        "E-CTX-06",
+        "E-SUB-03"
+      ],
+      "aliases": [],
+      "original_entity_ids": [
+        "neha"
+      ],
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "priya",
+      "label": "Priya Nair",
+      "display_label": "Priya Nair",
+      "type": "Person",
+      "identifier": "DEMO-PER-08",
+      "description": "Fictional person listed in authorized demonstration records.",
+      "x": 340.0,
+      "y": 210.0,
+      "evidence_ids": [
+        "E-ACC-08",
+        "E-SUB-07"
+      ],
+      "aliases": [],
+      "original_entity_ids": [
+        "priya"
+      ],
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "rahul",
+      "label": "Rahul Kumar Sharma",
+      "display_label": "Rahul Sharma",
+      "type": "Person",
+      "identifier": "DEMO-PER-01",
+      "description": "Fictional person listed in authorized demonstration records.",
+      "x": 40.0,
+      "y": 85.0,
+      "evidence_ids": [
+        "E-RES-01",
+        "E-RES-02",
+        "E-RES-03",
+        "E-SUB-01"
+      ],
+      "aliases": [
+        "R.K. Sharma"
+      ],
+      "original_entity_ids": [
+        "rahul",
+        "rk-sharma"
+      ],
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "sana",
+      "label": "Sana Iqbal",
+      "display_label": "Sana Iqbal",
+      "type": "Person",
+      "identifier": "DEMO-PER-06",
+      "description": "Fictional person listed in authorized demonstration records.",
+      "x": 0.0,
+      "y": 210.0,
+      "evidence_ids": [
+        "E-ACC-06",
+        "E-SUB-05"
+      ],
+      "aliases": [],
+      "original_entity_ids": [
+        "sana"
+      ],
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "vikram",
+      "label": "Vikram Singh",
+      "display_label": "Vikram Singh",
+      "type": "Person",
+      "identifier": "DEMO-PER-03",
+      "description": "Fictional person listed in authorized demonstration records.",
+      "x": 215.0,
+      "y": 245.0,
+      "evidence_ids": [
+        "E-ACC-02",
+        "E-ACC-03",
+        "E-SUB-10"
+      ],
+      "aliases": [],
+      "original_entity_ids": [
+        "vikram"
+      ],
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    }
+  ],
+  "relationships": [
+    {
+      "id": "R01",
+      "source": "rahul",
+      "target": "P101",
+      "type": "USES",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-SUB-01"
+      ],
+      "event_ids": [],
+      "original_source": "rahul",
+      "original_target": "P101",
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R03",
+      "source": "P204",
+      "target": "amit",
+      "type": "USED_BY",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-SUB-02"
+      ],
+      "event_ids": [],
+      "original_source": "P204",
+      "original_target": "amit",
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-SUB-03",
+      "source": "neha",
+      "target": "P305",
+      "type": "USES",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-SUB-03"
+      ],
+      "event_ids": [],
+      "original_source": "neha",
+      "original_target": "P305",
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-SUB-04",
+      "source": "arjun",
+      "target": "P306",
+      "type": "USES",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-SUB-04"
+      ],
+      "event_ids": [],
+      "original_source": "arjun",
+      "original_target": "P306",
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-SUB-05",
+      "source": "sana",
+      "target": "P307",
+      "type": "USES",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-SUB-05"
+      ],
+      "event_ids": [],
+      "original_source": "sana",
+      "original_target": "P307",
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-SUB-06",
+      "source": "dev",
+      "target": "P308",
+      "type": "USES",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-SUB-06"
+      ],
+      "event_ids": [],
+      "original_source": "dev",
+      "original_target": "P308",
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-SUB-07",
+      "source": "priya",
+      "target": "P309",
+      "type": "USES",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-SUB-07"
+      ],
+      "event_ids": [],
+      "original_source": "priya",
+      "original_target": "P309",
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-SUB-08",
+      "source": "kabir",
+      "target": "P310",
+      "type": "USES",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-SUB-08"
+      ],
+      "event_ids": [],
+      "original_source": "kabir",
+      "original_target": "P310",
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-SUB-09",
+      "source": "meera",
+      "target": "P311",
+      "type": "USES",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-SUB-09"
+      ],
+      "event_ids": [],
+      "original_source": "meera",
+      "original_target": "P311",
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-SUB-10",
+      "source": "vikram",
+      "target": "P312",
+      "type": "USES",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-SUB-10"
+      ],
+      "event_ids": [],
+      "original_source": "vikram",
+      "original_target": "P312",
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R04",
+      "source": "amit",
+      "target": "A17",
+      "type": "CONTROLS",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-ACC-01"
+      ],
+      "event_ids": [],
+      "original_source": "amit",
+      "original_target": "A17",
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R06",
+      "source": "A31",
+      "target": "vikram",
+      "type": "CONTROLLED_BY",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-ACC-02"
+      ],
+      "event_ids": [],
+      "original_source": "A31",
+      "original_target": "vikram",
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-ACC-03",
+      "source": "vikram",
+      "target": "A44",
+      "type": "CONTROLS",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-ACC-03"
+      ],
+      "event_ids": [],
+      "original_source": "vikram",
+      "original_target": "A44",
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-ACC-04",
+      "source": "neha",
+      "target": "A52",
+      "type": "CONTROLS",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-ACC-04"
+      ],
+      "event_ids": [],
+      "original_source": "neha",
+      "original_target": "A52",
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-ACC-05",
+      "source": "arjun",
+      "target": "A63",
+      "type": "CONTROLS",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-ACC-05"
+      ],
+      "event_ids": [],
+      "original_source": "arjun",
+      "original_target": "A63",
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-ACC-06",
+      "source": "sana",
+      "target": "A74",
+      "type": "CONTROLS",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-ACC-06"
+      ],
+      "event_ids": [],
+      "original_source": "sana",
+      "original_target": "A74",
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-ACC-07",
+      "source": "dev",
+      "target": "A85",
+      "type": "CONTROLS",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-ACC-07"
+      ],
+      "event_ids": [],
+      "original_source": "dev",
+      "original_target": "A85",
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-ACC-08",
+      "source": "priya",
+      "target": "A96",
+      "type": "CONTROLS",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-ACC-08"
+      ],
+      "event_ids": [],
+      "original_source": "priya",
+      "original_target": "A96",
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R02",
+      "source": "P101",
+      "target": "P204",
+      "type": "CALLED",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-CDR-01",
+        "E-CDR-02",
+        "E-CDR-03"
+      ],
+      "event_ids": [
+        "EV-E-CDR-01",
+        "EV-E-CDR-02",
+        "EV-E-CDR-03"
+      ],
+      "original_source": "P101",
+      "original_target": "P204",
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-CALL-P305",
+      "source": "P101",
+      "target": "P305",
+      "type": "CALLED",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-CDR-04"
+      ],
+      "event_ids": [
+        "EV-E-CDR-04"
+      ],
+      "original_source": "P101",
+      "original_target": "P305",
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-CALL-P306",
+      "source": "P101",
+      "target": "P306",
+      "type": "CALLED",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-CDR-05"
+      ],
+      "event_ids": [
+        "EV-E-CDR-05"
+      ],
+      "original_source": "P101",
+      "original_target": "P306",
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-CALL-P307",
+      "source": "P101",
+      "target": "P307",
+      "type": "CALLED",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-CDR-06"
+      ],
+      "event_ids": [
+        "EV-E-CDR-06"
+      ],
+      "original_source": "P101",
+      "original_target": "P307",
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-CALL-P308",
+      "source": "P101",
+      "target": "P308",
+      "type": "CALLED",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-CDR-07"
+      ],
+      "event_ids": [
+        "EV-E-CDR-07"
+      ],
+      "original_source": "P101",
+      "original_target": "P308",
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-CALL-P309",
+      "source": "P101",
+      "target": "P309",
+      "type": "CALLED",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-CDR-08"
+      ],
+      "event_ids": [
+        "EV-E-CDR-08"
+      ],
+      "original_source": "P101",
+      "original_target": "P309",
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-CALL-P310",
+      "source": "P101",
+      "target": "P310",
+      "type": "CALLED",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-CDR-09"
+      ],
+      "event_ids": [
+        "EV-E-CDR-09"
+      ],
+      "original_source": "P101",
+      "original_target": "P310",
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-CALL-P311",
+      "source": "P101",
+      "target": "P311",
+      "type": "CALLED",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-CDR-10"
+      ],
+      "event_ids": [
+        "EV-E-CDR-10"
+      ],
+      "original_source": "P101",
+      "original_target": "P311",
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-CALL-P313",
+      "source": "P101",
+      "target": "P313",
+      "type": "CALLED",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-CDR-11"
+      ],
+      "event_ids": [
+        "EV-E-CDR-11"
+      ],
+      "original_source": "P101",
+      "original_target": "P313",
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R05",
+      "source": "A17",
+      "target": "A31",
+      "type": "TRANSFERRED_TO",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-TX-01"
+      ],
+      "event_ids": [
+        "EV-E-TX-01"
+      ],
+      "original_source": "A17",
+      "original_target": "A31",
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-TX-2",
+      "source": "A17",
+      "target": "A44",
+      "type": "TRANSFERRED_TO",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-TX-02"
+      ],
+      "event_ids": [
+        "EV-E-TX-02"
+      ],
+      "original_source": "A17",
+      "original_target": "A44",
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-TX-3",
+      "source": "A44",
+      "target": "A31",
+      "type": "TRANSFERRED_TO",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-TX-03"
+      ],
+      "event_ids": [
+        "EV-E-TX-03"
+      ],
+      "original_source": "A44",
+      "original_target": "A31",
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-V1",
+      "source": "neha",
+      "target": "V01",
+      "type": "REGISTERED_KEEPER",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-CTX-01"
+      ],
+      "event_ids": [],
+      "original_source": "neha",
+      "original_target": "V01",
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-V2",
+      "source": "kabir",
+      "target": "V02",
+      "type": "REGISTERED_KEEPER",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-CTX-02"
+      ],
+      "event_ids": [],
+      "original_source": "kabir",
+      "original_target": "V02",
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-V3",
+      "source": "meera",
+      "target": "V03",
+      "type": "REGISTERED_KEEPER",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-CTX-03"
+      ],
+      "event_ids": [],
+      "original_source": "meera",
+      "original_target": "V03",
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-V4",
+      "source": "V01",
+      "target": "L01",
+      "type": "OBSERVED_AT",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-CTX-04"
+      ],
+      "event_ids": [],
+      "original_source": "V01",
+      "original_target": "L01",
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-C1",
+      "source": "O01",
+      "target": "L01",
+      "type": "LISTED_AT",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-CTX-05"
+      ],
+      "event_ids": [],
+      "original_source": "O01",
+      "original_target": "L01",
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-C2",
+      "source": "neha",
+      "target": "O01",
+      "type": "LISTED_CONTACT",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-CTX-06"
+      ],
+      "event_ids": [],
+      "original_source": "neha",
+      "original_target": "O01",
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-C3",
+      "source": "arjun",
+      "target": "O02",
+      "type": "LISTED_CONTACT",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-CTX-07"
+      ],
+      "event_ids": [],
+      "original_source": "arjun",
+      "original_target": "O02",
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-C4",
+      "source": "O02",
+      "target": "L02",
+      "type": "LISTED_AT",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-CTX-08"
+      ],
+      "event_ids": [],
+      "original_source": "O02",
+      "original_target": "L02",
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-C5",
+      "source": "O03",
+      "target": "L03",
+      "type": "LISTED_AT",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-CTX-09"
+      ],
+      "event_ids": [],
+      "original_source": "O03",
+      "original_target": "L03",
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-C6",
+      "source": "P314",
+      "target": "L04",
+      "type": "LISTED_AT",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-CTX-10"
+      ],
+      "event_ids": [],
+      "original_source": "P314",
+      "original_target": "L04",
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-RES-01",
+      "source": "rahul",
+      "target": "P101",
+      "type": "USES",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-RES-01"
+      ],
+      "event_ids": [],
+      "original_source": "rk-sharma",
+      "original_target": "P101",
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-RES-02",
+      "source": "rahul",
+      "target": "V02",
+      "type": "ASSOCIATED_WITH",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-RES-02"
+      ],
+      "event_ids": [],
+      "original_source": "rahul",
+      "original_target": "V02",
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-RES-03",
+      "source": "rahul",
+      "target": "V02",
+      "type": "ASSOCIATED_WITH",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-RES-03"
+      ],
+      "event_ids": [],
+      "original_source": "rk-sharma",
+      "original_target": "V02",
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "C-e1588967fc93f6160394",
+      "source": "I-de6836f9b12d10924b1e",
+      "target": "I-811a863d34070ab71c39",
+      "type": "USES",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-F-f6a1e88dd6f4b1669d94-r2"
+      ],
+      "event_ids": [],
+      "original_source": "I-de6836f9b12d10924b1e",
+      "original_target": "I-811a863d34070ab71c39",
+      "verification_status": "UNVERIFIED",
+      "extractor_version": "controlled-intake-v1"
+    },
+    {
+      "id": "C-8f7588aed0d534a3602d",
+      "source": "I-d04cab7ee67746895070",
+      "target": "I-0fed290e433100f7b67d",
+      "type": "ASSOCIATED_WITH",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-F-f6a1e88dd6f4b1669d94-r3"
+      ],
+      "event_ids": [],
+      "original_source": "I-d04cab7ee67746895070",
+      "original_target": "I-0fed290e433100f7b67d",
+      "verification_status": "UNVERIFIED",
+      "extractor_version": "controlled-intake-v1"
+    },
+    {
+      "id": "C-5a9171387ca57b7e8833",
+      "source": "I-add56ab07cb090b13f45",
+      "target": "I-e41fbbff00f640d0f4f7",
+      "type": "LISTED_AT",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-F-f6a1e88dd6f4b1669d94-r4"
+      ],
+      "event_ids": [],
+      "original_source": "I-add56ab07cb090b13f45",
+      "original_target": "I-e41fbbff00f640d0f4f7",
+      "verification_status": "UNVERIFIED",
+      "extractor_version": "controlled-intake-v1"
+    },
+    {
+      "id": "C-0925a3e6d08f9e0afd61",
+      "source": "I-811a863d34070ab71c39",
+      "target": "I-de9bde9d22b1c67ce74c",
+      "type": "CALLED",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-F-407fb147afef3ebc7ddb-r1"
+      ],
+      "event_ids": [
+        "EV-F-407fb147afef3ebc7ddb-r1"
+      ],
+      "original_source": "I-811a863d34070ab71c39",
+      "original_target": "I-de9bde9d22b1c67ce74c",
+      "verification_status": "UNVERIFIED",
+      "extractor_version": "controlled-intake-v1"
+    },
+    {
+      "id": "C-48569993e967b604ee8e",
+      "source": "I-de9bde9d22b1c67ce74c",
+      "target": "I-9cdea8af1311a7e84749",
+      "type": "CALLED",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-F-407fb147afef3ebc7ddb-r2"
+      ],
+      "event_ids": [
+        "EV-F-407fb147afef3ebc7ddb-r2"
+      ],
+      "original_source": "I-de9bde9d22b1c67ce74c",
+      "original_target": "I-9cdea8af1311a7e84749",
+      "verification_status": "UNVERIFIED",
+      "extractor_version": "controlled-intake-v1"
+    },
+    {
+      "id": "C-8243b656e2e0196448c5",
+      "source": "I-ced4c916f2961fedc89a",
+      "target": "I-19c09fcdfb563755e407",
+      "type": "TRANSFERRED_TO",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-F-ea3c2b8c497d396902f5-r1"
+      ],
+      "event_ids": [
+        "EV-F-ea3c2b8c497d396902f5-r1"
+      ],
+      "original_source": "I-ced4c916f2961fedc89a",
+      "original_target": "I-19c09fcdfb563755e407",
+      "verification_status": "UNVERIFIED",
+      "extractor_version": "controlled-intake-v1"
+    },
+    {
+      "id": "C-a38b0d4a6a4398392cff",
+      "source": "I-19c09fcdfb563755e407",
+      "target": "I-fc3f6d30ff192496c854",
+      "type": "TRANSFERRED_TO",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-F-ea3c2b8c497d396902f5-r2"
+      ],
+      "event_ids": [
+        "EV-F-ea3c2b8c497d396902f5-r2"
+      ],
+      "original_source": "I-19c09fcdfb563755e407",
+      "original_target": "I-fc3f6d30ff192496c854",
+      "verification_status": "UNVERIFIED",
+      "extractor_version": "controlled-intake-v1"
+    },
+    {
+      "id": "C-099197208e0dbcf04796",
+      "source": "I-4d9bf984339ad5054382",
+      "target": "I-0fed290e433100f7b67d",
+      "type": "REGISTERED_KEEPER",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-F-131b5d2093a9b4572289-r1"
+      ],
+      "event_ids": [],
+      "original_source": "I-4d9bf984339ad5054382",
+      "original_target": "I-0fed290e433100f7b67d",
+      "verification_status": "UNVERIFIED",
+      "extractor_version": "controlled-intake-v1"
+    },
+    {
+      "id": "C-2d96e43278c91ca1cd9d",
+      "source": "I-139ad16324278011ae1f",
+      "target": "I-0fed290e433100f7b67d",
+      "type": "OBSERVED_WITH",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-F-131b5d2093a9b4572289-r2"
+      ],
+      "event_ids": [],
+      "original_source": "I-139ad16324278011ae1f",
+      "original_target": "I-0fed290e433100f7b67d",
+      "verification_status": "UNVERIFIED",
+      "extractor_version": "controlled-intake-v1"
+    }
+  ]
+}

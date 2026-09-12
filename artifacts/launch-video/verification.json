@@ -1,0 +1,95 @@
+{
+  "duration_seconds": 170,
+  "resolution": "1920x1080",
+  "frame_rate": 30,
+  "source": "Actual prior product captures and recorded UI excerpts",
+  "narration": "en-IN-PrabhatNeural synthesized voice",
+  "audio_peak_dbfs": -2.7,
+  "narration_timing": [
+    {
+      "segment": 0,
+      "start": 0.8,
+      "speech_end": 11.075,
+      "allocated_end": 14.0,
+      "fits": true
+    },
+    {
+      "segment": 1,
+      "start": 15.5,
+      "speech_end": 33.78,
+      "allocated_end": 34.0,
+      "fits": true
+    },
+    {
+      "segment": 2,
+      "start": 35.5,
+      "speech_end": 56.887,
+      "allocated_end": 58.5,
+      "fits": true
+    },
+    {
+      "segment": 3,
+      "start": 60.5,
+      "speech_end": 72.582,
+      "allocated_end": 72.8,
+      "fits": true
+    },
+    {
+      "segment": 4,
+      "start": 74.0,
+      "speech_end": 85.579,
+      "allocated_end": 85.8,
+      "fits": true
+    },
+    {
+      "segment": 5,
+      "start": 89.0,
+      "speech_end": 99.183,
+      "allocated_end": 99.4,
+      "fits": true
+    },
+    {
+      "segment": 6,
+      "start": 100.5,
+      "speech_end": 112.279,
+      "allocated_end": 112.5,
+      "fits": true
+    },
+    {
+      "segment": 7,
+      "start": 113.0,
+      "speech_end": 123.984,
+      "allocated_end": 124.2,
+      "fits": true
+    },
+    {
+      "segment": 8,
+      "start": 125.5,
+      "speech_end": 136.579,
+      "allocated_end": 136.8,
+      "fits": true
+    },
+    {
+      "segment": 9,
+      "start": 137.0,
+      "speech_end": 144.179,
+      "allocated_end": 144.4,
+      "fits": true
+    },
+    {
+      "segment": 10,
+      "start": 145.5,
+      "speech_end": 161.286,
+      "allocated_end": 161.5,
+      "fits": true
+    },
+    {
+      "segment": 11,
+      "start": 163.0,
+      "speech_end": 168.825,
+      "allocated_end": 169.4,
+      "fits": true
+    }
+  ],
+  "full_decode": "passed"
+}

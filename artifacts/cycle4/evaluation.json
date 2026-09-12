@@ -1,0 +1,45 @@
+{
+  "scope": "Labelled synthetic validation only; not real-world accuracy. Fixed rules, not calibrated probabilities.",
+  "engine_version": "temporal-leads-v1",
+  "results": [
+    {
+      "dataset": "primary_with_benign",
+      "planted_signals_found": 4,
+      "planted_signals_expected": 4,
+      "planted_signal_recall": 1.0,
+      "false_leads": 0,
+      "missing_expected_leads": 0,
+      "evidence_references_checked": 58,
+      "evidence_trace_coverage": 1.0,
+      "expected_priority_result": true,
+      "deterministic_repeatability": true,
+      "benign_non_leads_preserved": true
+    },
+    {
+      "dataset": "alternate_seed_22",
+      "planted_signals_found": 4,
+      "planted_signals_expected": 4,
+      "planted_signal_recall": 1.0,
+      "false_leads": 0,
+      "missing_expected_leads": 0,
+      "evidence_references_checked": 68,
+      "evidence_trace_coverage": 1.0,
+      "expected_priority_result": true,
+      "deterministic_repeatability": true,
+      "benign_non_leads_preserved": true
+    },
+    {
+      "dataset": "benign_only",
+      "planted_signals_found": 1,
+      "planted_signals_expected": 1,
+      "planted_signal_recall": 1.0,
+      "false_leads": 0,
+      "missing_expected_leads": 0,
+      "evidence_references_checked": 51,
+      "evidence_trace_coverage": 1.0,
+      "expected_priority_result": true,
+      "deterministic_repeatability": true,
+      "benign_non_leads_preserved": true
+    }
+  ]
+}

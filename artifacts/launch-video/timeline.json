@@ -1,0 +1,385 @@
+{
+  "duration": 170,
+  "fps": 30,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "shots": [
+    {
+      "start": 0,
+      "duration": 5,
+      "source": null,
+      "chapter": "",
+      "crop": null
+    },
+    {
+      "start": 5,
+      "duration": 5,
+      "source": "08-case-overview.png",
+      "chapter": "01 / FRAGMENTED DATA",
+      "crop": [
+        204,
+        345,
+        810,
+        660
+      ]
+    },
+    {
+      "start": 10,
+      "duration": 5,
+      "source": null,
+      "chapter": "",
+      "crop": null
+    },
+    {
+      "start": 15,
+      "duration": 5,
+      "source": "08-case-overview.png",
+      "chapter": "02 / INTRODUCING VEIL",
+      "crop": null
+    },
+    {
+      "start": 20,
+      "duration": 5,
+      "source": "08-case-overview.png",
+      "chapter": "02 / OPERATION TRINETRA",
+      "crop": [
+        203,
+        140,
+        1350,
+        333
+      ]
+    },
+    {
+      "start": 25,
+      "duration": 5,
+      "source": "01-processed-sources.png",
+      "chapter": "02 / DOCUMENTS \u2192 ENTITIES",
+      "crop": null
+    },
+    {
+      "start": 30,
+      "duration": 5,
+      "source": "07-network-default.png",
+      "chapter": "02 / RELATIONSHIPS \u2192 GRAPH INTELLIGENCE",
+      "crop": null
+    },
+    {
+      "start": 35,
+      "duration": 5,
+      "source": "01-processed-sources.png",
+      "chapter": "03 / DATA BECOMES INTELLIGENCE",
+      "crop": null
+    },
+    {
+      "start": 40,
+      "duration": 5,
+      "source": "01-processed-sources.png",
+      "chapter": "03 / CONTROLLED SOURCE RECORDS",
+      "crop": [
+        205,
+        140,
+        1348,
+        710
+      ]
+    },
+    {
+      "start": 45,
+      "duration": 5,
+      "source": "02-resolution-review.png",
+      "chapter": "03 / IDENTITIES REMAIN REVIEWABLE",
+      "crop": null
+    },
+    {
+      "start": 50,
+      "duration": 5,
+      "source": "02-resolution-review.png",
+      "chapter": "03 / SOURCE-BACKED RESOLUTION",
+      "crop": [
+        204,
+        142,
+        1348,
+        690
+      ]
+    },
+    {
+      "start": 55,
+      "duration": 5,
+      "source": "07-network-default.png",
+      "chapter": "03 / CONNECTED INVESTIGATION",
+      "crop": null
+    },
+    {
+      "start": 60,
+      "duration": 5,
+      "source": "07-network-default.png",
+      "chapter": "04 / HIDDEN RELATIONSHIPS",
+      "crop": null
+    },
+    {
+      "start": 65,
+      "duration": 5,
+      "source": "07-network-default.png",
+      "chapter": "04 / INSPECT THE NETWORK",
+      "crop": [
+        203,
+        140,
+        976,
+        617
+      ]
+    },
+    {
+      "start": 70,
+      "duration": 5,
+      "source": "Z:\\XLab\\New\\Network Intel\\artifacts\\judge-video\\06-path.png",
+      "chapter": "04 / A COMPUTED CONNECTION",
+      "crop": null
+    },
+    {
+      "start": 75,
+      "duration": 5,
+      "source": "Z:\\XLab\\New\\Network Intel\\artifacts\\judge-video\\06-path.png",
+      "chapter": "04 / FOLLOW THE SOURCE LINKS",
+      "crop": [
+        205,
+        306,
+        1485,
+        770
+      ]
+    },
+    {
+      "start": 80,
+      "duration": 5,
+      "source": "Z:\\XLab\\New\\Network Intel\\artifacts\\judge-video\\06-path.png",
+      "chapter": "04 / SIX HOPS. EVERY LINK SOURCED.",
+      "crop": [
+        205,
+        306,
+        1485,
+        770
+      ]
+    },
+    {
+      "start": 85,
+      "duration": 5,
+      "source": "Z:\\XLab\\New\\Network Intel\\artifacts\\judge-video\\06-path.png",
+      "chapter": "04 / RAHUL SHARMA \u2192 VIKRAM SINGH",
+      "crop": [
+        205,
+        306,
+        1485,
+        770
+      ]
+    },
+    {
+      "start": 90,
+      "duration": 5,
+      "source": "Z:\\XLab\\New\\Network Intel\\artifacts\\judge-video\\08-communication.png",
+      "chapter": "04 / FROM CONNECTION TO REVIEW LEAD",
+      "crop": null
+    },
+    {
+      "start": 95,
+      "duration": 5,
+      "source": "Z:\\XLab\\New\\Network Intel\\artifacts\\judge-video\\09-transfers.png",
+      "chapter": "04 / CALCULATIONS YOU CAN INSPECT",
+      "crop": [
+        1504,
+        195,
+        1900,
+        850
+      ]
+    },
+    {
+      "start": 100,
+      "duration": 5,
+      "source": "Z:\\XLab\\New\\Network Intel\\artifacts\\judge-video\\10-evidence.png",
+      "chapter": "05 / EXPLAINABLE EVIDENCE",
+      "crop": null
+    },
+    {
+      "start": 105,
+      "duration": 5,
+      "source": "Z:\\XLab\\New\\Network Intel\\artifacts\\judge-video\\10-evidence.png",
+      "chapter": "05 / EXACT SOURCE",
+      "crop": [
+        1503,
+        284,
+        1900,
+        617
+      ]
+    },
+    {
+      "start": 110,
+      "duration": 5,
+      "source": "Z:\\XLab\\New\\Network Intel\\artifacts\\judge-video\\10-evidence.png",
+      "chapter": "05 / FILENAME \u00b7 ROW \u00b7 TIMESTAMP",
+      "crop": [
+        1510,
+        324,
+        1895,
+        495
+      ]
+    },
+    {
+      "start": 115,
+      "duration": 5,
+      "source": "Z:\\XLab\\New\\Network Intel\\artifacts\\judge-video\\10-evidence.png",
+      "chapter": "05 / THE UNDERLYING RECORD",
+      "crop": [
+        1510,
+        504,
+        1895,
+        616
+      ]
+    },
+    {
+      "start": 120,
+      "duration": 5,
+      "source": "Z:\\XLab\\New\\Network Intel\\artifacts\\judge-video\\10-evidence.png",
+      "chapter": "05 / EVIDENCE IN CONTEXT",
+      "crop": null
+    },
+    {
+      "start": 125,
+      "duration": 5,
+      "source": "02-resolution-review.png",
+      "chapter": "06 / HUMAN JUDGMENT",
+      "crop": null
+    },
+    {
+      "start": 130,
+      "duration": 5,
+      "source": "Z:\\XLab\\New\\Network Intel\\artifacts\\judge-video\\04-resolution.png",
+      "chapter": "06 / REVIEW THE IDENTITY EVIDENCE",
+      "crop": null
+    },
+    {
+      "start": 135,
+      "duration": 5,
+      "source": "Z:\\XLab\\New\\Network Intel\\artifacts\\judge-video\\11-review.png",
+      "chapter": "06 / THE INVESTIGATOR DECIDES",
+      "crop": [
+        1505,
+        193,
+        1900,
+        545
+      ]
+    },
+    {
+      "start": 140,
+      "duration": 5,
+      "source": "Z:\\XLab\\New\\Network Intel\\artifacts\\judge-video\\12-audit.png",
+      "chapter": "06 / NEEDS MORE EVIDENCE",
+      "crop": null
+    },
+    {
+      "start": 145,
+      "duration": 5,
+      "source": "08-case-overview.png",
+      "chapter": "07 / FROM FRAGMENTED EVIDENCE",
+      "crop": [
+        204,
+        345,
+        810,
+        660
+      ]
+    },
+    {
+      "start": 150,
+      "duration": 5,
+      "source": "07-network-default.png",
+      "chapter": "07 / TO CONNECTED INTELLIGENCE",
+      "crop": null
+    },
+    {
+      "start": 155,
+      "duration": 5,
+      "source": "Z:\\XLab\\New\\Network Intel\\artifacts\\judge-video\\06-path.png",
+      "chapter": "07 / AN EVIDENCE-BACKED VIEW",
+      "crop": null
+    },
+    {
+      "start": 160,
+      "duration": 5,
+      "source": "Z:\\XLab\\New\\Network Intel\\artifacts\\judge-video\\06-path.png",
+      "chapter": "07 / FOLLOW THE CONNECTION",
+      "crop": [
+        205,
+        306,
+        1485,
+        770
+      ]
+    },
+    {
+      "start": 165,
+      "duration": 5,
+      "source": null,
+      "chapter": "",
+      "crop": null
+    }
+  ],
+  "narration": [
+    [
+      0.8,
+      14.0,
+      "An investigation rarely suffers from a lack of information. The real challenge is finding the connections hidden inside it."
+    ],
+    [
+      15.5,
+      34.0,
+      "Meet Veil. It transforms fragmented investigation records into a structured, connected intelligence network. This is Operation Trinetra, a synthetic investigation case, moving from documents, to entities, to relationships."
+    ],
+    [
+      35.5,
+      58.5,
+      "Across supported source formats, Veil extracts people, phone numbers, accounts, vehicles and locations. It preserves the records behind those connections, and brings them into an investigation graph. Possible identity matches remain open to human review."
+    ],
+    [
+      60.5,
+      72.8,
+      "But visualizing a network isn't enough. Veil computes paths and surfaces review leads, helping investigators see connections that could be difficult to notice manually."
+    ],
+    [
+      74.0,
+      85.8,
+      "Here, Rahul Sharma connects to Vikram Singh through phones, an intermediary, and bank accounts. Six hops, spanning multiple source records."
+    ],
+    [
+      89.0,
+      99.4,
+      "The lead brings communication changes and connected transfers into one reviewable explanation. A connection to examine, not a conclusion about guilt."
+    ],
+    [
+      100.5,
+      112.5,
+      "And every insight remains explainable. Instead of presenting a black box conclusion, Veil traces the relationship back to the underlying evidence."
+    ],
+    [
+      113.0,
+      124.2,
+      "Here is the transaction source, its exact row and timestamp, and the original excerpt. The verification status stays visible alongside the record."
+    ],
+    [
+      125.5,
+      136.8,
+      "The system doesn't decide guilt, and it doesn't replace the investigator. Identity proposals can be inspected, confirmed, or reversed."
+    ],
+    [
+      137.0,
+      144.4,
+      "Here, the investigator requests more evidence, with a reason preserved in the audit trail."
+    ],
+    [
+      145.5,
+      161.5,
+      "What previously required investigators to manually cross reference records can now become a connected, evidence backed view of an investigation. A smaller search space. Meaningful leads. Human judgment at the center."
+    ],
+    [
+      163.0,
+      169.4,
+      "Veil. From fragmented evidence to explainable intelligence."
+    ]
+  ]
+}

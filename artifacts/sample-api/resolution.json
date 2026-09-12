@@ -1,0 +1,182 @@
+{
+  "proposals": [
+    {
+      "proposal_id": "MP-amit-a-verma",
+      "case_id": "VEIL-DEMO-001",
+      "left_entity_id": "amit",
+      "right_entity_id": "a-verma",
+      "left_entity": {
+        "id": "amit",
+        "label": "Amit Verma",
+        "display_label": "Amit Verma",
+        "type": "Person",
+        "identifier": "DEMO-PER-02",
+        "description": "Fictional person listed in authorized demonstration records.",
+        "x": 565.0,
+        "y": 85.0,
+        "evidence_ids": [
+          "E-SUB-02",
+          "E-ACC-01",
+          "E-RES-05"
+        ],
+        "aliases": [],
+        "original_entity_ids": [],
+        "verification_status": "Synthetic source record · not independently verified",
+        "extractor_version": null
+      },
+      "right_entity": {
+        "id": "a-verma",
+        "label": "A. Verma",
+        "display_label": "A. Verma",
+        "type": "Person",
+        "identifier": "a-verma",
+        "description": "Unresolved synthetic source mention. Similarity does not establish identity.",
+        "x": 665.0,
+        "y": 390.0,
+        "evidence_ids": [
+          "E-RES-04"
+        ],
+        "aliases": [],
+        "original_entity_ids": [],
+        "verification_status": "Synthetic source record · not independently verified",
+        "extractor_version": null
+      },
+      "feature_comparisons": [
+        {
+          "feature": "Normalized name similarity",
+          "value": 0.8235,
+          "weight": 0.2,
+          "explanation": "Normalized strings: amit verma / a verma. Sequence similarity only; initials are not proof of identity.",
+          "evidence_ids": [
+            "E-ACC-01",
+            "E-RES-04",
+            "E-RES-05",
+            "E-SUB-02"
+          ]
+        },
+        {
+          "feature": "Exact shared phone",
+          "value": 0.0,
+          "weight": 0.6,
+          "explanation": "No shared identifier recorded. Missing evidence is not a contradiction.",
+          "evidence_ids": [
+            "E-ACC-01",
+            "E-RES-04",
+            "E-RES-05",
+            "E-SUB-02"
+          ]
+        },
+        {
+          "feature": "Exact shared vehicle",
+          "value": 0.0,
+          "weight": 0.2,
+          "explanation": "No shared identifier recorded. Missing evidence is not a contradiction.",
+          "evidence_ids": [
+            "E-ACC-01",
+            "E-RES-04",
+            "E-RES-05",
+            "E-SUB-02"
+          ]
+        }
+      ],
+      "score": 0.1647,
+      "recommendation": "REVIEW",
+      "supporting_evidence_ids": [
+        "E-ACC-01",
+        "E-RES-04",
+        "E-RES-05",
+        "E-SUB-02"
+      ],
+      "status": "REVIEW",
+      "created_at": "2026-08-15T20:00:00+05:30",
+      "algorithm_version": "resolution-rules-v1"
+    },
+    {
+      "proposal_id": "MP-rahul-rk-sharma",
+      "case_id": "VEIL-DEMO-001",
+      "left_entity_id": "rahul",
+      "right_entity_id": "rk-sharma",
+      "left_entity": {
+        "id": "rahul",
+        "label": "Rahul Kumar Sharma",
+        "display_label": "Rahul Sharma",
+        "type": "Person",
+        "identifier": "DEMO-PER-01",
+        "description": "Fictional person listed in authorized demonstration records.",
+        "x": 40.0,
+        "y": 85.0,
+        "evidence_ids": [
+          "E-SUB-01",
+          "E-RES-02"
+        ],
+        "aliases": [],
+        "original_entity_ids": [],
+        "verification_status": "Synthetic source record · not independently verified",
+        "extractor_version": null
+      },
+      "right_entity": {
+        "id": "rk-sharma",
+        "label": "R.K. Sharma",
+        "display_label": "R.K. Sharma",
+        "type": "Person",
+        "identifier": "rk-sharma",
+        "description": "Unresolved synthetic source mention. Similarity does not establish identity.",
+        "x": 40.0,
+        "y": 260.0,
+        "evidence_ids": [
+          "E-RES-01",
+          "E-RES-03"
+        ],
+        "aliases": [],
+        "original_entity_ids": [],
+        "verification_status": "Synthetic source record · not independently verified",
+        "extractor_version": null
+      },
+      "feature_comparisons": [
+        {
+          "feature": "Normalized name similarity",
+          "value": 0.7143,
+          "weight": 0.2,
+          "explanation": "Normalized strings: rahul kumar sharma / r k sharma. Sequence similarity only; initials are not proof of identity.",
+          "evidence_ids": [
+            "E-RES-01",
+            "E-RES-02",
+            "E-RES-03",
+            "E-SUB-01"
+          ]
+        },
+        {
+          "feature": "Exact shared phone",
+          "value": 1.0,
+          "weight": 0.6,
+          "explanation": "Same source identifier: P101. Shared use remains possible; human verification required.",
+          "evidence_ids": [
+            "E-RES-01",
+            "E-SUB-01"
+          ]
+        },
+        {
+          "feature": "Exact shared vehicle",
+          "value": 1.0,
+          "weight": 0.2,
+          "explanation": "Same source identifier: V02. Shared use remains possible; human verification required.",
+          "evidence_ids": [
+            "E-RES-02",
+            "E-RES-03"
+          ]
+        }
+      ],
+      "score": 0.9429,
+      "recommendation": "REVIEW",
+      "supporting_evidence_ids": [
+        "E-RES-01",
+        "E-RES-02",
+        "E-RES-03",
+        "E-SUB-01"
+      ],
+      "status": "CONFIRMED",
+      "created_at": "2026-08-15T20:00:00+05:30",
+      "algorithm_version": "resolution-rules-v1"
+    }
+  ]
+}

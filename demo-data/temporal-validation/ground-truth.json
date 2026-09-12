@@ -1,0 +1,36 @@
+{
+  "scope": "Synthetic planted patterns and benign controls. Labels authored separately from engine output. No real-world accuracy claim.",
+  "datasets": [
+    {
+      "dataset": "primary_with_benign",
+      "expected_signals": [
+        {"type": "COMMUNICATION_BURST", "entity": "P101", "observed": {"calls": 11}},
+        {"type": "NEW_CONTACT_BURST", "entity": "P101", "observed": {"new_contacts": 7}},
+        {"type": "TRANSACTION_SEQUENCE", "entity": "A17", "observed": {"transfers": 3, "total_inr": "195000", "elapsed_minutes": 75.0}},
+        {"type": "GRAPH_PATH", "entity": "P101", "observed": {"path_length": 6}}
+      ],
+      "expected_leads": [{"phone": "P101", "priority": "HIGH"}],
+      "benign_unusual_activities": [{"entity": "P314", "label": "Twelve routine service checks after a two-call daily baseline; no linked financial sequence."}],
+      "expected_non_leads": [{"entity": "P314"}]
+    },
+    {
+      "dataset": "alternate_seed_22",
+      "expected_signals": [
+        {"type": "COMMUNICATION_BURST", "entity": "P101", "observed": {"calls": 14}},
+        {"type": "NEW_CONTACT_BURST", "entity": "P101", "observed": {"new_contacts": 6}},
+        {"type": "TRANSACTION_SEQUENCE", "entity": "A17", "observed": {"transfers": 3, "total_inr": "90000", "elapsed_minutes": 80.0}},
+        {"type": "GRAPH_PATH", "entity": "P101", "observed": {"path_length": 6}}
+      ],
+      "expected_leads": [{"phone": "P101", "priority": "HIGH"}],
+      "benign_unusual_activities": [{"entity": "P314", "label": "Routine service checks; communication-only outlier."}],
+      "expected_non_leads": [{"entity": "P314"}]
+    },
+    {
+      "dataset": "benign_only",
+      "expected_signals": [{"type": "COMMUNICATION_BURST", "entity": "P314", "observed": {"calls": 12}}],
+      "expected_leads": [],
+      "benign_unusual_activities": [{"entity": "P101", "label": "Unusual contact activity without the financial sequence."}, {"entity": "P314", "label": "Routine service checks."}],
+      "expected_non_leads": [{"entity": "P101"}, {"entity": "P314"}]
+    }
+  ]
+}

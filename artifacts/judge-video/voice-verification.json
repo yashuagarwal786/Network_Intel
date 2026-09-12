@@ -1,0 +1,80 @@
+[
+  {
+    "scene": 1,
+    "voice_seconds": 15.021678,
+    "tempo": 1.050466993006993,
+    "scene_seconds": 15
+  },
+  {
+    "scene": 2,
+    "voice_seconds": 14.326667,
+    "tempo": 1.0018648251748252,
+    "scene_seconds": 15
+  },
+  {
+    "scene": 3,
+    "voice_seconds": 9.597415,
+    "tempo": 1.0319801075268815,
+    "scene_seconds": 10
+  },
+  {
+    "scene": 4,
+    "voice_seconds": 15.991474,
+    "tempo": 1.1182848951048951,
+    "scene_seconds": 15
+  },
+  {
+    "scene": 5,
+    "voice_seconds": 9.742313,
+    "tempo": 1.0475605376344084,
+    "scene_seconds": 10
+  },
+  {
+    "scene": 6,
+    "voice_seconds": 15.662222,
+    "tempo": 1,
+    "scene_seconds": 20
+  },
+  {
+    "scene": 7,
+    "voice_seconds": 20.721361,
+    "tempo": 1.0736456476683938,
+    "scene_seconds": 20
+  },
+  {
+    "scene": 8,
+    "voice_seconds": 14.631474,
+    "tempo": 1.02318,
+    "scene_seconds": 15
+  },
+  {
+    "scene": 9,
+    "voice_seconds": 10.752562,
+    "tempo": 1.1561894623655913,
+    "scene_seconds": 10
+  },
+  {
+    "scene": 10,
+    "voice_seconds": 9.498005,
+    "tempo": 1.0212908602150537,
+    "scene_seconds": 10
+  },
+  {
+    "scene": 11,
+    "voice_seconds": 10.172744,
+    "tempo": 1.093843440860215,
+    "scene_seconds": 10
+  },
+  {
+    "scene": 12,
+    "voice_seconds": 9.727664,
+    "tempo": 1.045985376344086,
+    "scene_seconds": 10
+  },
+  {
+    "scene": 13,
+    "voice_seconds": 5.848662,
+    "tempo": 1.3601539534883722,
+    "scene_seconds": 5
+  }
+]

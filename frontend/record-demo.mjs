@@ -1,0 +1,46 @@
+import {chromium} from '@playwright/test';
+import {mkdir,writeFile} from 'node:fs/promises';
+import path from 'node:path';
+const out=path.resolve(import.meta.dirname,'../artifacts/judge-video');await mkdir(out,{recursive:true});
+const browser=await chromium.launch({channel:'msedge',headless:true});
+const context=await browser.newContext({viewport:{width:1920,height:960},recordVideo:{dir:out,size:{width:1920,height:1080}}});
+const page=await context.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));
+const shots=[];
+async function shot(name,duration,caption){await page.waitForTimeout(500);await page.screenshot({path:path.join(out,name+'.png')});shots.push({name,duration,caption});}
+const btn=name=>page.getByRole('button',{name,exact:true}).first();
+await page.goto('http://127.0.0.1:8002');await page.getByRole('heading',{name:/Operation Trinetra/}).waitFor();
+await btn('Case Overview').click();
+await shot('01-case',15,'One fictional case. Information scattered across reports, calls, payments and vehicle records.');
+await btn('Data Sources').click();await page.locator('.source-grid>article').first().waitFor();
+await shot('02-sources',15,'Four prepared synthetic sources have been processed. Invalid records are flagged for review.');
+await btn('Records').click();
+await shot('03-records',10,'Source rows remain available. Extraction preserves where each piece of information came from.');
+await btn('Entity Resolution').click();await page.getByText('Exact shared phone',{exact:true}).waitFor();
+await shot('04-resolution',15,'Similar names are a proposal, not an automatic merge. Shared phone and vehicle records support review.');
+await page.getByLabel('Decision reason',{exact:true}).fill('Shared phone and vehicle evidence reviewed for this synthetic demonstration.');await btn('Confirm Match').click();await page.getByRole('status').waitFor();
+await btn('Network').click();await page.getByRole('textbox',{name:'Search entities',exact:true}).fill('Rahul');await page.getByRole('textbox',{name:'Search entities',exact:true}).press('Enter');
+await shot('05-entity',10,'Rahul’s record now retains the reviewed alias and the original source mentions.');
+await page.getByRole('combobox',{name:'Path start',exact:true}).selectOption('rahul');await page.getByRole('combobox',{name:'Path end',exact:true}).selectOption('vikram');
+const response=page.waitForResponse(r=>r.url().includes('/path?')&&r.status()===200);await btn('Find path').click();const computed=await(await response).json();if(computed.path_length!==6)throw Error('Unexpected path');
+await page.getByRole('heading',{name:'6 hops. Every link sourced.'}).waitFor();
+await shot('06-path',20,'A computed six-hop path connects Rahul to Vikram through phones, Amit Verma and bank accounts.');
+await shot('07-discovery',20,'Rahul → P101 → P204 → Amit → A17 → A31 → Vikram. Every step has supporting evidence.');
+await btn('Open Lead 17').click();await page.getByRole('heading',{name:'What happened?',exact:true}).waitFor();
+const burst=page.locator('.computed-signal').filter({has:page.locator('summary').filter({hasText:'2 calls/day'})});await burst.locator('summary').first().click();
+await shot('08-communication',15,'Lead 17 is computed: 11 calls versus a historical median of 2, alongside seven new contacts.');
+const tx=page.locator('.computed-signal').filter({has:page.locator('summary').filter({hasText:'3 connected transfers'})});await tx.locator('summary').first().click();await tx.scrollIntoViewIfNeeded();
+await shot('09-transfers',10,'Three connected transfers total ₹1,95,000 over 75 minutes. These are review signals, not accusations.');
+await tx.getByRole('button',{name:'Open evidence E-TX-01',exact:true}).click();await page.getByRole('heading',{name:'transactions-2026-08-15.csv',exact:true}).waitFor();
+await shot('10-evidence',10,'The explanation reaches the exact source: transaction file, row 2, timestamp and unaltered excerpt.');
+await btn('Back to investigation').click();await page.locator('.review-disclosure>summary').click();await page.getByRole('textbox',{name:"Reviewer's name",exact:true}).fill('SIH demo reviewer');await page.getByRole('textbox',{name:'Review reasoning',exact:true}).fill('Verify original records and transaction purpose before further inquiry.');await btn('Review submission').click();await btn('Confirm submission').click();await page.locator('.review-success').waitFor();
+await shot('11-review',10,'The investigator records Needs more evidence. Human judgment remains separate from analytical priority.');
+await btn('Audit Trail').click();await page.getByRole('combobox',{name:'Activity event type',exact:true}).selectOption('LEAD_REVIEW_SUBMITTED');await btn('Apply filters').click();await page.locator('.activity-card').first().waitFor();
+await shot('12-audit',10,'The decision is recorded with reviewer, reason and previous/new state in the audit history.');
+await btn('Network').click();await btn('Find path').click();await page.getByRole('heading',{name:'6 hops. Every link sourced.'}).waitFor();
+await shot('13-finale',5,'VEIL reduces the search space with explainable leads. The system does not determine guilt.');
+await writeFile(path.join(out,'sequence.json'),JSON.stringify({shots,errors,computed_path:computed},null,2));
+await context.close();await browser.close();
+if(errors.length)throw Error(errors.join('\n'));
+console.log('Captured '+shots.length+' genuine product scenes.');
+
+

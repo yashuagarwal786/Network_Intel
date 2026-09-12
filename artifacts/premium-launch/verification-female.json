@@ -1,0 +1,319 @@
+{
+  "file": "Network-Intel-SIH26189-Premium-Female-1080p.mp4",
+  "voice": "en-IN-NeerjaExpressiveNeural",
+  "duration": 175.0,
+  "streams": [
+    {
+      "type": "video",
+      "codec": "h264",
+      "width": 1920,
+      "height": 1080,
+      "sample_rate": null,
+      "channels": null
+    },
+    {
+      "type": "audio",
+      "codec": "aac",
+      "width": null,
+      "height": null,
+      "sample_rate": "48000",
+      "channels": 2
+    },
+    {
+      "type": "subtitle",
+      "codec": "mov_text",
+      "width": null,
+      "height": null,
+      "sample_rate": null,
+      "channels": null
+    }
+  ],
+  "audio_measurements": [
+    "[Parsed_volumedetect_0 @ 00000128e9307180] mean_volume: -19.1 dB",
+    "[Parsed_volumedetect_0 @ 00000128e9307180] max_volume: -1.9 dB"
+  ],
+  "full_decode": "passed",
+  "no_time_stretching": true,
+  "voice_clips": [
+    {
+      "index": 0,
+      "start": 0.7,
+      "window_end": 5.85,
+      "spoken_end": 4.9,
+      "duration": 4.2,
+      "rate": "-4%",
+      "pitch": "-1Hz",
+      "text": "A criminal network rarely appears in a single file."
+    },
+    {
+      "index": 1,
+      "start": 6.55,
+      "window_end": 10.55,
+      "spoken_end": 9.166,
+      "duration": 2.616,
+      "rate": "-5%",
+      "pitch": "-1Hz",
+      "text": "It appears in fragments."
+    },
+    {
+      "index": 2,
+      "start": 10.5,
+      "window_end": 15.25,
+      "spoken_end": 14.868,
+      "duration": 4.368,
+      "rate": "+2%",
+      "pitch": "+0Hz",
+      "text": "A name, a phone number, an account, a location."
+    },
+    {
+      "index": 3,
+      "start": 15.35,
+      "window_end": 19.25,
+      "spoken_end": 17.75,
+      "duration": 2.4,
+      "rate": "-5%",
+      "pitch": "-1Hz",
+      "text": "The evidence is there."
+    },
+    {
+      "index": 4,
+      "start": 19.75,
+      "window_end": 23.05,
+      "spoken_end": 22.918,
+      "duration": 3.168,
+      "rate": "-3%",
+      "pitch": "-1Hz",
+      "text": "But the connection can stay buried."
+    },
+    {
+      "index": 5,
+      "start": 23.75,
+      "window_end": 30.1,
+      "spoken_end": 29.918,
+      "duration": 6.168,
+      "rate": "+1%",
+      "pitch": "+0Hz",
+      "text": "And as records multiply, manual review becomes slower... and harder to scale."
+    },
+    {
+      "index": 6,
+      "start": 33.0,
+      "window_end": 39.45,
+      "spoken_end": 38.616,
+      "duration": 5.616,
+      "rate": "+1%",
+      "pitch": "+1Hz",
+      "text": "So, what if every fragment could become part of one connected investigation?"
+    },
+    {
+      "index": 7,
+      "start": 42.45,
+      "window_end": 46.15,
+      "spoken_end": 44.994,
+      "duration": 2.544,
+      "rate": "+2%",
+      "pitch": "+1Hz",
+      "text": "This is Network Intel."
+    },
+    {
+      "index": 8,
+      "start": 49.6,
+      "window_end": 55.8,
+      "spoken_end": 55.72,
+      "duration": 6.12,
+      "rate": "+1%",
+      "pitch": "+0Hz",
+      "text": "It turns supported investigation records into entities an investigator can work with."
+    },
+    {
+      "index": 9,
+      "start": 56.2,
+      "window_end": 64.8,
+      "spoken_end": 62.968,
+      "duration": 6.768,
+      "rate": "+2%",
+      "pitch": "+1Hz",
+      "text": "People, phones, accounts, vehicles, and locations, all connected to their source."
+    },
+    {
+      "index": 10,
+      "start": 67.0,
+      "window_end": 72.65,
+      "spoken_end": 71.824,
+      "duration": 4.824,
+      "rate": "-1%",
+      "pitch": "+0Hz",
+      "text": "The same person may appear differently across different records."
+    },
+    {
+      "index": 11,
+      "start": 73.0,
+      "window_end": 79.7,
+      "spoken_end": 79.408,
+      "duration": 6.408,
+      "rate": "+1%",
+      "pitch": "+0Hz",
+      "text": "Network Intel proposes a possible match, then leaves the decision with the investigator."
+    },
+    {
+      "index": 12,
+      "start": 82.0,
+      "window_end": 87.1,
+      "spoken_end": 86.656,
+      "duration": 4.656,
+      "rate": "+2%",
+      "pitch": "+1Hz",
+      "text": "Now, those scattered relationships begin to form a network."
+    },
+    {
+      "index": 13,
+      "start": 87.45,
+      "window_end": 98.0,
+      "spoken_end": 94.722,
+      "duration": 7.272,
+      "rate": "+2%",
+      "pitch": "+1Hz",
+      "text": "People, devices, and accounts can be explored together, without losing the evidence behind them."
+    },
+    {
+      "index": 14,
+      "start": 101.0,
+      "window_end": 105.75,
+      "spoken_end": 103.928,
+      "duration": 2.928,
+      "rate": "+3%",
+      "pitch": "+1Hz",
+      "text": "Here is the question that matters."
+    },
+    {
+      "index": 15,
+      "start": 106.1,
+      "window_end": 110.75,
+      "spoken_end": 109.82,
+      "duration": 3.72,
+      "rate": "+4%",
+      "pitch": "+2Hz",
+      "text": "How are Rahul Sharma and Vikram Singh connected?"
+    },
+    {
+      "index": 16,
+      "start": 111.15,
+      "window_end": 115.55,
+      "spoken_end": 114.078,
+      "duration": 2.928,
+      "rate": "+5%",
+      "pitch": "+2Hz",
+      "text": "Network Intel traces the graph."
+    },
+    {
+      "index": 17,
+      "start": 115.9,
+      "window_end": 122.75,
+      "spoken_end": 120.796,
+      "duration": 4.896,
+      "rate": "+4%",
+      "pitch": "+2Hz",
+      "text": "One sourced step at a time... a six-hop association emerges."
+    },
+    {
+      "index": 18,
+      "start": 125.0,
+      "window_end": 128.55,
+      "spoken_end": 127.88,
+      "duration": 2.88,
+      "rate": "-3%",
+      "pitch": "-1Hz",
+      "text": "And this is where trust matters."
+    },
+    {
+      "index": 19,
+      "start": 128.9,
+      "window_end": 132.65,
+      "spoken_end": 132.62,
+      "duration": 3.72,
+      "rate": "+9%",
+      "pitch": "-1Hz",
+      "text": "Investigations can't depend on a black box."
+    },
+    {
+      "index": 20,
+      "start": 134.0,
+      "window_end": 139.5,
+      "spoken_end": 138.368,
+      "duration": 4.368,
+      "rate": "-2%",
+      "pitch": "+0Hz",
+      "text": "Open the lead, and the path returns to evidence."
+    },
+    {
+      "index": 21,
+      "start": 139.55,
+      "window_end": 145.98,
+      "spoken_end": 145.91,
+      "duration": 6.36,
+      "rate": "+9%",
+      "pitch": "+0Hz",
+      "text": "The exact file, row, timestamp, verification status, and original excerpt."
+    },
+    {
+      "index": 22,
+      "start": 146.0,
+      "window_end": 151.35,
+      "spoken_end": 151.256,
+      "duration": 5.256,
+      "rate": "+7%",
+      "pitch": "+0Hz",
+      "text": "The system surfaces the connection. The evidence supports review."
+    },
+    {
+      "index": 23,
+      "start": 151.7,
+      "window_end": 157.9,
+      "spoken_end": 155.996,
+      "duration": 4.296,
+      "rate": "-2%",
+      "pitch": "-1Hz",
+      "text": "But the investigator remains the final authority."
+    },
+    {
+      "index": 24,
+      "start": 160.0,
+      "window_end": 164.5,
+      "spoken_end": 162.808,
+      "duration": 2.808,
+      "rate": "+2%",
+      "pitch": "+1Hz",
+      "text": "Less manual cross-referencing."
+    },
+    {
+      "index": 25,
+      "start": 164.75,
+      "window_end": 168.45,
+      "spoken_end": 168.038,
+      "duration": 3.288,
+      "rate": "+3%",
+      "pitch": "+1Hz",
+      "text": "Non-obvious paths, made visible."
+    },
+    {
+      "index": 26,
+      "start": 169.0,
+      "window_end": 171.85,
+      "spoken_end": 171.808,
+      "duration": 2.808,
+      "rate": "+10%",
+      "pitch": "+0Hz",
+      "text": "The evidence may already be there."
+    },
+    {
+      "index": 27,
+      "start": 171.95,
+      "window_end": 174.9,
+      "spoken_end": 174.83,
+      "duration": 2.88,
+      "rate": "+12%",
+      "pitch": "+1Hz",
+      "text": "Network Intel reveals the connection."
+    }
+  ]
+}

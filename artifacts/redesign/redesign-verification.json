@@ -1,0 +1,13 @@
+{
+  "console_errors": [],
+  "viewports": [
+    1366,
+    1440,
+    1920,
+    768
+  ],
+  "contextual_navigation": true,
+  "graph_filters": true,
+  "lead_filters": true,
+  "reduced_motion": true
+}

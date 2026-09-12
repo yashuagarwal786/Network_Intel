@@ -1,0 +1,32 @@
+{
+  "name": "veil-workspace",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc -b && vite build",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "test": "playwright test",
+    "test:smoke": "playwright test e2e/golden.spec.ts"
+  },
+  "dependencies": {
+    "cytoscape": "^3.33.0",
+    "lucide-react": "^0.468.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@playwright/test": "^1.63.0",
+    "@types/cytoscape": "^3.21.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@vitejs/plugin-react": "^4.5.0",
+    "eslint": "^10.10.0",
+    "typescript": "~5.8.3",
+    "typescript-eslint": "^8.69.0",
+    "vite": "^6.3.5"
+  }
+}

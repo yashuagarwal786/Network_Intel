@@ -1,0 +1,2884 @@
+{
+  "schema_version": 1,
+  "case_id": "VEIL-DEMO-001",
+  "synthetic": true,
+  "data_version": "golden-v1",
+  "items": [
+    {
+      "id": "E-SUB-01",
+      "source_id": "S01",
+      "source_filename": "subscriber-register.csv",
+      "source_type": "Report",
+      "locator": {
+        "row": 2,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "person",
+          "phone"
+        ]
+      },
+      "timestamp": "2026-08-21T09:00:00+05:30",
+      "exact_excerpt": "rahul: listed user of synthetic phone P101; independently verified identity unavailable.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "rahul",
+        "P101"
+      ],
+      "relationship_ids": [
+        "R01"
+      ],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-SUB-02",
+      "source_id": "S01",
+      "source_filename": "subscriber-register.csv",
+      "source_type": "Report",
+      "locator": {
+        "row": 3,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "person",
+          "phone"
+        ]
+      },
+      "timestamp": "2026-08-21T09:00:00+05:30",
+      "exact_excerpt": "amit: listed user of synthetic phone P204; independently verified identity unavailable.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "amit",
+        "P204"
+      ],
+      "relationship_ids": [
+        "R03"
+      ],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-SUB-03",
+      "source_id": "S01",
+      "source_filename": "subscriber-register.csv",
+      "source_type": "Report",
+      "locator": {
+        "row": 4,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "person",
+          "phone"
+        ]
+      },
+      "timestamp": "2026-08-21T09:00:00+05:30",
+      "exact_excerpt": "neha: listed user of synthetic phone P305; independently verified identity unavailable.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "neha",
+        "P305"
+      ],
+      "relationship_ids": [
+        "R-SUB-03"
+      ],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-SUB-04",
+      "source_id": "S01",
+      "source_filename": "subscriber-register.csv",
+      "source_type": "Report",
+      "locator": {
+        "row": 5,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "person",
+          "phone"
+        ]
+      },
+      "timestamp": "2026-08-21T09:00:00+05:30",
+      "exact_excerpt": "arjun: listed user of synthetic phone P306; independently verified identity unavailable.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "arjun",
+        "P306"
+      ],
+      "relationship_ids": [
+        "R-SUB-04"
+      ],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-SUB-05",
+      "source_id": "S01",
+      "source_filename": "subscriber-register.csv",
+      "source_type": "Report",
+      "locator": {
+        "row": 6,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "person",
+          "phone"
+        ]
+      },
+      "timestamp": "2026-08-21T09:00:00+05:30",
+      "exact_excerpt": "sana: listed user of synthetic phone P307; independently verified identity unavailable.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "sana",
+        "P307"
+      ],
+      "relationship_ids": [
+        "R-SUB-05"
+      ],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-SUB-06",
+      "source_id": "S01",
+      "source_filename": "subscriber-register.csv",
+      "source_type": "Report",
+      "locator": {
+        "row": 7,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "person",
+          "phone"
+        ]
+      },
+      "timestamp": "2026-08-21T09:00:00+05:30",
+      "exact_excerpt": "dev: listed user of synthetic phone P308; independently verified identity unavailable.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "dev",
+        "P308"
+      ],
+      "relationship_ids": [
+        "R-SUB-06"
+      ],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-SUB-07",
+      "source_id": "S01",
+      "source_filename": "subscriber-register.csv",
+      "source_type": "Report",
+      "locator": {
+        "row": 8,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "person",
+          "phone"
+        ]
+      },
+      "timestamp": "2026-08-21T09:00:00+05:30",
+      "exact_excerpt": "priya: listed user of synthetic phone P309; independently verified identity unavailable.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "priya",
+        "P309"
+      ],
+      "relationship_ids": [
+        "R-SUB-07"
+      ],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-SUB-08",
+      "source_id": "S01",
+      "source_filename": "subscriber-register.csv",
+      "source_type": "Report",
+      "locator": {
+        "row": 9,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "person",
+          "phone"
+        ]
+      },
+      "timestamp": "2026-08-21T09:00:00+05:30",
+      "exact_excerpt": "kabir: listed user of synthetic phone P310; independently verified identity unavailable.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "kabir",
+        "P310"
+      ],
+      "relationship_ids": [
+        "R-SUB-08"
+      ],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-SUB-09",
+      "source_id": "S01",
+      "source_filename": "subscriber-register.csv",
+      "source_type": "Report",
+      "locator": {
+        "row": 10,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "person",
+          "phone"
+        ]
+      },
+      "timestamp": "2026-08-21T09:00:00+05:30",
+      "exact_excerpt": "meera: listed user of synthetic phone P311; independently verified identity unavailable.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "meera",
+        "P311"
+      ],
+      "relationship_ids": [
+        "R-SUB-09"
+      ],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-SUB-10",
+      "source_id": "S01",
+      "source_filename": "subscriber-register.csv",
+      "source_type": "Report",
+      "locator": {
+        "row": 11,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "person",
+          "phone"
+        ]
+      },
+      "timestamp": "2026-08-21T09:00:00+05:30",
+      "exact_excerpt": "vikram: listed user of synthetic phone P312; independently verified identity unavailable.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "vikram",
+        "P312"
+      ],
+      "relationship_ids": [
+        "R-SUB-10"
+      ],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-ACC-01",
+      "source_id": "S04",
+      "source_filename": "account-control-register.csv",
+      "source_type": "Transaction",
+      "locator": {
+        "row": 2,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "account",
+          "listed_controller"
+        ]
+      },
+      "timestamp": "2026-08-21T09:00:00+05:30",
+      "exact_excerpt": "Account A17: listed controller amit; this is a synthetic register assertion.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "amit",
+        "A17"
+      ],
+      "relationship_ids": [
+        "R04"
+      ],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-ACC-02",
+      "source_id": "S04",
+      "source_filename": "account-control-register.csv",
+      "source_type": "Transaction",
+      "locator": {
+        "row": 3,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "account",
+          "listed_controller"
+        ]
+      },
+      "timestamp": "2026-08-21T09:00:00+05:30",
+      "exact_excerpt": "Account A31: listed controller vikram; this is a synthetic register assertion.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "vikram",
+        "A31"
+      ],
+      "relationship_ids": [
+        "R06"
+      ],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-ACC-03",
+      "source_id": "S04",
+      "source_filename": "account-control-register.csv",
+      "source_type": "Transaction",
+      "locator": {
+        "row": 4,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "account",
+          "listed_controller"
+        ]
+      },
+      "timestamp": "2026-08-21T09:00:00+05:30",
+      "exact_excerpt": "Account A44: listed controller vikram; this is a synthetic register assertion.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "vikram",
+        "A44"
+      ],
+      "relationship_ids": [
+        "R-ACC-03"
+      ],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-ACC-04",
+      "source_id": "S04",
+      "source_filename": "account-control-register.csv",
+      "source_type": "Transaction",
+      "locator": {
+        "row": 5,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "account",
+          "listed_controller"
+        ]
+      },
+      "timestamp": "2026-08-21T09:00:00+05:30",
+      "exact_excerpt": "Account A52: listed controller neha; this is a synthetic register assertion.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "neha",
+        "A52"
+      ],
+      "relationship_ids": [
+        "R-ACC-04"
+      ],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-ACC-05",
+      "source_id": "S04",
+      "source_filename": "account-control-register.csv",
+      "source_type": "Transaction",
+      "locator": {
+        "row": 6,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "account",
+          "listed_controller"
+        ]
+      },
+      "timestamp": "2026-08-21T09:00:00+05:30",
+      "exact_excerpt": "Account A63: listed controller arjun; this is a synthetic register assertion.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "arjun",
+        "A63"
+      ],
+      "relationship_ids": [
+        "R-ACC-05"
+      ],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-ACC-06",
+      "source_id": "S04",
+      "source_filename": "account-control-register.csv",
+      "source_type": "Transaction",
+      "locator": {
+        "row": 7,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "account",
+          "listed_controller"
+        ]
+      },
+      "timestamp": "2026-08-21T09:00:00+05:30",
+      "exact_excerpt": "Account A74: listed controller sana; this is a synthetic register assertion.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "sana",
+        "A74"
+      ],
+      "relationship_ids": [
+        "R-ACC-06"
+      ],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-ACC-07",
+      "source_id": "S04",
+      "source_filename": "account-control-register.csv",
+      "source_type": "Transaction",
+      "locator": {
+        "row": 8,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "account",
+          "listed_controller"
+        ]
+      },
+      "timestamp": "2026-08-21T09:00:00+05:30",
+      "exact_excerpt": "Account A85: listed controller dev; this is a synthetic register assertion.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "dev",
+        "A85"
+      ],
+      "relationship_ids": [
+        "R-ACC-07"
+      ],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-ACC-08",
+      "source_id": "S04",
+      "source_filename": "account-control-register.csv",
+      "source_type": "Transaction",
+      "locator": {
+        "row": 9,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "account",
+          "listed_controller"
+        ]
+      },
+      "timestamp": "2026-08-21T09:00:00+05:30",
+      "exact_excerpt": "Account A96: listed controller priya; this is a synthetic register assertion.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "priya",
+        "A96"
+      ],
+      "relationship_ids": [
+        "R-ACC-08"
+      ],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-BASE-08-0",
+      "source_id": "S02",
+      "source_filename": "validation-22-cdr-baseline-08-15-to-08-21.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 2,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-15T10:00:00+05:30",
+      "exact_excerpt": "P101 → P204; 2026-08-15T10:00:00+05:30; connected call; duration 60 seconds.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P101",
+        "P204"
+      ],
+      "relationship_ids": [],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-BASE-08-1",
+      "source_id": "S02",
+      "source_filename": "validation-22-cdr-baseline-08-15-to-08-21.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 3,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-15T10:10:00+05:30",
+      "exact_excerpt": "P101 → P313; 2026-08-15T10:10:00+05:30; connected call; duration 60 seconds.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P101",
+        "P313"
+      ],
+      "relationship_ids": [],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-BASE-09-0",
+      "source_id": "S02",
+      "source_filename": "validation-22-cdr-baseline-08-15-to-08-21.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 4,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-16T10:00:00+05:30",
+      "exact_excerpt": "P101 → P204; 2026-08-16T10:00:00+05:30; connected call; duration 60 seconds.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P101",
+        "P204"
+      ],
+      "relationship_ids": [],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-BASE-09-1",
+      "source_id": "S02",
+      "source_filename": "validation-22-cdr-baseline-08-15-to-08-21.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 5,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-16T10:10:00+05:30",
+      "exact_excerpt": "P101 → P313; 2026-08-16T10:10:00+05:30; connected call; duration 60 seconds.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P101",
+        "P313"
+      ],
+      "relationship_ids": [],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-BASE-10-0",
+      "source_id": "S02",
+      "source_filename": "validation-22-cdr-baseline-08-15-to-08-21.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 6,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-17T10:00:00+05:30",
+      "exact_excerpt": "P101 → P204; 2026-08-17T10:00:00+05:30; connected call; duration 60 seconds.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P101",
+        "P204"
+      ],
+      "relationship_ids": [],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-BASE-10-1",
+      "source_id": "S02",
+      "source_filename": "validation-22-cdr-baseline-08-15-to-08-21.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 7,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-17T10:10:00+05:30",
+      "exact_excerpt": "P101 → P313; 2026-08-17T10:10:00+05:30; connected call; duration 60 seconds.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P101",
+        "P313"
+      ],
+      "relationship_ids": [],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-BASE-11-0",
+      "source_id": "S02",
+      "source_filename": "validation-22-cdr-baseline-08-15-to-08-21.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 8,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-18T10:00:00+05:30",
+      "exact_excerpt": "P101 → P204; 2026-08-18T10:00:00+05:30; connected call; duration 60 seconds.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P101",
+        "P204"
+      ],
+      "relationship_ids": [],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-BASE-11-1",
+      "source_id": "S02",
+      "source_filename": "validation-22-cdr-baseline-08-15-to-08-21.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 9,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-18T10:10:00+05:30",
+      "exact_excerpt": "P101 → P313; 2026-08-18T10:10:00+05:30; connected call; duration 60 seconds.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P101",
+        "P313"
+      ],
+      "relationship_ids": [],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-BASE-12-0",
+      "source_id": "S02",
+      "source_filename": "validation-22-cdr-baseline-08-15-to-08-21.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 10,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-19T10:00:00+05:30",
+      "exact_excerpt": "P101 → P204; 2026-08-19T10:00:00+05:30; connected call; duration 60 seconds.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P101",
+        "P204"
+      ],
+      "relationship_ids": [],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-BASE-12-1",
+      "source_id": "S02",
+      "source_filename": "validation-22-cdr-baseline-08-15-to-08-21.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 11,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-19T10:10:00+05:30",
+      "exact_excerpt": "P101 → P313; 2026-08-19T10:10:00+05:30; connected call; duration 60 seconds.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P101",
+        "P313"
+      ],
+      "relationship_ids": [],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-BASE-13-0",
+      "source_id": "S02",
+      "source_filename": "validation-22-cdr-baseline-08-15-to-08-21.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 12,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-20T10:00:00+05:30",
+      "exact_excerpt": "P101 → P204; 2026-08-20T10:00:00+05:30; connected call; duration 60 seconds.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P101",
+        "P204"
+      ],
+      "relationship_ids": [],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-BASE-13-1",
+      "source_id": "S02",
+      "source_filename": "validation-22-cdr-baseline-08-15-to-08-21.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 13,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-20T10:10:00+05:30",
+      "exact_excerpt": "P101 → P313; 2026-08-20T10:10:00+05:30; connected call; duration 60 seconds.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P101",
+        "P313"
+      ],
+      "relationship_ids": [],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-BASE-14-0",
+      "source_id": "S02",
+      "source_filename": "validation-22-cdr-baseline-08-15-to-08-21.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 14,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-21T10:00:00+05:30",
+      "exact_excerpt": "P101 → P204; 2026-08-21T10:00:00+05:30; connected call; duration 60 seconds.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P101",
+        "P204"
+      ],
+      "relationship_ids": [],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-BASE-14-1",
+      "source_id": "S02",
+      "source_filename": "validation-22-cdr-baseline-08-15-to-08-21.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 15,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-21T10:10:00+05:30",
+      "exact_excerpt": "P101 → P313; 2026-08-21T10:10:00+05:30; connected call; duration 60 seconds.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P101",
+        "P313"
+      ],
+      "relationship_ids": [],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-CDR-01",
+      "source_id": "S03",
+      "source_filename": "validation-22-cdr-event-2026-08-22.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 2,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-22T18:00:00+05:30",
+      "exact_excerpt": "P101 → P204; 2026-08-22T18:00:00+05:30; connected call; duration 60 seconds. Call content unavailable.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P101",
+        "P204"
+      ],
+      "relationship_ids": [
+        "R02"
+      ],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-CDR-02",
+      "source_id": "S03",
+      "source_filename": "validation-22-cdr-event-2026-08-22.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 3,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-22T18:04:00+05:30",
+      "exact_excerpt": "P101 → P204; 2026-08-22T18:04:00+05:30; connected call; duration 65 seconds. Call content unavailable.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P101",
+        "P204"
+      ],
+      "relationship_ids": [
+        "R02"
+      ],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-CDR-03",
+      "source_id": "S03",
+      "source_filename": "validation-22-cdr-event-2026-08-22.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 4,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-22T18:08:00+05:30",
+      "exact_excerpt": "P101 → P204; 2026-08-22T18:08:00+05:30; connected call; duration 70 seconds. Call content unavailable.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P101",
+        "P204"
+      ],
+      "relationship_ids": [
+        "R02"
+      ],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-CDR-04",
+      "source_id": "S03",
+      "source_filename": "validation-22-cdr-event-2026-08-22.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 5,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-22T18:12:00+05:30",
+      "exact_excerpt": "P101 → P305; 2026-08-22T18:12:00+05:30; connected call; duration 75 seconds. Call content unavailable.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P101",
+        "P305"
+      ],
+      "relationship_ids": [
+        "R-CALL-P305"
+      ],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-CDR-05",
+      "source_id": "S03",
+      "source_filename": "validation-22-cdr-event-2026-08-22.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 6,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-22T18:16:00+05:30",
+      "exact_excerpt": "P101 → P306; 2026-08-22T18:16:00+05:30; connected call; duration 80 seconds. Call content unavailable.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P101",
+        "P306"
+      ],
+      "relationship_ids": [
+        "R-CALL-P306"
+      ],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-CDR-06",
+      "source_id": "S03",
+      "source_filename": "validation-22-cdr-event-2026-08-22.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 7,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-22T18:20:00+05:30",
+      "exact_excerpt": "P101 → P307; 2026-08-22T18:20:00+05:30; connected call; duration 85 seconds. Call content unavailable.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P101",
+        "P307"
+      ],
+      "relationship_ids": [
+        "R-CALL-P307"
+      ],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-CDR-07",
+      "source_id": "S03",
+      "source_filename": "validation-22-cdr-event-2026-08-22.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 8,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-22T18:24:00+05:30",
+      "exact_excerpt": "P101 → P308; 2026-08-22T18:24:00+05:30; connected call; duration 90 seconds. Call content unavailable.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P101",
+        "P308"
+      ],
+      "relationship_ids": [
+        "R-CALL-P308"
+      ],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-CDR-08",
+      "source_id": "S03",
+      "source_filename": "validation-22-cdr-event-2026-08-22.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 9,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-22T18:28:00+05:30",
+      "exact_excerpt": "P101 → P309; 2026-08-22T18:28:00+05:30; connected call; duration 95 seconds. Call content unavailable.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P101",
+        "P309"
+      ],
+      "relationship_ids": [
+        "R-CALL-P309"
+      ],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-CDR-09",
+      "source_id": "S03",
+      "source_filename": "validation-22-cdr-event-2026-08-22.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 10,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-22T18:32:00+05:30",
+      "exact_excerpt": "P101 → P310; 2026-08-22T18:32:00+05:30; connected call; duration 100 seconds. Call content unavailable.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P101",
+        "P310"
+      ],
+      "relationship_ids": [
+        "R-CALL-P310"
+      ],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-CDR-10",
+      "source_id": "S03",
+      "source_filename": "validation-22-cdr-event-2026-08-22.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 11,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-22T18:36:00+05:30",
+      "exact_excerpt": "P101 → P311; 2026-08-22T18:36:00+05:30; connected call; duration 105 seconds. Call content unavailable.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P101",
+        "P311"
+      ],
+      "relationship_ids": [
+        "R-CALL-P311"
+      ],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-CDR-11",
+      "source_id": "S03",
+      "source_filename": "validation-22-cdr-event-2026-08-22.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 12,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-22T18:40:00+05:30",
+      "exact_excerpt": "P101 → P313; 2026-08-22T18:40:00+05:30; connected call; duration 110 seconds. Call content unavailable.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P101",
+        "P313"
+      ],
+      "relationship_ids": [
+        "R-CALL-P313"
+      ],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-TX-01",
+      "source_id": "S05",
+      "source_filename": "validation-22-transactions-2026-08-22.csv",
+      "source_type": "Transaction",
+      "locator": {
+        "row": 2,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "sender",
+          "receiver",
+          "amount_inr",
+          "timestamp"
+        ]
+      },
+      "timestamp": "2026-08-22T18:35:00+05:30",
+      "exact_excerpt": "A17 -> A31; INR 40000; 2026-08-22T18:35:00+05:30; synthetic alternate-seed transfer.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "A17",
+        "A31"
+      ],
+      "relationship_ids": [
+        "R05"
+      ],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-TX-02",
+      "source_id": "S05",
+      "source_filename": "validation-22-transactions-2026-08-22.csv",
+      "source_type": "Transaction",
+      "locator": {
+        "row": 3,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "sender",
+          "receiver",
+          "amount_inr",
+          "timestamp"
+        ]
+      },
+      "timestamp": "2026-08-22T19:10:00+05:30",
+      "exact_excerpt": "A17 -> A44; INR 30000; 2026-08-22T19:10:00+05:30; synthetic alternate-seed transfer.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "A17",
+        "A44"
+      ],
+      "relationship_ids": [
+        "R-TX-2"
+      ],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-TX-03",
+      "source_id": "S05",
+      "source_filename": "validation-22-transactions-2026-08-22.csv",
+      "source_type": "Transaction",
+      "locator": {
+        "row": 4,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "sender",
+          "receiver",
+          "amount_inr",
+          "timestamp"
+        ]
+      },
+      "timestamp": "2026-08-22T19:55:00+05:30",
+      "exact_excerpt": "A44 -> A31; INR 20000; 2026-08-22T19:55:00+05:30; synthetic alternate-seed transfer.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "A44",
+        "A31"
+      ],
+      "relationship_ids": [
+        "R-TX-3"
+      ],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-CTX-01",
+      "source_id": "S07",
+      "source_filename": "vehicle-register.csv",
+      "source_type": "Vehicle",
+      "locator": {
+        "row": 2,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "subject",
+          "relationship",
+          "object"
+        ]
+      },
+      "timestamp": "2026-08-21T09:00:00+05:30",
+      "exact_excerpt": "neha → V01; REGISTERED_KEEPER. Synthetic record only; occupants and real-world involvement are unknown.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "neha",
+        "V01"
+      ],
+      "relationship_ids": [
+        "R-V1"
+      ],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-CTX-02",
+      "source_id": "S07",
+      "source_filename": "vehicle-register.csv",
+      "source_type": "Vehicle",
+      "locator": {
+        "row": 3,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "subject",
+          "relationship",
+          "object"
+        ]
+      },
+      "timestamp": "2026-08-21T09:00:00+05:30",
+      "exact_excerpt": "kabir → V02; REGISTERED_KEEPER. Synthetic record only; occupants and real-world involvement are unknown.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "kabir",
+        "V02"
+      ],
+      "relationship_ids": [
+        "R-V2"
+      ],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-CTX-03",
+      "source_id": "S07",
+      "source_filename": "vehicle-register.csv",
+      "source_type": "Vehicle",
+      "locator": {
+        "row": 4,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "subject",
+          "relationship",
+          "object"
+        ]
+      },
+      "timestamp": "2026-08-21T09:00:00+05:30",
+      "exact_excerpt": "meera → V03; REGISTERED_KEEPER. Synthetic record only; occupants and real-world involvement are unknown.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "meera",
+        "V03"
+      ],
+      "relationship_ids": [
+        "R-V3"
+      ],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-CTX-04",
+      "source_id": "S07",
+      "source_filename": "vehicle-register.csv",
+      "source_type": "Vehicle",
+      "locator": {
+        "row": 5,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "subject",
+          "relationship",
+          "object"
+        ]
+      },
+      "timestamp": "2026-08-21T09:00:00+05:30",
+      "exact_excerpt": "V01 → L01; OBSERVED_AT. Synthetic record only; occupants and real-world involvement are unknown.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "V01",
+        "L01"
+      ],
+      "relationship_ids": [
+        "R-V4"
+      ],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-CTX-05",
+      "source_id": "S08",
+      "source_filename": "context-register.txt",
+      "source_type": "Report",
+      "locator": {
+        "row": 6,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "subject",
+          "relationship",
+          "object"
+        ]
+      },
+      "timestamp": "2026-08-21T09:00:00+05:30",
+      "exact_excerpt": "O01 → L01; LISTED_AT. Synthetic record only; occupants and real-world involvement are unknown.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "O01",
+        "L01"
+      ],
+      "relationship_ids": [
+        "R-C1"
+      ],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-CTX-06",
+      "source_id": "S08",
+      "source_filename": "context-register.txt",
+      "source_type": "Report",
+      "locator": {
+        "row": 7,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "subject",
+          "relationship",
+          "object"
+        ]
+      },
+      "timestamp": "2026-08-21T09:00:00+05:30",
+      "exact_excerpt": "neha → O01; LISTED_CONTACT. Synthetic record only; occupants and real-world involvement are unknown.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "neha",
+        "O01"
+      ],
+      "relationship_ids": [
+        "R-C2"
+      ],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-CTX-07",
+      "source_id": "S08",
+      "source_filename": "context-register.txt",
+      "source_type": "Report",
+      "locator": {
+        "row": 8,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "subject",
+          "relationship",
+          "object"
+        ]
+      },
+      "timestamp": "2026-08-21T09:00:00+05:30",
+      "exact_excerpt": "arjun → O02; LISTED_CONTACT. Synthetic record only; occupants and real-world involvement are unknown.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "arjun",
+        "O02"
+      ],
+      "relationship_ids": [
+        "R-C3"
+      ],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-CTX-08",
+      "source_id": "S08",
+      "source_filename": "context-register.txt",
+      "source_type": "Report",
+      "locator": {
+        "row": 9,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "subject",
+          "relationship",
+          "object"
+        ]
+      },
+      "timestamp": "2026-08-21T09:00:00+05:30",
+      "exact_excerpt": "O02 → L02; LISTED_AT. Synthetic record only; occupants and real-world involvement are unknown.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "O02",
+        "L02"
+      ],
+      "relationship_ids": [
+        "R-C4"
+      ],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-CTX-09",
+      "source_id": "S08",
+      "source_filename": "context-register.txt",
+      "source_type": "Report",
+      "locator": {
+        "row": 10,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "subject",
+          "relationship",
+          "object"
+        ]
+      },
+      "timestamp": "2026-08-21T09:00:00+05:30",
+      "exact_excerpt": "O03 → L03; LISTED_AT. Synthetic record only; occupants and real-world involvement are unknown.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "O03",
+        "L03"
+      ],
+      "relationship_ids": [
+        "R-C5"
+      ],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-CTX-10",
+      "source_id": "S08",
+      "source_filename": "context-register.txt",
+      "source_type": "Report",
+      "locator": {
+        "row": 11,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "subject",
+          "relationship",
+          "object"
+        ]
+      },
+      "timestamp": "2026-08-21T09:00:00+05:30",
+      "exact_excerpt": "P314 → L04; LISTED_AT. Synthetic record only; occupants and real-world involvement are unknown.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P314",
+        "L04"
+      ],
+      "relationship_ids": [
+        "R-C6"
+      ],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-REPORT-01",
+      "source_id": "S06",
+      "source_filename": "event-x-report.txt",
+      "source_type": "Report",
+      "locator": {
+        "row": null,
+        "page": 1,
+        "paragraph": 3,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "sentence"
+        ]
+      },
+      "timestamp": "2026-08-22T20:00:00+05:30",
+      "exact_excerpt": "Event X: a fictional delivery discrepancy was reported near Rivergate depot at 20:00 IST on 22 August 2026. This report does not establish an offence or identify responsible persons.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "L01"
+      ],
+      "relationship_ids": [],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-RES-01",
+      "source_id": "S09",
+      "source_filename": "resolution-mentions.csv",
+      "source_type": "Report",
+      "locator": {
+        "row": 2,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "name",
+          "associated_identifier"
+        ]
+      },
+      "timestamp": "2026-08-22T17:00:00+05:30",
+      "exact_excerpt": "Mention: R.K. Sharma; USES: P101. Identity not independently verified.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "rk-sharma",
+        "P101"
+      ],
+      "relationship_ids": [
+        "R-RES-01"
+      ],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-RES-02",
+      "source_id": "S09",
+      "source_filename": "resolution-mentions.csv",
+      "source_type": "Report",
+      "locator": {
+        "row": 3,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "name",
+          "associated_identifier"
+        ]
+      },
+      "timestamp": "2026-08-22T17:00:00+05:30",
+      "exact_excerpt": "Mention: Rahul Kumar Sharma; ASSOCIATED_WITH: V02. Identity not independently verified.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "rahul",
+        "V02"
+      ],
+      "relationship_ids": [
+        "R-RES-02"
+      ],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-RES-03",
+      "source_id": "S09",
+      "source_filename": "resolution-mentions.csv",
+      "source_type": "Report",
+      "locator": {
+        "row": 4,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "name",
+          "associated_identifier"
+        ]
+      },
+      "timestamp": "2026-08-22T17:00:00+05:30",
+      "exact_excerpt": "Mention: R.K. Sharma; ASSOCIATED_WITH: V02. Identity not independently verified.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "rk-sharma",
+        "V02"
+      ],
+      "relationship_ids": [
+        "R-RES-03"
+      ],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-RES-04",
+      "source_id": "S09",
+      "source_filename": "resolution-mentions.csv",
+      "source_type": "Report",
+      "locator": {
+        "row": 5,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "name",
+          "associated_identifier"
+        ]
+      },
+      "timestamp": "2026-08-22T17:00:00+05:30",
+      "exact_excerpt": "Mention: A. Verma; No phone or vehicle identifier supplied.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "a-verma"
+      ],
+      "relationship_ids": [],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-RES-05",
+      "source_id": "S09",
+      "source_filename": "resolution-mentions.csv",
+      "source_type": "Report",
+      "locator": {
+        "row": 6,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "name",
+          "associated_identifier"
+        ]
+      },
+      "timestamp": "2026-08-22T17:00:00+05:30",
+      "exact_excerpt": "Mention: Amit Verma; No phone or vehicle identifier supplied.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "amit"
+      ],
+      "relationship_ids": [],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-ALT-BASE-0-0",
+      "source_id": "S02",
+      "source_filename": "validation-22-cdr-baseline-08-15-to-08-21.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 16,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-15T10:20:00+05:30",
+      "exact_excerpt": "Synthetic routine contact: P101 -> P305; 2026-08-15T10:20:00+05:30; connected call, 60 seconds.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P101",
+        "P305"
+      ],
+      "relationship_ids": [],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-ALT-BASE-2-0",
+      "source_id": "S02",
+      "source_filename": "validation-22-cdr-baseline-08-15-to-08-21.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 17,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-17T10:20:00+05:30",
+      "exact_excerpt": "Synthetic routine contact: P101 -> P305; 2026-08-17T10:20:00+05:30; connected call, 60 seconds.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P101",
+        "P305"
+      ],
+      "relationship_ids": [],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-ALT-BASE-3-0",
+      "source_id": "S02",
+      "source_filename": "validation-22-cdr-baseline-08-15-to-08-21.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 18,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-18T10:20:00+05:30",
+      "exact_excerpt": "Synthetic routine contact: P101 -> P305; 2026-08-18T10:20:00+05:30; connected call, 60 seconds.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P101",
+        "P305"
+      ],
+      "relationship_ids": [],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-ALT-BASE-3-1",
+      "source_id": "S02",
+      "source_filename": "validation-22-cdr-baseline-08-15-to-08-21.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 19,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-18T10:21:00+05:30",
+      "exact_excerpt": "Synthetic routine contact: P101 -> P305; 2026-08-18T10:21:00+05:30; connected call, 60 seconds.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P101",
+        "P305"
+      ],
+      "relationship_ids": [],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-ALT-BASE-4-0",
+      "source_id": "S02",
+      "source_filename": "validation-22-cdr-baseline-08-15-to-08-21.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 20,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-19T10:20:00+05:30",
+      "exact_excerpt": "Synthetic routine contact: P101 -> P305; 2026-08-19T10:20:00+05:30; connected call, 60 seconds.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P101",
+        "P305"
+      ],
+      "relationship_ids": [],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-ALT-BASE-6-0",
+      "source_id": "S02",
+      "source_filename": "validation-22-cdr-baseline-08-15-to-08-21.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 21,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-21T10:20:00+05:30",
+      "exact_excerpt": "Synthetic routine contact: P101 -> P305; 2026-08-21T10:20:00+05:30; connected call, 60 seconds.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P101",
+        "P305"
+      ],
+      "relationship_ids": [],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-ALT-BASE-6-1",
+      "source_id": "S02",
+      "source_filename": "validation-22-cdr-baseline-08-15-to-08-21.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 22,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-21T10:21:00+05:30",
+      "exact_excerpt": "Synthetic routine contact: P101 -> P305; 2026-08-21T10:21:00+05:30; connected call, 60 seconds.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P101",
+        "P305"
+      ],
+      "relationship_ids": [],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-ALT-DAY-0",
+      "source_id": "S03",
+      "source_filename": "validation-22-cdr-event-2026-08-22.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 13,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-22T18:44:00+05:30",
+      "exact_excerpt": "Synthetic routine contact: P101 -> P204; 2026-08-22T18:44:00+05:30; connected call, 60 seconds.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P101",
+        "P204"
+      ],
+      "relationship_ids": [
+        "R02"
+      ],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-ALT-DAY-1",
+      "source_id": "S03",
+      "source_filename": "validation-22-cdr-event-2026-08-22.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 14,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-22T18:48:00+05:30",
+      "exact_excerpt": "Synthetic routine contact: P101 -> P204; 2026-08-22T18:48:00+05:30; connected call, 60 seconds.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P101",
+        "P204"
+      ],
+      "relationship_ids": [
+        "R02"
+      ],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-ALT-DAY-2",
+      "source_id": "S03",
+      "source_filename": "validation-22-cdr-event-2026-08-22.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 15,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-22T18:52:00+05:30",
+      "exact_excerpt": "Synthetic routine contact: P101 -> P204; 2026-08-22T18:52:00+05:30; connected call, 60 seconds.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P101",
+        "P204"
+      ],
+      "relationship_ids": [
+        "R02"
+      ],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-BENIGN-BASE-0-0",
+      "source_id": "S02",
+      "source_filename": "validation-22-cdr-baseline-08-15-to-08-21.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 100,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-15T10:00:00+05:30",
+      "exact_excerpt": "Synthetic routine contact: P314 -> P313; 2026-08-15T10:00:00+05:30; connected call, 60 seconds.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P314",
+        "P313"
+      ],
+      "relationship_ids": [],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-BENIGN-BASE-0-1",
+      "source_id": "S02",
+      "source_filename": "validation-22-cdr-baseline-08-15-to-08-21.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 101,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-15T10:01:00+05:30",
+      "exact_excerpt": "Synthetic routine contact: P314 -> P313; 2026-08-15T10:01:00+05:30; connected call, 60 seconds.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P314",
+        "P313"
+      ],
+      "relationship_ids": [],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-BENIGN-BASE-1-0",
+      "source_id": "S02",
+      "source_filename": "validation-22-cdr-baseline-08-15-to-08-21.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 102,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-16T10:00:00+05:30",
+      "exact_excerpt": "Synthetic routine contact: P314 -> P313; 2026-08-16T10:00:00+05:30; connected call, 60 seconds.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P314",
+        "P313"
+      ],
+      "relationship_ids": [],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-BENIGN-BASE-1-1",
+      "source_id": "S02",
+      "source_filename": "validation-22-cdr-baseline-08-15-to-08-21.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 103,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-16T10:01:00+05:30",
+      "exact_excerpt": "Synthetic routine contact: P314 -> P313; 2026-08-16T10:01:00+05:30; connected call, 60 seconds.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P314",
+        "P313"
+      ],
+      "relationship_ids": [],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-BENIGN-BASE-2-0",
+      "source_id": "S02",
+      "source_filename": "validation-22-cdr-baseline-08-15-to-08-21.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 104,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-17T10:00:00+05:30",
+      "exact_excerpt": "Synthetic routine contact: P314 -> P313; 2026-08-17T10:00:00+05:30; connected call, 60 seconds.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P314",
+        "P313"
+      ],
+      "relationship_ids": [],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-BENIGN-BASE-2-1",
+      "source_id": "S02",
+      "source_filename": "validation-22-cdr-baseline-08-15-to-08-21.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 105,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-17T10:01:00+05:30",
+      "exact_excerpt": "Synthetic routine contact: P314 -> P313; 2026-08-17T10:01:00+05:30; connected call, 60 seconds.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P314",
+        "P313"
+      ],
+      "relationship_ids": [],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-BENIGN-BASE-3-0",
+      "source_id": "S02",
+      "source_filename": "validation-22-cdr-baseline-08-15-to-08-21.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 106,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-18T10:00:00+05:30",
+      "exact_excerpt": "Synthetic routine contact: P314 -> P313; 2026-08-18T10:00:00+05:30; connected call, 60 seconds.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P314",
+        "P313"
+      ],
+      "relationship_ids": [],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-BENIGN-BASE-3-1",
+      "source_id": "S02",
+      "source_filename": "validation-22-cdr-baseline-08-15-to-08-21.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 107,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-18T10:01:00+05:30",
+      "exact_excerpt": "Synthetic routine contact: P314 -> P313; 2026-08-18T10:01:00+05:30; connected call, 60 seconds.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P314",
+        "P313"
+      ],
+      "relationship_ids": [],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-BENIGN-BASE-4-0",
+      "source_id": "S02",
+      "source_filename": "validation-22-cdr-baseline-08-15-to-08-21.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 108,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-19T10:00:00+05:30",
+      "exact_excerpt": "Synthetic routine contact: P314 -> P313; 2026-08-19T10:00:00+05:30; connected call, 60 seconds.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P314",
+        "P313"
+      ],
+      "relationship_ids": [],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-BENIGN-BASE-4-1",
+      "source_id": "S02",
+      "source_filename": "validation-22-cdr-baseline-08-15-to-08-21.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 109,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-19T10:01:00+05:30",
+      "exact_excerpt": "Synthetic routine contact: P314 -> P313; 2026-08-19T10:01:00+05:30; connected call, 60 seconds.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P314",
+        "P313"
+      ],
+      "relationship_ids": [],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-BENIGN-BASE-5-0",
+      "source_id": "S02",
+      "source_filename": "validation-22-cdr-baseline-08-15-to-08-21.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 110,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-20T10:00:00+05:30",
+      "exact_excerpt": "Synthetic routine contact: P314 -> P313; 2026-08-20T10:00:00+05:30; connected call, 60 seconds.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P314",
+        "P313"
+      ],
+      "relationship_ids": [],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-BENIGN-BASE-5-1",
+      "source_id": "S02",
+      "source_filename": "validation-22-cdr-baseline-08-15-to-08-21.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 111,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-20T10:01:00+05:30",
+      "exact_excerpt": "Synthetic routine contact: P314 -> P313; 2026-08-20T10:01:00+05:30; connected call, 60 seconds.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P314",
+        "P313"
+      ],
+      "relationship_ids": [],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-BENIGN-BASE-6-0",
+      "source_id": "S02",
+      "source_filename": "validation-22-cdr-baseline-08-15-to-08-21.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 112,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-21T10:00:00+05:30",
+      "exact_excerpt": "Synthetic routine contact: P314 -> P313; 2026-08-21T10:00:00+05:30; connected call, 60 seconds.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P314",
+        "P313"
+      ],
+      "relationship_ids": [],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-BENIGN-BASE-6-1",
+      "source_id": "S02",
+      "source_filename": "validation-22-cdr-baseline-08-15-to-08-21.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 113,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-21T10:01:00+05:30",
+      "exact_excerpt": "Synthetic routine contact: P314 -> P313; 2026-08-21T10:01:00+05:30; connected call, 60 seconds.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P314",
+        "P313"
+      ],
+      "relationship_ids": [],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-BENIGN-DAY-0",
+      "source_id": "S03",
+      "source_filename": "validation-22-cdr-event-2026-08-22.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 100,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-22T12:00:00+05:30",
+      "exact_excerpt": "Labelled benign synthetic service-status check: P314 -> P313; 2026-08-22T12:00:00+05:30; connected call, 60 seconds.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P314",
+        "P313"
+      ],
+      "relationship_ids": [],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-BENIGN-DAY-1",
+      "source_id": "S03",
+      "source_filename": "validation-22-cdr-event-2026-08-22.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 101,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-22T12:01:00+05:30",
+      "exact_excerpt": "Labelled benign synthetic service-status check: P314 -> P313; 2026-08-22T12:01:00+05:30; connected call, 60 seconds.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P314",
+        "P313"
+      ],
+      "relationship_ids": [],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-BENIGN-DAY-2",
+      "source_id": "S03",
+      "source_filename": "validation-22-cdr-event-2026-08-22.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 102,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-22T12:02:00+05:30",
+      "exact_excerpt": "Labelled benign synthetic service-status check: P314 -> P313; 2026-08-22T12:02:00+05:30; connected call, 60 seconds.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P314",
+        "P313"
+      ],
+      "relationship_ids": [],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-BENIGN-DAY-3",
+      "source_id": "S03",
+      "source_filename": "validation-22-cdr-event-2026-08-22.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 103,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-22T12:03:00+05:30",
+      "exact_excerpt": "Labelled benign synthetic service-status check: P314 -> P313; 2026-08-22T12:03:00+05:30; connected call, 60 seconds.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P314",
+        "P313"
+      ],
+      "relationship_ids": [],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-BENIGN-DAY-4",
+      "source_id": "S03",
+      "source_filename": "validation-22-cdr-event-2026-08-22.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 104,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-22T12:04:00+05:30",
+      "exact_excerpt": "Labelled benign synthetic service-status check: P314 -> P313; 2026-08-22T12:04:00+05:30; connected call, 60 seconds.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P314",
+        "P313"
+      ],
+      "relationship_ids": [],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-BENIGN-DAY-5",
+      "source_id": "S03",
+      "source_filename": "validation-22-cdr-event-2026-08-22.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 105,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-22T12:05:00+05:30",
+      "exact_excerpt": "Labelled benign synthetic service-status check: P314 -> P313; 2026-08-22T12:05:00+05:30; connected call, 60 seconds.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P314",
+        "P313"
+      ],
+      "relationship_ids": [],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-BENIGN-DAY-6",
+      "source_id": "S03",
+      "source_filename": "validation-22-cdr-event-2026-08-22.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 106,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-22T12:06:00+05:30",
+      "exact_excerpt": "Labelled benign synthetic service-status check: P314 -> P313; 2026-08-22T12:06:00+05:30; connected call, 60 seconds.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P314",
+        "P313"
+      ],
+      "relationship_ids": [],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-BENIGN-DAY-7",
+      "source_id": "S03",
+      "source_filename": "validation-22-cdr-event-2026-08-22.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 107,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-22T12:07:00+05:30",
+      "exact_excerpt": "Labelled benign synthetic service-status check: P314 -> P313; 2026-08-22T12:07:00+05:30; connected call, 60 seconds.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P314",
+        "P313"
+      ],
+      "relationship_ids": [],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-BENIGN-DAY-8",
+      "source_id": "S03",
+      "source_filename": "validation-22-cdr-event-2026-08-22.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 108,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-22T12:08:00+05:30",
+      "exact_excerpt": "Labelled benign synthetic service-status check: P314 -> P313; 2026-08-22T12:08:00+05:30; connected call, 60 seconds.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P314",
+        "P313"
+      ],
+      "relationship_ids": [],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-BENIGN-DAY-9",
+      "source_id": "S03",
+      "source_filename": "validation-22-cdr-event-2026-08-22.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 109,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-22T12:09:00+05:30",
+      "exact_excerpt": "Labelled benign synthetic service-status check: P314 -> P313; 2026-08-22T12:09:00+05:30; connected call, 60 seconds.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P314",
+        "P313"
+      ],
+      "relationship_ids": [],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-BENIGN-DAY-10",
+      "source_id": "S03",
+      "source_filename": "validation-22-cdr-event-2026-08-22.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 110,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-22T12:10:00+05:30",
+      "exact_excerpt": "Labelled benign synthetic service-status check: P314 -> P313; 2026-08-22T12:10:00+05:30; connected call, 60 seconds.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P314",
+        "P313"
+      ],
+      "relationship_ids": [],
+      "parser_version": null,
+      "source_record_id": null
+    },
+    {
+      "id": "E-BENIGN-DAY-11",
+      "source_id": "S03",
+      "source_filename": "validation-22-cdr-event-2026-08-22.csv",
+      "source_type": "CDR",
+      "locator": {
+        "row": 111,
+        "page": null,
+        "paragraph": null,
+        "span_start": null,
+        "span_end": null,
+        "fields": [
+          "caller",
+          "callee",
+          "start",
+          "duration_seconds"
+        ]
+      },
+      "timestamp": "2026-08-22T12:11:00+05:30",
+      "exact_excerpt": "Labelled benign synthetic service-status check: P314 -> P313; 2026-08-22T12:11:00+05:30; connected call, 60 seconds.",
+      "verification_status": "Synthetic source record · not independently verified",
+      "entity_ids": [
+        "P314",
+        "P313"
+      ],
+      "relationship_ids": [],
+      "parser_version": null,
+      "source_record_id": null
+    }
+  ]
+}

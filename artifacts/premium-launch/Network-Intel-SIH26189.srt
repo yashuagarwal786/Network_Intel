@@ -1,0 +1,63 @@
+1
+00:00:00,700 --> 00:00:05,503
+A criminal network rarely appears in a single file.
+
+2
+00:00:07,000 --> 00:00:14,466
+One name may sit in a complaint. A phone in a call record. An account in a transaction. A location somewhere else.
+
+3
+00:00:15,200 --> 00:00:21,731
+The evidence may already exist. The connection may still be buried.
+
+4
+00:00:23,300 --> 00:00:29,961
+And as records multiply, the search space grows faster than any manual review.
+
+5
+00:00:33,100 --> 00:00:38,263
+What if those fragments could become one connected investigation?
+
+6
+00:00:43,100 --> 00:00:44,963
+Network Intel.
+
+7
+00:00:50,000 --> 00:01:04,660
+It processes supported structured records and controlled report text, turning isolated mentions into entities investigators can work with: people, phones, accounts, vehicles and locations.
+
+8
+00:01:07,000 --> 00:01:19,563
+Because the same person can appear differently across records, Network Intel proposes possible identity matches. Evidence supports the comparison. Uncertainty stays with the investigator.
+
+9
+00:01:22,100 --> 00:01:38,159
+Relationships once scattered across files become part of one investigation graph. People, devices and accounts can now be explored in context, without losing the records that support them.
+
+10
+00:01:41,000 --> 00:01:50,662
+Now ask a question that would otherwise require record-by-record searching. How are Rahul Sharma and Vikram Singh connected?
+
+11
+00:01:51,400 --> 00:02:02,270
+Network Intel runs a bounded graph search. One sourced step at a time, a six-hop association emerges through P101, P204, Amit Verma, A17 and A31.
+
+12
+00:02:05,200 --> 00:02:11,571
+But an investigation cannot depend on a black box. Every important connection must remain inspectable.
+
+13
+00:02:14,000 --> 00:02:23,760
+Here, the analytical lead returns to the transaction file, exact row, timestamp, verification status and original excerpt.
+
+14
+00:02:26,000 --> 00:02:37,765
+The system surfaces a connection. Evidence supports it. The investigator remains the final authority, able to confirm, reject, defer, or request more evidence.
+
+15
+00:02:40,000 --> 00:02:42,859
+Less manual cross-referencing. Non-obvious paths made visible. Reviewable leads with their evidence still attached.
+
+16
+00:02:49,200 --> 00:02:54,574
+The evidence may already be there. Network Intel helps investigators see how it connects.

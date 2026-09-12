@@ -1,0 +1,367 @@
+{
+  "case": {
+    "id": "trinetra",
+    "name": "Operation Trinetra",
+    "reference": "TRN / 2026 / 018",
+    "synthetic": true
+  },
+  "entities": [
+    {
+      "id": "p1",
+      "label": "Arjun Mehta",
+      "type": "Person",
+      "x": 160,
+      "y": 210,
+      "description": "Fictional person record in Operation Trinetra."
+    },
+    {
+      "id": "p2",
+      "label": "Neel Rao",
+      "type": "Person",
+      "x": 730,
+      "y": 200,
+      "description": "Fictional person record in Operation Trinetra."
+    },
+    {
+      "id": "alias",
+      "label": "A. Mehta",
+      "type": "Alias",
+      "x": 140,
+      "y": 60,
+      "description": "Fictional alias record in Operation Trinetra."
+    },
+    {
+      "id": "ph1",
+      "label": "SIM \u2022 0142",
+      "type": "Phone",
+      "x": 340,
+      "y": 150,
+      "description": "Fictional phone record in Operation Trinetra."
+    },
+    {
+      "id": "ph2",
+      "label": "SIM \u2022 0287",
+      "type": "Phone",
+      "x": 550,
+      "y": 150,
+      "description": "Fictional phone record in Operation Trinetra."
+    },
+    {
+      "id": "a1",
+      "label": "Account \u2022 4102",
+      "type": "Account",
+      "x": 320,
+      "y": 330,
+      "description": "Fictional account record in Operation Trinetra."
+    },
+    {
+      "id": "a2",
+      "label": "Account \u2022 8821",
+      "type": "Account",
+      "x": 560,
+      "y": 330,
+      "description": "Fictional account record in Operation Trinetra."
+    },
+    {
+      "id": "v1",
+      "label": "DEMO-VH-07",
+      "type": "Vehicle",
+      "x": 730,
+      "y": 390,
+      "description": "Fictional vehicle record in Operation Trinetra."
+    },
+    {
+      "id": "loc",
+      "label": "Rivergate depot",
+      "type": "Location",
+      "x": 760,
+      "y": 540,
+      "description": "Fictional location record in Operation Trinetra."
+    },
+    {
+      "id": "org",
+      "label": "Mira Logistics",
+      "type": "Organization",
+      "x": 470,
+      "y": 510,
+      "description": "Fictional organization record in Operation Trinetra."
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E001",
+      "kind": "Report",
+      "file": "field-report-01.txt",
+      "locator": "paragraph 3",
+      "timestamp": "2026-08-14T08:00:00+05:30",
+      "excerpt": "The interview log lists Arjun Mehta with demonstration SIM 0142. Identity has not been independently verified.",
+      "synthetic": true
+    },
+    {
+      "id": "E002",
+      "kind": "Report",
+      "file": "field-report-02.txt",
+      "locator": "paragraph 2",
+      "timestamp": "2026-08-14T08:15:00+05:30",
+      "excerpt": "The contact sheet lists Neel Rao with demonstration SIM 0287.",
+      "synthetic": true
+    },
+    {
+      "id": "E003",
+      "kind": "Transaction",
+      "file": "account-register.csv",
+      "locator": "row 2 \u00b7 account_holder",
+      "timestamp": "2026-08-14T09:00:00+05:30",
+      "excerpt": "DEMO account 4102 holder: Arjun Mehta.",
+      "synthetic": true
+    },
+    {
+      "id": "E004",
+      "kind": "Transaction",
+      "file": "account-register.csv",
+      "locator": "row 3 \u00b7 account_holder",
+      "timestamp": "2026-08-14T09:00:00+05:30",
+      "excerpt": "DEMO account 8821 holder: Neel Rao.",
+      "synthetic": true
+    },
+    {
+      "id": "E005",
+      "kind": "CDR",
+      "file": "cdr-20260815.csv",
+      "locator": "row 2 \u00b7 caller, callee, start",
+      "timestamp": "2026-08-15T21:10:00+05:30",
+      "excerpt": "SIM 0142 \u2192 SIM 0287; 21:10 IST; duration 80 seconds. Call content is unavailable.",
+      "synthetic": true
+    },
+    {
+      "id": "E006",
+      "kind": "CDR",
+      "file": "cdr-20260815.csv",
+      "locator": "row 3 \u00b7 caller, callee, start",
+      "timestamp": "2026-08-15T21:18:00+05:30",
+      "excerpt": "SIM 0142 \u2192 SIM 0287; 21:18 IST; duration 100 seconds. Call content is unavailable.",
+      "synthetic": true
+    },
+    {
+      "id": "E007",
+      "kind": "CDR",
+      "file": "cdr-20260815.csv",
+      "locator": "row 4 \u00b7 caller, callee, start",
+      "timestamp": "2026-08-15T21:26:00+05:30",
+      "excerpt": "SIM 0142 \u2192 SIM 0287; 21:26 IST; duration 120 seconds. Call content is unavailable.",
+      "synthetic": true
+    },
+    {
+      "id": "E008",
+      "kind": "Transaction",
+      "file": "transfers-20260815.csv",
+      "locator": "row 2 \u00b7 sender, receiver, amount, time",
+      "timestamp": "2026-08-15T21:42:00+05:30",
+      "excerpt": "DEMO account 4102 \u2192 DEMO account 8821; INR 48,000; 21:42 IST; purpose unspecified.",
+      "synthetic": true
+    },
+    {
+      "id": "E009",
+      "kind": "Vehicle",
+      "file": "vehicle-register.csv",
+      "locator": "row 2 \u00b7 keeper",
+      "timestamp": "2026-08-14T10:00:00+05:30",
+      "excerpt": "DEMO-VH-07 registered keeper: Neel Rao. Keeper is not necessarily the driver.",
+      "synthetic": true
+    },
+    {
+      "id": "E010",
+      "kind": "Vehicle",
+      "file": "vehicle-observations.csv",
+      "locator": "row 2 \u00b7 vehicle, location, time",
+      "timestamp": "2026-08-15T22:05:00+05:30",
+      "excerpt": "DEMO-VH-07 logged at Rivergate depot at 22:05 IST. Occupants unknown.",
+      "synthetic": true
+    },
+    {
+      "id": "E011",
+      "kind": "Report",
+      "file": "site-register.txt",
+      "locator": "paragraph 1",
+      "timestamp": "2026-08-14T11:00:00+05:30",
+      "excerpt": "Mira Logistics is listed as tenant of Rivergate depot.",
+      "synthetic": true
+    },
+    {
+      "id": "E012",
+      "kind": "Report",
+      "file": "delivery-note.txt",
+      "locator": "paragraph 4",
+      "timestamp": "2026-08-15T17:00:00+05:30",
+      "excerpt": "A. Mehta appears as delivery contact for Mira Logistics. No unique identifier supplied.",
+      "synthetic": true
+    },
+    {
+      "id": "E013",
+      "kind": "Report",
+      "file": "delivery-note.txt",
+      "locator": "paragraph 4 \u00b7 contact name",
+      "timestamp": "2026-08-15T17:00:00+05:30",
+      "excerpt": "Contact name: A. Mehta. This initial and surname could match multiple people.",
+      "synthetic": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "r001",
+      "source": "p1",
+      "target": "ph1",
+      "type": "listed phone",
+      "status": "recorded",
+      "evidence_ids": [
+        "E001"
+      ],
+      "timestamp": "2026-08-14T08:00:00+05:30"
+    },
+    {
+      "id": "r002",
+      "source": "p2",
+      "target": "ph2",
+      "type": "listed phone",
+      "status": "recorded",
+      "evidence_ids": [
+        "E002"
+      ],
+      "timestamp": "2026-08-14T08:15:00+05:30"
+    },
+    {
+      "id": "r003",
+      "source": "p1",
+      "target": "a1",
+      "type": "account holder",
+      "status": "recorded",
+      "evidence_ids": [
+        "E003"
+      ],
+      "timestamp": "2026-08-14T09:00:00+05:30"
+    },
+    {
+      "id": "r004",
+      "source": "p2",
+      "target": "a2",
+      "type": "account holder",
+      "status": "recorded",
+      "evidence_ids": [
+        "E004"
+      ],
+      "timestamp": "2026-08-14T09:00:00+05:30"
+    },
+    {
+      "id": "r005",
+      "source": "ph1",
+      "target": "ph2",
+      "type": "call",
+      "status": "recorded",
+      "evidence_ids": [
+        "E005"
+      ],
+      "timestamp": "2026-08-15T21:10:00+05:30"
+    },
+    {
+      "id": "r006",
+      "source": "ph1",
+      "target": "ph2",
+      "type": "call",
+      "status": "recorded",
+      "evidence_ids": [
+        "E006"
+      ],
+      "timestamp": "2026-08-15T21:18:00+05:30"
+    },
+    {
+      "id": "r007",
+      "source": "ph1",
+      "target": "ph2",
+      "type": "call",
+      "status": "recorded",
+      "evidence_ids": [
+        "E007"
+      ],
+      "timestamp": "2026-08-15T21:26:00+05:30"
+    },
+    {
+      "id": "r008",
+      "source": "a1",
+      "target": "a2",
+      "type": "transfer",
+      "status": "recorded",
+      "evidence_ids": [
+        "E008"
+      ],
+      "timestamp": "2026-08-15T21:42:00+05:30"
+    },
+    {
+      "id": "r009",
+      "source": "p2",
+      "target": "v1",
+      "type": "registered keeper",
+      "status": "recorded",
+      "evidence_ids": [
+        "E009"
+      ],
+      "timestamp": "2026-08-14T10:00:00+05:30"
+    },
+    {
+      "id": "r010",
+      "source": "v1",
+      "target": "loc",
+      "type": "observed at",
+      "status": "recorded",
+      "evidence_ids": [
+        "E010"
+      ],
+      "timestamp": "2026-08-15T22:05:00+05:30"
+    },
+    {
+      "id": "r011",
+      "source": "org",
+      "target": "loc",
+      "type": "listed tenant",
+      "status": "recorded",
+      "evidence_ids": [
+        "E011"
+      ],
+      "timestamp": "2026-08-14T11:00:00+05:30"
+    },
+    {
+      "id": "r012",
+      "source": "alias",
+      "target": "org",
+      "type": "delivery contact",
+      "status": "recorded",
+      "evidence_ids": [
+        "E012"
+      ],
+      "timestamp": "2026-08-15T17:00:00+05:30"
+    },
+    {
+      "id": "r13",
+      "source": "alias",
+      "target": "p1",
+      "type": "possible alias",
+      "status": "inferred",
+      "evidence_ids": [
+        "E001",
+        "E013"
+      ],
+      "timestamp": "2026-08-15T17:00:00+05:30"
+    }
+  ],
+  "aliases": [
+    {
+      "id": "alias-01",
+      "left": "alias",
+      "right": "p1",
+      "evidence_ids": [
+        "E001",
+        "E013"
+      ],
+      "reason": "Same surname and compatible first initial. No shared unique identifier; insufficient evidence to merge."
+    }
+  ]
+}

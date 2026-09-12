@@ -1,0 +1,853 @@
+[
+  {
+    "audit_event_id": "032d47a4-75df-464a-96bc-486440a5661c",
+    "case_id": "VEIL-DEMO-001",
+    "actor": "Local demo session",
+    "actor_type": "HUMAN",
+    "action": "INTAKE_RESET",
+    "object_type": "case",
+    "object_id": "VEIL-DEMO-001",
+    "old_state": {
+      "source_ids": [
+        "F-f6a1e88dd6f4b1669d94",
+        "F-407fb147afef3ebc7ddb",
+        "F-ea3c2b8c497d396902f5",
+        "F-131b5d2093a9b4572289"
+      ]
+    },
+    "new_state": {
+      "source_ids": [
+        "F-f6a1e88dd6f4b1669d94",
+        "F-407fb147afef3ebc7ddb",
+        "F-ea3c2b8c497d396902f5",
+        "F-131b5d2093a9b4572289"
+      ]
+    },
+    "reason": "",
+    "created_at": "2026-09-05T08:05:41.088106+00:00",
+    "involved_entity_ids": [],
+    "evidence_ids": [],
+    "source_types": []
+  },
+  {
+    "audit_event_id": "33733c50-ea58-490f-b69a-fd4743090900",
+    "case_id": "VEIL-DEMO-001",
+    "actor": "Local demo session",
+    "actor_type": "HUMAN",
+    "action": "SOURCE_UPLOADED",
+    "object_type": "source",
+    "object_id": "F-f6a1e88dd6f4b1669d94",
+    "old_state": {},
+    "new_state": {
+      "source_file_id": "F-f6a1e88dd6f4b1669d94",
+      "case_id": "VEIL-DEMO-001",
+      "filename": "report.txt",
+      "source_type": "Report",
+      "checksum": "84a499e01dc066c3c3569eed8f7fc09022b4c6c0f785a23e8c49c6431b660f07",
+      "parser_version": "controlled-intake-v1",
+      "uploaded_at": "2026-09-05T08:05:41.084915+00:00",
+      "record_count": 8,
+      "processing_status": "VALIDATED",
+      "validation_errors": []
+    },
+    "reason": "",
+    "created_at": "2026-09-05T08:05:41.088754+00:00",
+    "involved_entity_ids": [],
+    "evidence_ids": [],
+    "source_types": [
+      "Report"
+    ]
+  },
+  {
+    "audit_event_id": "4b35b41b-4a47-4ee6-939e-6aa5756229e7",
+    "case_id": "VEIL-DEMO-001",
+    "actor": "Local demo session",
+    "actor_type": "HUMAN",
+    "action": "SOURCE_UPLOADED",
+    "object_type": "source",
+    "object_id": "F-407fb147afef3ebc7ddb",
+    "old_state": {},
+    "new_state": {
+      "source_file_id": "F-407fb147afef3ebc7ddb",
+      "case_id": "VEIL-DEMO-001",
+      "filename": "cdr.csv",
+      "source_type": "CDR",
+      "checksum": "314e16568f2bb7319a1eb961aebf430cbe6a6a2ea548812759d40019f40947f8",
+      "parser_version": "controlled-intake-v1",
+      "uploaded_at": "2026-09-05T08:05:41.085727+00:00",
+      "record_count": 3,
+      "processing_status": "VALIDATED_WITH_ERRORS",
+      "validation_errors": [
+        "Row 4: duration_seconds must be between 0 and 86400"
+      ]
+    },
+    "reason": "",
+    "created_at": "2026-09-05T08:05:41.088816+00:00",
+    "involved_entity_ids": [],
+    "evidence_ids": [],
+    "source_types": [
+      "CDR"
+    ]
+  },
+  {
+    "audit_event_id": "fbfc53b3-44ed-41cf-854a-b2a575660d8f",
+    "case_id": "VEIL-DEMO-001",
+    "actor": "Local demo session",
+    "actor_type": "HUMAN",
+    "action": "SOURCE_UPLOADED",
+    "object_type": "source",
+    "object_id": "F-ea3c2b8c497d396902f5",
+    "old_state": {},
+    "new_state": {
+      "source_file_id": "F-ea3c2b8c497d396902f5",
+      "case_id": "VEIL-DEMO-001",
+      "filename": "transactions.csv",
+      "source_type": "Transaction",
+      "checksum": "0cf33ed9be7197fd59267a93e426a0b410a4ea6a1a2e6414039e4050241e274a",
+      "parser_version": "controlled-intake-v1",
+      "uploaded_at": "2026-09-05T08:05:41.087035+00:00",
+      "record_count": 2,
+      "processing_status": "VALIDATED",
+      "validation_errors": []
+    },
+    "reason": "",
+    "created_at": "2026-09-05T08:05:41.088846+00:00",
+    "involved_entity_ids": [],
+    "evidence_ids": [],
+    "source_types": [
+      "Transaction"
+    ]
+  },
+  {
+    "audit_event_id": "93560ad0-050f-4a01-9059-a13e3fbf55aa",
+    "case_id": "VEIL-DEMO-001",
+    "actor": "Local demo session",
+    "actor_type": "HUMAN",
+    "action": "SOURCE_UPLOADED",
+    "object_type": "source",
+    "object_id": "F-131b5d2093a9b4572289",
+    "old_state": {},
+    "new_state": {
+      "source_file_id": "F-131b5d2093a9b4572289",
+      "case_id": "VEIL-DEMO-001",
+      "filename": "vehicles.csv",
+      "source_type": "Vehicle",
+      "checksum": "cf8e8162da3f84345d9e80c41328a227529ecb55c1d1dba917e4874a16ae981c",
+      "parser_version": "controlled-intake-v1",
+      "uploaded_at": "2026-09-05T08:05:41.087763+00:00",
+      "record_count": 2,
+      "processing_status": "VALIDATED",
+      "validation_errors": []
+    },
+    "reason": "",
+    "created_at": "2026-09-05T08:05:41.088872+00:00",
+    "involved_entity_ids": [],
+    "evidence_ids": [],
+    "source_types": [
+      "Vehicle"
+    ]
+  },
+  {
+    "audit_event_id": "bc68622a-1c65-47f1-974d-e8ef3838ce24",
+    "case_id": "VEIL-DEMO-001",
+    "actor": "controlled-intake-v1",
+    "actor_type": "SYSTEM",
+    "action": "SOURCE_PROCESSED",
+    "object_type": "source",
+    "object_id": "F-f6a1e88dd6f4b1669d94",
+    "old_state": {
+      "source_file_id": "F-f6a1e88dd6f4b1669d94",
+      "case_id": "VEIL-DEMO-001",
+      "filename": "report.txt",
+      "source_type": "Report",
+      "checksum": "84a499e01dc066c3c3569eed8f7fc09022b4c6c0f785a23e8c49c6431b660f07",
+      "parser_version": "controlled-intake-v1",
+      "uploaded_at": "2026-09-05T08:05:41.084915+00:00",
+      "record_count": 8,
+      "processing_status": "VALIDATED",
+      "validation_errors": []
+    },
+    "new_state": {
+      "source_file_id": "F-f6a1e88dd6f4b1669d94",
+      "case_id": "VEIL-DEMO-001",
+      "filename": "report.txt",
+      "source_type": "Report",
+      "checksum": "84a499e01dc066c3c3569eed8f7fc09022b4c6c0f785a23e8c49c6431b660f07",
+      "parser_version": "controlled-intake-v1",
+      "uploaded_at": "2026-09-05T08:05:41.084915+00:00",
+      "record_count": 8,
+      "processing_status": "PROCESSED",
+      "validation_errors": []
+    },
+    "reason": "",
+    "created_at": "2026-09-05T08:05:41.100882+00:00",
+    "involved_entity_ids": [
+      "I-0657c0e4f781ed75550c",
+      "I-0fed290e433100f7b67d",
+      "I-811a863d34070ab71c39",
+      "I-add56ab07cb090b13f45",
+      "I-bd6a5bf267d56b864e56",
+      "I-d04cab7ee67746895070",
+      "I-de6836f9b12d10924b1e",
+      "I-e41fbbff00f640d0f4f7"
+    ],
+    "evidence_ids": [
+      "E-F-f6a1e88dd6f4b1669d94-r1",
+      "E-F-f6a1e88dd6f4b1669d94-r2",
+      "E-F-f6a1e88dd6f4b1669d94-r3",
+      "E-F-f6a1e88dd6f4b1669d94-r4",
+      "E-F-f6a1e88dd6f4b1669d94-r5",
+      "E-F-f6a1e88dd6f4b1669d94-r6",
+      "E-F-f6a1e88dd6f4b1669d94-r7",
+      "E-F-f6a1e88dd6f4b1669d94-r8"
+    ],
+    "source_types": [
+      "Report"
+    ]
+  },
+  {
+    "audit_event_id": "b615414e-9b8a-4c60-a52f-41ade1788dd9",
+    "case_id": "VEIL-DEMO-001",
+    "actor": "controlled-intake-v1",
+    "actor_type": "SYSTEM",
+    "action": "SOURCE_PROCESSED",
+    "object_type": "source",
+    "object_id": "F-407fb147afef3ebc7ddb",
+    "old_state": {
+      "source_file_id": "F-407fb147afef3ebc7ddb",
+      "case_id": "VEIL-DEMO-001",
+      "filename": "cdr.csv",
+      "source_type": "CDR",
+      "checksum": "314e16568f2bb7319a1eb961aebf430cbe6a6a2ea548812759d40019f40947f8",
+      "parser_version": "controlled-intake-v1",
+      "uploaded_at": "2026-09-05T08:05:41.085727+00:00",
+      "record_count": 3,
+      "processing_status": "VALIDATED_WITH_ERRORS",
+      "validation_errors": [
+        "Row 4: duration_seconds must be between 0 and 86400"
+      ]
+    },
+    "new_state": {
+      "source_file_id": "F-407fb147afef3ebc7ddb",
+      "case_id": "VEIL-DEMO-001",
+      "filename": "cdr.csv",
+      "source_type": "CDR",
+      "checksum": "314e16568f2bb7319a1eb961aebf430cbe6a6a2ea548812759d40019f40947f8",
+      "parser_version": "controlled-intake-v1",
+      "uploaded_at": "2026-09-05T08:05:41.085727+00:00",
+      "record_count": 3,
+      "processing_status": "PROCESSED_WITH_ERRORS",
+      "validation_errors": [
+        "Row 4: duration_seconds must be between 0 and 86400"
+      ]
+    },
+    "reason": "",
+    "created_at": "2026-09-05T08:05:41.101676+00:00",
+    "involved_entity_ids": [
+      "I-3768b18f2af964e165e4",
+      "I-811a863d34070ab71c39",
+      "I-9cdea8af1311a7e84749",
+      "I-de9bde9d22b1c67ce74c",
+      "I-e41fbbff00f640d0f4f7"
+    ],
+    "evidence_ids": [
+      "E-F-407fb147afef3ebc7ddb-r1",
+      "E-F-407fb147afef3ebc7ddb-r2",
+      "E-F-407fb147afef3ebc7ddb-r3"
+    ],
+    "source_types": [
+      "CDR"
+    ]
+  },
+  {
+    "audit_event_id": "535c22c3-52dc-4126-a45a-4f6484d01853",
+    "case_id": "VEIL-DEMO-001",
+    "actor": "controlled-intake-v1",
+    "actor_type": "SYSTEM",
+    "action": "SOURCE_PROCESSED",
+    "object_type": "source",
+    "object_id": "F-ea3c2b8c497d396902f5",
+    "old_state": {
+      "source_file_id": "F-ea3c2b8c497d396902f5",
+      "case_id": "VEIL-DEMO-001",
+      "filename": "transactions.csv",
+      "source_type": "Transaction",
+      "checksum": "0cf33ed9be7197fd59267a93e426a0b410a4ea6a1a2e6414039e4050241e274a",
+      "parser_version": "controlled-intake-v1",
+      "uploaded_at": "2026-09-05T08:05:41.087035+00:00",
+      "record_count": 2,
+      "processing_status": "VALIDATED",
+      "validation_errors": []
+    },
+    "new_state": {
+      "source_file_id": "F-ea3c2b8c497d396902f5",
+      "case_id": "VEIL-DEMO-001",
+      "filename": "transactions.csv",
+      "source_type": "Transaction",
+      "checksum": "0cf33ed9be7197fd59267a93e426a0b410a4ea6a1a2e6414039e4050241e274a",
+      "parser_version": "controlled-intake-v1",
+      "uploaded_at": "2026-09-05T08:05:41.087035+00:00",
+      "record_count": 2,
+      "processing_status": "PROCESSED",
+      "validation_errors": []
+    },
+    "reason": "",
+    "created_at": "2026-09-05T08:05:41.101749+00:00",
+    "involved_entity_ids": [
+      "I-19c09fcdfb563755e407",
+      "I-ced4c916f2961fedc89a",
+      "I-fc3f6d30ff192496c854"
+    ],
+    "evidence_ids": [
+      "E-F-ea3c2b8c497d396902f5-r1",
+      "E-F-ea3c2b8c497d396902f5-r2"
+    ],
+    "source_types": [
+      "Transaction"
+    ]
+  },
+  {
+    "audit_event_id": "bdacea0a-6727-493f-8684-98913531ba20",
+    "case_id": "VEIL-DEMO-001",
+    "actor": "controlled-intake-v1",
+    "actor_type": "SYSTEM",
+    "action": "SOURCE_PROCESSED",
+    "object_type": "source",
+    "object_id": "F-131b5d2093a9b4572289",
+    "old_state": {
+      "source_file_id": "F-131b5d2093a9b4572289",
+      "case_id": "VEIL-DEMO-001",
+      "filename": "vehicles.csv",
+      "source_type": "Vehicle",
+      "checksum": "cf8e8162da3f84345d9e80c41328a227529ecb55c1d1dba917e4874a16ae981c",
+      "parser_version": "controlled-intake-v1",
+      "uploaded_at": "2026-09-05T08:05:41.087763+00:00",
+      "record_count": 2,
+      "processing_status": "VALIDATED",
+      "validation_errors": []
+    },
+    "new_state": {
+      "source_file_id": "F-131b5d2093a9b4572289",
+      "case_id": "VEIL-DEMO-001",
+      "filename": "vehicles.csv",
+      "source_type": "Vehicle",
+      "checksum": "cf8e8162da3f84345d9e80c41328a227529ecb55c1d1dba917e4874a16ae981c",
+      "parser_version": "controlled-intake-v1",
+      "uploaded_at": "2026-09-05T08:05:41.087763+00:00",
+      "record_count": 2,
+      "processing_status": "PROCESSED",
+      "validation_errors": []
+    },
+    "reason": "",
+    "created_at": "2026-09-05T08:05:41.101783+00:00",
+    "involved_entity_ids": [
+      "I-0fed290e433100f7b67d",
+      "I-139ad16324278011ae1f",
+      "I-3768b18f2af964e165e4",
+      "I-4d9bf984339ad5054382",
+      "I-e41fbbff00f640d0f4f7"
+    ],
+    "evidence_ids": [
+      "E-F-131b5d2093a9b4572289-r1",
+      "E-F-131b5d2093a9b4572289-r2"
+    ],
+    "source_types": [
+      "Vehicle"
+    ]
+  },
+  {
+    "audit_event_id": "4097da9b-9f91-48c7-a019-9f3ae5e24aef",
+    "case_id": "VEIL-DEMO-001",
+    "actor": "temporal-leads-v1",
+    "actor_type": "SYSTEM",
+    "action": "LEAD_GENERATED",
+    "object_type": "lead",
+    "object_id": "17",
+    "old_state": {},
+    "new_state": {
+      "lead_revision": "a056718d9b876a6560d6ddf8fe6589634bd371428b55443355ff5eed6af08e36",
+      "review_priority": "HIGH",
+      "review_status": "UNREVIEWED",
+      "analysis_timestamp": "2026-08-15T20:00:00+05:30"
+    },
+    "reason": "",
+    "created_at": "2026-09-05T08:05:56.312310+00:00",
+    "involved_entity_ids": [
+      "A17",
+      "A31",
+      "A44",
+      "P101",
+      "P204",
+      "P305",
+      "P306",
+      "P307",
+      "P308",
+      "P309",
+      "P310",
+      "P311",
+      "amit",
+      "rahul",
+      "vikram"
+    ],
+    "evidence_ids": [
+      "E-ACC-01",
+      "E-ACC-02",
+      "E-BASE-08-0",
+      "E-BASE-08-1",
+      "E-BASE-09-0",
+      "E-BASE-09-1",
+      "E-BASE-10-0",
+      "E-BASE-10-1",
+      "E-BASE-11-0",
+      "E-BASE-11-1",
+      "E-BASE-12-0",
+      "E-BASE-12-1",
+      "E-BASE-13-0",
+      "E-BASE-13-1",
+      "E-BASE-14-0",
+      "E-BASE-14-1",
+      "E-CDR-01",
+      "E-CDR-02",
+      "E-CDR-03",
+      "E-CDR-04",
+      "E-CDR-05",
+      "E-CDR-06",
+      "E-CDR-07",
+      "E-CDR-08",
+      "E-CDR-09",
+      "E-CDR-10",
+      "E-CDR-11",
+      "E-SUB-01",
+      "E-SUB-02",
+      "E-TX-01",
+      "E-TX-02",
+      "E-TX-03"
+    ],
+    "source_types": []
+  },
+  {
+    "audit_event_id": "f67ad98f-f098-428b-b2e4-b768cedc6e71",
+    "case_id": "VEIL-DEMO-001",
+    "actor": "Demo investigator",
+    "actor_type": "HUMAN",
+    "action": "ENTITY_RESOLUTION_DECISION",
+    "object_type": "resolution_proposal",
+    "object_id": "MP-rahul-rk-sharma",
+    "old_state": {
+      "status": "REVIEW"
+    },
+    "new_state": {
+      "status": "CONFIRMED",
+      "decision_id": "142e681d-2f2d-4f63-ab74-fea6b48eeee8",
+      "decision_action": "CONFIRM_MATCH",
+      "undoes_decision_id": null
+    },
+    "reason": "Reviewed matching phone P101 and vehicle V02 source evidence; confirm the synthetic alias.",
+    "created_at": "2026-09-05T08:06:20.564400+00:00",
+    "involved_entity_ids": [
+      "rahul",
+      "rk-sharma"
+    ],
+    "evidence_ids": [
+      "E-RES-01",
+      "E-RES-02",
+      "E-RES-03",
+      "E-SUB-01"
+    ],
+    "source_types": []
+  },
+  {
+    "audit_event_id": "65639780-9078-4841-b0d2-5d201ac9be9d",
+    "case_id": "VEIL-DEMO-001",
+    "actor": "temporal-leads-v1",
+    "actor_type": "SYSTEM",
+    "action": "LEAD_GENERATED",
+    "object_type": "lead",
+    "object_id": "17",
+    "old_state": {},
+    "new_state": {
+      "lead_revision": "bda3e7beb855d2253e02ac13ef488001cc7f432c64df463ab6d5e648a6c48fbf",
+      "review_priority": "HIGH",
+      "review_status": "UNREVIEWED",
+      "analysis_timestamp": "2026-08-15T20:00:00+05:30"
+    },
+    "reason": "",
+    "created_at": "2026-09-05T08:06:20.716207+00:00",
+    "involved_entity_ids": [
+      "A17",
+      "A31",
+      "A44",
+      "P101",
+      "P204",
+      "P305",
+      "P306",
+      "P307",
+      "P308",
+      "P309",
+      "P310",
+      "P311",
+      "amit",
+      "rahul",
+      "vikram"
+    ],
+    "evidence_ids": [
+      "E-ACC-01",
+      "E-ACC-02",
+      "E-BASE-08-0",
+      "E-BASE-08-1",
+      "E-BASE-09-0",
+      "E-BASE-09-1",
+      "E-BASE-10-0",
+      "E-BASE-10-1",
+      "E-BASE-11-0",
+      "E-BASE-11-1",
+      "E-BASE-12-0",
+      "E-BASE-12-1",
+      "E-BASE-13-0",
+      "E-BASE-13-1",
+      "E-BASE-14-0",
+      "E-BASE-14-1",
+      "E-CDR-01",
+      "E-CDR-02",
+      "E-CDR-03",
+      "E-CDR-04",
+      "E-CDR-05",
+      "E-CDR-06",
+      "E-CDR-07",
+      "E-CDR-08",
+      "E-CDR-09",
+      "E-CDR-10",
+      "E-CDR-11",
+      "E-RES-01",
+      "E-SUB-02",
+      "E-TX-01",
+      "E-TX-02",
+      "E-TX-03"
+    ],
+    "source_types": []
+  },
+  {
+    "audit_event_id": "a0d4f1cd-2f29-4f8a-a4f5-627abcce7555",
+    "case_id": "VEIL-DEMO-001",
+    "actor": "Local demo session",
+    "actor_type": "HUMAN",
+    "action": "LEAD_OPENED",
+    "object_type": "lead",
+    "object_id": "17",
+    "old_state": {},
+    "new_state": {
+      "lead_revision": "bda3e7beb855d2253e02ac13ef488001cc7f432c64df463ab6d5e648a6c48fbf"
+    },
+    "reason": "",
+    "created_at": "2026-09-05T08:06:37.061265+00:00",
+    "involved_entity_ids": [
+      "A17",
+      "A31",
+      "A44",
+      "P101",
+      "P204",
+      "P305",
+      "P306",
+      "P307",
+      "P308",
+      "P309",
+      "P310",
+      "P311",
+      "amit",
+      "rahul",
+      "vikram"
+    ],
+    "evidence_ids": [
+      "E-ACC-01",
+      "E-ACC-02",
+      "E-BASE-08-0",
+      "E-BASE-08-1",
+      "E-BASE-09-0",
+      "E-BASE-09-1",
+      "E-BASE-10-0",
+      "E-BASE-10-1",
+      "E-BASE-11-0",
+      "E-BASE-11-1",
+      "E-BASE-12-0",
+      "E-BASE-12-1",
+      "E-BASE-13-0",
+      "E-BASE-13-1",
+      "E-BASE-14-0",
+      "E-BASE-14-1",
+      "E-CDR-01",
+      "E-CDR-02",
+      "E-CDR-03",
+      "E-CDR-04",
+      "E-CDR-05",
+      "E-CDR-06",
+      "E-CDR-07",
+      "E-CDR-08",
+      "E-CDR-09",
+      "E-CDR-10",
+      "E-CDR-11",
+      "E-RES-01",
+      "E-SUB-02",
+      "E-TX-01",
+      "E-TX-02",
+      "E-TX-03"
+    ],
+    "source_types": []
+  },
+  {
+    "audit_event_id": "ac123667-ac78-45e0-bcb8-765701c07783",
+    "case_id": "VEIL-DEMO-001",
+    "actor": "Local demo session",
+    "actor_type": "HUMAN",
+    "action": "EVIDENCE_OPENED",
+    "object_type": "evidence",
+    "object_id": "E-TX-01",
+    "old_state": {},
+    "new_state": {
+      "access": "opened"
+    },
+    "reason": "",
+    "created_at": "2026-09-05T08:06:57.700016+00:00",
+    "involved_entity_ids": [
+      "A17",
+      "A31"
+    ],
+    "evidence_ids": [
+      "E-TX-01"
+    ],
+    "source_types": [
+      "Transaction"
+    ]
+  },
+  {
+    "audit_event_id": "e7bc355e-8608-4446-b2ec-af97a2e3dab0",
+    "case_id": "VEIL-DEMO-001",
+    "actor": "Local demo session",
+    "actor_type": "HUMAN",
+    "action": "LEAD_OPENED",
+    "object_type": "lead",
+    "object_id": "17",
+    "old_state": {},
+    "new_state": {
+      "lead_revision": "bda3e7beb855d2253e02ac13ef488001cc7f432c64df463ab6d5e648a6c48fbf"
+    },
+    "reason": "",
+    "created_at": "2026-09-05T08:07:05.436633+00:00",
+    "involved_entity_ids": [
+      "A17",
+      "A31",
+      "A44",
+      "P101",
+      "P204",
+      "P305",
+      "P306",
+      "P307",
+      "P308",
+      "P309",
+      "P310",
+      "P311",
+      "amit",
+      "rahul",
+      "vikram"
+    ],
+    "evidence_ids": [
+      "E-ACC-01",
+      "E-ACC-02",
+      "E-BASE-08-0",
+      "E-BASE-08-1",
+      "E-BASE-09-0",
+      "E-BASE-09-1",
+      "E-BASE-10-0",
+      "E-BASE-10-1",
+      "E-BASE-11-0",
+      "E-BASE-11-1",
+      "E-BASE-12-0",
+      "E-BASE-12-1",
+      "E-BASE-13-0",
+      "E-BASE-13-1",
+      "E-BASE-14-0",
+      "E-BASE-14-1",
+      "E-CDR-01",
+      "E-CDR-02",
+      "E-CDR-03",
+      "E-CDR-04",
+      "E-CDR-05",
+      "E-CDR-06",
+      "E-CDR-07",
+      "E-CDR-08",
+      "E-CDR-09",
+      "E-CDR-10",
+      "E-CDR-11",
+      "E-RES-01",
+      "E-SUB-02",
+      "E-TX-01",
+      "E-TX-02",
+      "E-TX-03"
+    ],
+    "source_types": []
+  },
+  {
+    "audit_event_id": "744a5f7a-9335-4c8e-b910-89d5296ee6e2",
+    "case_id": "VEIL-DEMO-001",
+    "actor": "SIH rehearsal investigator",
+    "actor_type": "HUMAN",
+    "action": "LEAD_REVIEW_SUBMITTED",
+    "object_type": "lead",
+    "object_id": "17",
+    "old_state": {
+      "review_status": "UNREVIEWED",
+      "lead_revision": "bda3e7beb855d2253e02ac13ef488001cc7f432c64df463ab6d5e648a6c48fbf"
+    },
+    "new_state": {
+      "review_status": "NEEDS_MORE_EVIDENCE",
+      "lead_id": "17",
+      "review_id": "ffef2bc4-22c8-43c2-be17-3ca8932db284",
+      "lead_revision": "bda3e7beb855d2253e02ac13ef488001cc7f432c64df463ab6d5e648a6c48fbf"
+    },
+    "reason": "Need original CDR verification and transaction purpose before further inquiry.",
+    "created_at": "2026-09-05T08:07:16.612426+00:00",
+    "involved_entity_ids": [
+      "A17",
+      "A31",
+      "A44",
+      "P101",
+      "P204",
+      "P305",
+      "P306",
+      "P307",
+      "P308",
+      "P309",
+      "P310",
+      "P311",
+      "amit",
+      "rahul",
+      "vikram"
+    ],
+    "evidence_ids": [
+      "E-ACC-01",
+      "E-ACC-02",
+      "E-BASE-08-0",
+      "E-BASE-08-1",
+      "E-BASE-09-0",
+      "E-BASE-09-1",
+      "E-BASE-10-0",
+      "E-BASE-10-1",
+      "E-BASE-11-0",
+      "E-BASE-11-1",
+      "E-BASE-12-0",
+      "E-BASE-12-1",
+      "E-BASE-13-0",
+      "E-BASE-13-1",
+      "E-BASE-14-0",
+      "E-BASE-14-1",
+      "E-CDR-01",
+      "E-CDR-02",
+      "E-CDR-03",
+      "E-CDR-04",
+      "E-CDR-05",
+      "E-CDR-06",
+      "E-CDR-07",
+      "E-CDR-08",
+      "E-CDR-09",
+      "E-CDR-10",
+      "E-CDR-11",
+      "E-RES-01",
+      "E-SUB-02",
+      "E-TX-01",
+      "E-TX-02",
+      "E-TX-03"
+    ],
+    "source_types": []
+  },
+  {
+    "audit_event_id": "b5e2710b-f686-496e-8bab-56b156aaf51d",
+    "case_id": "VEIL-DEMO-001",
+    "actor": "Local demo session",
+    "actor_type": "HUMAN",
+    "action": "LEAD_OPENED",
+    "object_type": "lead",
+    "object_id": "17",
+    "old_state": {},
+    "new_state": {
+      "lead_revision": "bda3e7beb855d2253e02ac13ef488001cc7f432c64df463ab6d5e648a6c48fbf"
+    },
+    "reason": "",
+    "created_at": "2026-09-05T08:08:43.892429+00:00",
+    "involved_entity_ids": [
+      "A17",
+      "A31",
+      "A44",
+      "P101",
+      "P204",
+      "P305",
+      "P306",
+      "P307",
+      "P308",
+      "P309",
+      "P310",
+      "P311",
+      "amit",
+      "rahul",
+      "vikram"
+    ],
+    "evidence_ids": [
+      "E-ACC-01",
+      "E-ACC-02",
+      "E-BASE-08-0",
+      "E-BASE-08-1",
+      "E-BASE-09-0",
+      "E-BASE-09-1",
+      "E-BASE-10-0",
+      "E-BASE-10-1",
+      "E-BASE-11-0",
+      "E-BASE-11-1",
+      "E-BASE-12-0",
+      "E-BASE-12-1",
+      "E-BASE-13-0",
+      "E-BASE-13-1",
+      "E-BASE-14-0",
+      "E-BASE-14-1",
+      "E-CDR-01",
+      "E-CDR-02",
+      "E-CDR-03",
+      "E-CDR-04",
+      "E-CDR-05",
+      "E-CDR-06",
+      "E-CDR-07",
+      "E-CDR-08",
+      "E-CDR-09",
+      "E-CDR-10",
+      "E-CDR-11",
+      "E-RES-01",
+      "E-SUB-02",
+      "E-TX-01",
+      "E-TX-02",
+      "E-TX-03"
+    ],
+    "source_types": []
+  },
+  {
+    "audit_event_id": "41e40ad0-23c0-4911-ad23-032d64958f22",
+    "case_id": "VEIL-DEMO-001",
+    "actor": "Local demo session",
+    "actor_type": "HUMAN",
+    "action": "EVIDENCE_OPENED",
+    "object_type": "evidence",
+    "object_id": "E-TX-01",
+    "old_state": {},
+    "new_state": {
+      "access": "opened"
+    },
+    "reason": "",
+    "created_at": "2026-09-05T08:08:43.936080+00:00",
+    "involved_entity_ids": [
+      "A17",
+      "A31"
+    ],
+    "evidence_ids": [
+      "E-TX-01"
+    ],
+    "source_types": [
+      "Transaction"
+    ]
+  }
+]

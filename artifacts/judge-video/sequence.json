@@ -1,0 +1,449 @@
+{
+  "shots": [
+    {
+      "name": "01-case",
+      "duration": 15,
+      "caption": "One fictional case. Information scattered across reports, calls, payments and vehicle records."
+    },
+    {
+      "name": "02-sources",
+      "duration": 15,
+      "caption": "Four prepared synthetic sources have been processed. Invalid records are flagged for review."
+    },
+    {
+      "name": "03-records",
+      "duration": 10,
+      "caption": "Source rows remain available. Extraction preserves where each piece of information came from."
+    },
+    {
+      "name": "04-resolution",
+      "duration": 15,
+      "caption": "Similar names are a proposal, not an automatic merge. Shared phone and vehicle records support review."
+    },
+    {
+      "name": "05-entity",
+      "duration": 10,
+      "caption": "Rahul’s record now retains the reviewed alias and the original source mentions."
+    },
+    {
+      "name": "06-path",
+      "duration": 20,
+      "caption": "A computed six-hop path connects Rahul to Vikram through phones, Amit Verma and bank accounts."
+    },
+    {
+      "name": "07-discovery",
+      "duration": 20,
+      "caption": "Rahul → P101 → P204 → Amit → A17 → A31 → Vikram. Every step has supporting evidence."
+    },
+    {
+      "name": "08-communication",
+      "duration": 15,
+      "caption": "Lead 17 is computed: 11 calls versus a historical median of 2, alongside seven new contacts."
+    },
+    {
+      "name": "09-transfers",
+      "duration": 10,
+      "caption": "Three connected transfers total ₹1,95,000 over 75 minutes. These are review signals, not accusations."
+    },
+    {
+      "name": "10-evidence",
+      "duration": 10,
+      "caption": "The explanation reaches the exact source: transaction file, row 2, timestamp and unaltered excerpt."
+    },
+    {
+      "name": "11-review",
+      "duration": 10,
+      "caption": "The investigator records Needs more evidence. Human judgment remains separate from analytical priority."
+    },
+    {
+      "name": "12-audit",
+      "duration": 10,
+      "caption": "The decision is recorded with reviewer, reason and previous/new state in the audit history."
+    },
+    {
+      "name": "13-finale",
+      "duration": 5,
+      "caption": "VEIL reduces the search space with explainable leads. The system does not determine guilt."
+    }
+  ],
+  "errors": [],
+  "computed_path": {
+    "case_id": "VEIL-DEMO-001",
+    "synthetic": true,
+    "data_version": "golden-v1",
+    "nodes": [
+      {
+        "id": "rahul",
+        "label": "Rahul Kumar Sharma",
+        "display_label": "Rahul Sharma",
+        "type": "Person",
+        "identifier": "DEMO-PER-01",
+        "description": "Fictional person listed in authorized demonstration records.",
+        "x": 40,
+        "y": 85,
+        "evidence_ids": [
+          "E-RES-01",
+          "E-RES-02",
+          "E-RES-03",
+          "E-SUB-01"
+        ],
+        "aliases": [
+          "R.K. Sharma"
+        ],
+        "original_entity_ids": [
+          "rahul",
+          "rk-sharma"
+        ],
+        "verification_status": "Synthetic source record · not independently verified",
+        "extractor_version": null
+      },
+      {
+        "id": "P101",
+        "label": "Phone P101",
+        "display_label": "P101",
+        "type": "Phone",
+        "identifier": "+91 DEMO 1000 (non-dialable)",
+        "description": "Synthetic phone number. Association does not establish who made a call.",
+        "x": 215,
+        "y": 85,
+        "evidence_ids": [
+          "E-BASE-08-0",
+          "E-BASE-08-1",
+          "E-BASE-09-0",
+          "E-BASE-09-1",
+          "E-BASE-10-0",
+          "E-BASE-10-1",
+          "E-BASE-11-0",
+          "E-BASE-11-1",
+          "E-BASE-12-0",
+          "E-BASE-12-1",
+          "E-BASE-13-0",
+          "E-BASE-13-1",
+          "E-BASE-14-0",
+          "E-BASE-14-1",
+          "E-CDR-01",
+          "E-CDR-02",
+          "E-CDR-03",
+          "E-CDR-04",
+          "E-CDR-05",
+          "E-CDR-06",
+          "E-CDR-07",
+          "E-CDR-08",
+          "E-CDR-09",
+          "E-CDR-10",
+          "E-CDR-11",
+          "E-RES-01",
+          "E-SUB-01"
+        ],
+        "aliases": [],
+        "original_entity_ids": [
+          "P101"
+        ],
+        "verification_status": "Synthetic source record · not independently verified",
+        "extractor_version": null
+      },
+      {
+        "id": "P204",
+        "label": "Phone P204",
+        "display_label": "P204",
+        "type": "Phone",
+        "identifier": "+91 DEMO 1001 (non-dialable)",
+        "description": "Synthetic phone number. Association does not establish who made a call.",
+        "x": 390,
+        "y": 85,
+        "evidence_ids": [
+          "E-BASE-08-0",
+          "E-BASE-09-0",
+          "E-BASE-10-0",
+          "E-BASE-11-0",
+          "E-BASE-12-0",
+          "E-BASE-13-0",
+          "E-BASE-14-0",
+          "E-CDR-01",
+          "E-CDR-02",
+          "E-CDR-03",
+          "E-SUB-02"
+        ],
+        "aliases": [],
+        "original_entity_ids": [
+          "P204"
+        ],
+        "verification_status": "Synthetic source record · not independently verified",
+        "extractor_version": null
+      },
+      {
+        "id": "amit",
+        "label": "Amit Verma",
+        "display_label": "Amit Verma",
+        "type": "Person",
+        "identifier": "DEMO-PER-02",
+        "description": "Fictional person listed in authorized demonstration records.",
+        "x": 565,
+        "y": 85,
+        "evidence_ids": [
+          "E-ACC-01",
+          "E-RES-05",
+          "E-SUB-02"
+        ],
+        "aliases": [],
+        "original_entity_ids": [
+          "amit"
+        ],
+        "verification_status": "Synthetic source record · not independently verified",
+        "extractor_version": null
+      },
+      {
+        "id": "A17",
+        "label": "Account A17",
+        "display_label": "A17",
+        "type": "Account",
+        "identifier": "DEMO-BANK-A17",
+        "description": "Synthetic bank account. Listed control is a record assertion, not independent verification.",
+        "x": 565,
+        "y": 245,
+        "evidence_ids": [
+          "E-ACC-01",
+          "E-TX-01",
+          "E-TX-02"
+        ],
+        "aliases": [],
+        "original_entity_ids": [
+          "A17"
+        ],
+        "verification_status": "Synthetic source record · not independently verified",
+        "extractor_version": null
+      },
+      {
+        "id": "A31",
+        "label": "Account A31",
+        "display_label": "A31",
+        "type": "Account",
+        "identifier": "DEMO-BANK-A31",
+        "description": "Synthetic bank account. Listed control is a record assertion, not independent verification.",
+        "x": 390,
+        "y": 245,
+        "evidence_ids": [
+          "E-ACC-02",
+          "E-TX-01",
+          "E-TX-03"
+        ],
+        "aliases": [],
+        "original_entity_ids": [
+          "A31"
+        ],
+        "verification_status": "Synthetic source record · not independently verified",
+        "extractor_version": null
+      },
+      {
+        "id": "vikram",
+        "label": "Vikram Singh",
+        "display_label": "Vikram Singh",
+        "type": "Person",
+        "identifier": "DEMO-PER-03",
+        "description": "Fictional person listed in authorized demonstration records.",
+        "x": 215,
+        "y": 245,
+        "evidence_ids": [
+          "E-ACC-02",
+          "E-ACC-03",
+          "E-SUB-10"
+        ],
+        "aliases": [],
+        "original_entity_ids": [
+          "vikram"
+        ],
+        "verification_status": "Synthetic source record · not independently verified",
+        "extractor_version": null
+      }
+    ],
+    "relationships": [
+      {
+        "id": "R-RES-01",
+        "source": "rahul",
+        "target": "P101",
+        "type": "USES",
+        "status": "recorded",
+        "evidence_ids": [
+          "E-RES-01"
+        ],
+        "event_ids": [],
+        "original_source": "rk-sharma",
+        "original_target": "P101",
+        "verification_status": "Synthetic source record · not independently verified",
+        "extractor_version": null
+      },
+      {
+        "id": "R02",
+        "source": "P101",
+        "target": "P204",
+        "type": "CALLED",
+        "status": "recorded",
+        "evidence_ids": [
+          "E-CDR-01",
+          "E-CDR-02",
+          "E-CDR-03"
+        ],
+        "event_ids": [
+          "EV-E-CDR-01",
+          "EV-E-CDR-02",
+          "EV-E-CDR-03"
+        ],
+        "original_source": "P101",
+        "original_target": "P204",
+        "verification_status": "Synthetic source record · not independently verified",
+        "extractor_version": null
+      },
+      {
+        "id": "R03",
+        "source": "P204",
+        "target": "amit",
+        "type": "USED_BY",
+        "status": "recorded",
+        "evidence_ids": [
+          "E-SUB-02"
+        ],
+        "event_ids": [],
+        "original_source": "P204",
+        "original_target": "amit",
+        "verification_status": "Synthetic source record · not independently verified",
+        "extractor_version": null
+      },
+      {
+        "id": "R04",
+        "source": "amit",
+        "target": "A17",
+        "type": "CONTROLS",
+        "status": "recorded",
+        "evidence_ids": [
+          "E-ACC-01"
+        ],
+        "event_ids": [],
+        "original_source": "amit",
+        "original_target": "A17",
+        "verification_status": "Synthetic source record · not independently verified",
+        "extractor_version": null
+      },
+      {
+        "id": "R05",
+        "source": "A17",
+        "target": "A31",
+        "type": "TRANSFERRED_TO",
+        "status": "recorded",
+        "evidence_ids": [
+          "E-TX-01"
+        ],
+        "event_ids": [
+          "EV-E-TX-01"
+        ],
+        "original_source": "A17",
+        "original_target": "A31",
+        "verification_status": "Synthetic source record · not independently verified",
+        "extractor_version": null
+      },
+      {
+        "id": "R06",
+        "source": "A31",
+        "target": "vikram",
+        "type": "CONTROLLED_BY",
+        "status": "recorded",
+        "evidence_ids": [
+          "E-ACC-02"
+        ],
+        "event_ids": [],
+        "original_source": "A31",
+        "original_target": "vikram",
+        "verification_status": "Synthetic source record · not independently verified",
+        "extractor_version": null
+      }
+    ],
+    "node_ids": [
+      "rahul",
+      "P101",
+      "P204",
+      "amit",
+      "A17",
+      "A31",
+      "vikram"
+    ],
+    "relationship_ids": [
+      "R-RES-01",
+      "R02",
+      "R03",
+      "R04",
+      "R05",
+      "R06"
+    ],
+    "evidence_ids": [
+      "E-ACC-01",
+      "E-ACC-02",
+      "E-CDR-01",
+      "E-CDR-02",
+      "E-CDR-03",
+      "E-RES-01",
+      "E-SUB-02",
+      "E-TX-01"
+    ],
+    "steps": [
+      {
+        "from_id": "rahul",
+        "to_id": "P101",
+        "relationship_id": "R-RES-01",
+        "traversal": "forward",
+        "evidence_ids": [
+          "E-RES-01"
+        ]
+      },
+      {
+        "from_id": "P101",
+        "to_id": "P204",
+        "relationship_id": "R02",
+        "traversal": "forward",
+        "evidence_ids": [
+          "E-CDR-01",
+          "E-CDR-02",
+          "E-CDR-03"
+        ]
+      },
+      {
+        "from_id": "P204",
+        "to_id": "amit",
+        "relationship_id": "R03",
+        "traversal": "forward",
+        "evidence_ids": [
+          "E-SUB-02"
+        ]
+      },
+      {
+        "from_id": "amit",
+        "to_id": "A17",
+        "relationship_id": "R04",
+        "traversal": "forward",
+        "evidence_ids": [
+          "E-ACC-01"
+        ]
+      },
+      {
+        "from_id": "A17",
+        "to_id": "A31",
+        "relationship_id": "R05",
+        "traversal": "forward",
+        "evidence_ids": [
+          "E-TX-01"
+        ]
+      },
+      {
+        "from_id": "A31",
+        "to_id": "vikram",
+        "relationship_id": "R06",
+        "traversal": "forward",
+        "evidence_ids": [
+          "E-ACC-02"
+        ]
+      }
+    ],
+    "path_length": 6,
+    "max_depth": 8,
+    "method": "NetworkX bounded shortest path · undirected associations · deterministic ID ordering",
+    "disclaimer": "A connected path is an investigative lead, not proof of criminal activity or a chronological sequence."
+  }
+}

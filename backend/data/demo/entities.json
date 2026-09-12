@@ -1,0 +1,665 @@
+{
+  "schema_version": 1,
+  "case_id": "VEIL-DEMO-001",
+  "synthetic": true,
+  "data_version": "golden-v1",
+  "case": {
+    "id": "VEIL-DEMO-001",
+    "name": "Reference Investigation",
+    "classification": "Synthetic Demonstration",
+    "status": "Active Review",
+    "timezone": "Asia/Kolkata",
+    "description": "Fictional investigation workspace · leads, not accusations.",
+    "event_label": "Event X",
+    "event_timestamp": "2026-08-15T20:00:00+05:30",
+    "source_default": "rahul",
+    "target_default": "vikram",
+    "focus_entity_ids": [
+      "rahul",
+      "P101",
+      "P204",
+      "amit",
+      "A17",
+      "A31",
+      "vikram",
+      "A44",
+      "P305",
+      "neha",
+      "P306",
+      "arjun",
+      "V01",
+      "L01",
+      "O01",
+      "rk-sharma",
+      "a-verma"
+    ],
+    "max_depth": 8
+  },
+  "items": [
+    {
+      "id": "rahul",
+      "label": "Rahul Kumar Sharma",
+      "display_label": "Rahul Sharma",
+      "type": "Person",
+      "identifier": "DEMO-PER-01",
+      "description": "Fictional person listed in authorized demonstration records.",
+      "x": 40,
+      "y": 85,
+      "evidence_ids": [
+        "E-SUB-01",
+        "E-RES-02"
+      ]
+    },
+    {
+      "id": "amit",
+      "label": "Amit Verma",
+      "display_label": "Amit Verma",
+      "type": "Person",
+      "identifier": "DEMO-PER-02",
+      "description": "Fictional person listed in authorized demonstration records.",
+      "x": 565,
+      "y": 85,
+      "evidence_ids": [
+        "E-SUB-02",
+        "E-ACC-01",
+        "E-RES-05"
+      ]
+    },
+    {
+      "id": "vikram",
+      "label": "Vikram Singh",
+      "display_label": "Vikram Singh",
+      "type": "Person",
+      "identifier": "DEMO-PER-03",
+      "description": "Fictional person listed in authorized demonstration records.",
+      "x": 215,
+      "y": 245,
+      "evidence_ids": [
+        "E-SUB-10",
+        "E-ACC-02",
+        "E-ACC-03"
+      ]
+    },
+    {
+      "id": "neha",
+      "label": "Neha Kapoor",
+      "display_label": "Neha Kapoor",
+      "type": "Person",
+      "identifier": "DEMO-PER-04",
+      "description": "Fictional person listed in authorized demonstration records.",
+      "x": 125,
+      "y": 450,
+      "evidence_ids": [
+        "E-SUB-03",
+        "E-ACC-04",
+        "E-CTX-01",
+        "E-CTX-06"
+      ]
+    },
+    {
+      "id": "arjun",
+      "label": "Arjun Mehta",
+      "display_label": "Arjun Mehta",
+      "type": "Person",
+      "identifier": "DEMO-PER-05",
+      "description": "Fictional person listed in authorized demonstration records.",
+      "x": 335,
+      "y": 450,
+      "evidence_ids": [
+        "E-SUB-04",
+        "E-ACC-05",
+        "E-CTX-07"
+      ]
+    },
+    {
+      "id": "sana",
+      "label": "Sana Iqbal",
+      "display_label": "Sana Iqbal",
+      "type": "Person",
+      "identifier": "DEMO-PER-06",
+      "description": "Fictional person listed in authorized demonstration records.",
+      "x": 0,
+      "y": 210,
+      "evidence_ids": [
+        "E-SUB-05",
+        "E-ACC-06"
+      ]
+    },
+    {
+      "id": "dev",
+      "label": "Dev Malhotra",
+      "display_label": "Dev Malhotra",
+      "type": "Person",
+      "identifier": "DEMO-PER-07",
+      "description": "Fictional person listed in authorized demonstration records.",
+      "x": 170,
+      "y": 210,
+      "evidence_ids": [
+        "E-SUB-06",
+        "E-ACC-07"
+      ]
+    },
+    {
+      "id": "priya",
+      "label": "Priya Nair",
+      "display_label": "Priya Nair",
+      "type": "Person",
+      "identifier": "DEMO-PER-08",
+      "description": "Fictional person listed in authorized demonstration records.",
+      "x": 340,
+      "y": 210,
+      "evidence_ids": [
+        "E-SUB-07",
+        "E-ACC-08"
+      ]
+    },
+    {
+      "id": "kabir",
+      "label": "Kabir Joshi",
+      "display_label": "Kabir Joshi",
+      "type": "Person",
+      "identifier": "DEMO-PER-09",
+      "description": "Fictional person listed in authorized demonstration records.",
+      "x": 510,
+      "y": 210,
+      "evidence_ids": [
+        "E-SUB-08",
+        "E-CTX-02"
+      ]
+    },
+    {
+      "id": "meera",
+      "label": "Meera Das",
+      "display_label": "Meera Das",
+      "type": "Person",
+      "identifier": "DEMO-PER-10",
+      "description": "Fictional person listed in authorized demonstration records.",
+      "x": 680,
+      "y": 210,
+      "evidence_ids": [
+        "E-SUB-09",
+        "E-CTX-03"
+      ]
+    },
+    {
+      "id": "P101",
+      "label": "Phone P101",
+      "display_label": "P101",
+      "type": "Phone",
+      "identifier": "+91 DEMO 1000 (non-dialable)",
+      "description": "Synthetic phone number. Association does not establish who made a call.",
+      "x": 215,
+      "y": 85,
+      "evidence_ids": [
+        "E-SUB-01",
+        "E-BASE-08-0",
+        "E-BASE-08-1",
+        "E-BASE-09-0",
+        "E-BASE-09-1",
+        "E-BASE-10-0",
+        "E-BASE-10-1",
+        "E-BASE-11-0",
+        "E-BASE-11-1",
+        "E-BASE-12-0",
+        "E-BASE-12-1",
+        "E-BASE-13-0",
+        "E-BASE-13-1",
+        "E-BASE-14-0",
+        "E-BASE-14-1",
+        "E-CDR-01",
+        "E-CDR-02",
+        "E-CDR-03",
+        "E-CDR-04",
+        "E-CDR-05",
+        "E-CDR-06",
+        "E-CDR-07",
+        "E-CDR-08",
+        "E-CDR-09",
+        "E-CDR-10",
+        "E-CDR-11",
+        "E-RES-01"
+      ]
+    },
+    {
+      "id": "P204",
+      "label": "Phone P204",
+      "display_label": "P204",
+      "type": "Phone",
+      "identifier": "+91 DEMO 1001 (non-dialable)",
+      "description": "Synthetic phone number. Association does not establish who made a call.",
+      "x": 390,
+      "y": 85,
+      "evidence_ids": [
+        "E-SUB-02",
+        "E-BASE-08-0",
+        "E-BASE-09-0",
+        "E-BASE-10-0",
+        "E-BASE-11-0",
+        "E-BASE-12-0",
+        "E-BASE-13-0",
+        "E-BASE-14-0",
+        "E-CDR-01",
+        "E-CDR-02",
+        "E-CDR-03"
+      ]
+    },
+    {
+      "id": "P305",
+      "label": "Phone P305",
+      "display_label": "P305",
+      "type": "Phone",
+      "identifier": "+91 DEMO 1002 (non-dialable)",
+      "description": "Synthetic phone number. Association does not establish who made a call.",
+      "x": 20,
+      "y": 450,
+      "evidence_ids": [
+        "E-SUB-03",
+        "E-CDR-04"
+      ]
+    },
+    {
+      "id": "P306",
+      "label": "Phone P306",
+      "display_label": "P306",
+      "type": "Phone",
+      "identifier": "+91 DEMO 1003 (non-dialable)",
+      "description": "Synthetic phone number. Association does not establish who made a call.",
+      "x": 230,
+      "y": 450,
+      "evidence_ids": [
+        "E-SUB-04",
+        "E-CDR-05"
+      ]
+    },
+    {
+      "id": "P307",
+      "label": "Phone P307",
+      "display_label": "P307",
+      "type": "Phone",
+      "identifier": "+91 DEMO 1004 (non-dialable)",
+      "description": "Synthetic phone number. Association does not establish who made a call.",
+      "x": 580,
+      "y": 480,
+      "evidence_ids": [
+        "E-SUB-05",
+        "E-CDR-06"
+      ]
+    },
+    {
+      "id": "P308",
+      "label": "Phone P308",
+      "display_label": "P308",
+      "type": "Phone",
+      "identifier": "+91 DEMO 1005 (non-dialable)",
+      "description": "Synthetic phone number. Association does not establish who made a call.",
+      "x": 725,
+      "y": 480,
+      "evidence_ids": [
+        "E-SUB-06",
+        "E-CDR-07"
+      ]
+    },
+    {
+      "id": "P309",
+      "label": "Phone P309",
+      "display_label": "P309",
+      "type": "Phone",
+      "identifier": "+91 DEMO 1006 (non-dialable)",
+      "description": "Synthetic phone number. Association does not establish who made a call.",
+      "x": 0,
+      "y": 680,
+      "evidence_ids": [
+        "E-SUB-07",
+        "E-CDR-08"
+      ]
+    },
+    {
+      "id": "P310",
+      "label": "Phone P310",
+      "display_label": "P310",
+      "type": "Phone",
+      "identifier": "+91 DEMO 1007 (non-dialable)",
+      "description": "Synthetic phone number. Association does not establish who made a call.",
+      "x": 145,
+      "y": 680,
+      "evidence_ids": [
+        "E-SUB-08",
+        "E-CDR-09"
+      ]
+    },
+    {
+      "id": "P311",
+      "label": "Phone P311",
+      "display_label": "P311",
+      "type": "Phone",
+      "identifier": "+91 DEMO 1008 (non-dialable)",
+      "description": "Synthetic phone number. Association does not establish who made a call.",
+      "x": 290,
+      "y": 680,
+      "evidence_ids": [
+        "E-SUB-09",
+        "E-CDR-10"
+      ]
+    },
+    {
+      "id": "P312",
+      "label": "Phone P312",
+      "display_label": "P312",
+      "type": "Phone",
+      "identifier": "+91 DEMO 1009 (non-dialable)",
+      "description": "Synthetic phone number. Association does not establish who made a call.",
+      "x": 435,
+      "y": 680,
+      "evidence_ids": [
+        "E-SUB-10"
+      ]
+    },
+    {
+      "id": "P313",
+      "label": "Phone P313",
+      "display_label": "P313",
+      "type": "Phone",
+      "identifier": "+91 DEMO 1010 (non-dialable)",
+      "description": "Synthetic phone number. Association does not establish who made a call.",
+      "x": 580,
+      "y": 680,
+      "evidence_ids": [
+        "E-BASE-08-1",
+        "E-BASE-09-1",
+        "E-BASE-10-1",
+        "E-BASE-11-1",
+        "E-BASE-12-1",
+        "E-BASE-13-1",
+        "E-BASE-14-1",
+        "E-CDR-11"
+      ]
+    },
+    {
+      "id": "P314",
+      "label": "Phone P314",
+      "display_label": "P314",
+      "type": "Phone",
+      "identifier": "+91 DEMO 1011 (non-dialable)",
+      "description": "Synthetic phone number. Association does not establish who made a call.",
+      "x": 725,
+      "y": 680,
+      "evidence_ids": [
+        "E-CTX-10"
+      ]
+    },
+    {
+      "id": "A17",
+      "label": "Account A17",
+      "display_label": "A17",
+      "type": "Account",
+      "identifier": "DEMO-BANK-A17",
+      "description": "Synthetic bank account. Listed control is a record assertion, not independent verification.",
+      "x": 565,
+      "y": 245,
+      "evidence_ids": [
+        "E-ACC-01",
+        "E-TX-01",
+        "E-TX-02"
+      ]
+    },
+    {
+      "id": "A31",
+      "label": "Account A31",
+      "display_label": "A31",
+      "type": "Account",
+      "identifier": "DEMO-BANK-A31",
+      "description": "Synthetic bank account. Listed control is a record assertion, not independent verification.",
+      "x": 390,
+      "y": 245,
+      "evidence_ids": [
+        "E-ACC-02",
+        "E-TX-01",
+        "E-TX-03"
+      ]
+    },
+    {
+      "id": "A44",
+      "label": "Account A44",
+      "display_label": "A44",
+      "type": "Account",
+      "identifier": "DEMO-BANK-A44",
+      "description": "Synthetic bank account. Listed control is a record assertion, not independent verification.",
+      "x": 665,
+      "y": 280,
+      "evidence_ids": [
+        "E-ACC-03",
+        "E-TX-02",
+        "E-TX-03"
+      ]
+    },
+    {
+      "id": "A52",
+      "label": "Account A52",
+      "display_label": "A52",
+      "type": "Account",
+      "identifier": "DEMO-BANK-A52",
+      "description": "Synthetic bank account. Listed control is a record assertion, not independent verification.",
+      "x": 720,
+      "y": 940,
+      "evidence_ids": [
+        "E-ACC-04"
+      ]
+    },
+    {
+      "id": "A63",
+      "label": "Account A63",
+      "display_label": "A63",
+      "type": "Account",
+      "identifier": "DEMO-BANK-A63",
+      "description": "Synthetic bank account. Listed control is a record assertion, not independent verification.",
+      "x": 0,
+      "y": 1140,
+      "evidence_ids": [
+        "E-ACC-05"
+      ]
+    },
+    {
+      "id": "A74",
+      "label": "Account A74",
+      "display_label": "A74",
+      "type": "Account",
+      "identifier": "DEMO-BANK-A74",
+      "description": "Synthetic bank account. Listed control is a record assertion, not independent verification.",
+      "x": 240,
+      "y": 1140,
+      "evidence_ids": [
+        "E-ACC-06"
+      ]
+    },
+    {
+      "id": "A85",
+      "label": "Account A85",
+      "display_label": "A85",
+      "type": "Account",
+      "identifier": "DEMO-BANK-A85",
+      "description": "Synthetic bank account. Listed control is a record assertion, not independent verification.",
+      "x": 480,
+      "y": 1140,
+      "evidence_ids": [
+        "E-ACC-07"
+      ]
+    },
+    {
+      "id": "A96",
+      "label": "Account A96",
+      "display_label": "A96",
+      "type": "Account",
+      "identifier": "DEMO-BANK-A96",
+      "description": "Synthetic bank account. Listed control is a record assertion, not independent verification.",
+      "x": 720,
+      "y": 1140,
+      "evidence_ids": [
+        "E-ACC-08"
+      ]
+    },
+    {
+      "id": "V01",
+      "label": "DEMO-VH-01",
+      "display_label": "DEMO-VH-01",
+      "type": "Vehicle",
+      "identifier": "V01",
+      "description": "Fictional vehicle record. No real-world allegation.",
+      "x": 440,
+      "y": 450,
+      "evidence_ids": [
+        "E-CTX-01",
+        "E-CTX-04"
+      ]
+    },
+    {
+      "id": "V02",
+      "label": "DEMO-VH-02",
+      "display_label": "DEMO-VH-02",
+      "type": "Vehicle",
+      "identifier": "V02",
+      "description": "Fictional vehicle record. No real-world allegation.",
+      "x": 240,
+      "y": 1380,
+      "evidence_ids": [
+        "E-CTX-02",
+        "E-RES-02",
+        "E-RES-03"
+      ]
+    },
+    {
+      "id": "V03",
+      "label": "DEMO-VH-03",
+      "display_label": "DEMO-VH-03",
+      "type": "Vehicle",
+      "identifier": "V03",
+      "description": "Fictional vehicle record. No real-world allegation.",
+      "x": 480,
+      "y": 1380,
+      "evidence_ids": [
+        "E-CTX-03"
+      ]
+    },
+    {
+      "id": "L01",
+      "label": "Rivergate depot",
+      "display_label": "Rivergate depot",
+      "type": "Location",
+      "identifier": "L01",
+      "description": "Fictional location record. No real-world allegation.",
+      "x": 545,
+      "y": 450,
+      "evidence_ids": [
+        "E-CTX-04",
+        "E-CTX-05",
+        "E-REPORT-01"
+      ]
+    },
+    {
+      "id": "L02",
+      "label": "East market",
+      "display_label": "East market",
+      "type": "Location",
+      "identifier": "L02",
+      "description": "Fictional location record. No real-world allegation.",
+      "x": 240,
+      "y": 1580,
+      "evidence_ids": [
+        "E-CTX-08"
+      ]
+    },
+    {
+      "id": "L03",
+      "label": "Canal junction",
+      "display_label": "Canal junction",
+      "type": "Location",
+      "identifier": "L03",
+      "description": "Fictional location record. No real-world allegation.",
+      "x": 480,
+      "y": 1580,
+      "evidence_ids": [
+        "E-CTX-09"
+      ]
+    },
+    {
+      "id": "L04",
+      "label": "North yard",
+      "display_label": "North yard",
+      "type": "Location",
+      "identifier": "L04",
+      "description": "Fictional location record. No real-world allegation.",
+      "x": 720,
+      "y": 1580,
+      "evidence_ids": [
+        "E-CTX-10"
+      ]
+    },
+    {
+      "id": "O01",
+      "label": "Mira Logistics",
+      "display_label": "Mira Logistics",
+      "type": "Organization",
+      "identifier": "O01",
+      "description": "Fictional organization record. No real-world allegation.",
+      "x": 650,
+      "y": 450,
+      "evidence_ids": [
+        "E-CTX-05",
+        "E-CTX-06"
+      ]
+    },
+    {
+      "id": "O02",
+      "label": "Northline Trading",
+      "display_label": "Northline Trading",
+      "type": "Organization",
+      "identifier": "O02",
+      "description": "Fictional organization record. No real-world allegation.",
+      "x": 240,
+      "y": 1780,
+      "evidence_ids": [
+        "E-CTX-07",
+        "E-CTX-08"
+      ]
+    },
+    {
+      "id": "O03",
+      "label": "Cedar Services",
+      "display_label": "Cedar Services",
+      "type": "Organization",
+      "identifier": "O03",
+      "description": "Fictional organization record. No real-world allegation.",
+      "x": 480,
+      "y": 1780,
+      "evidence_ids": [
+        "E-CTX-09"
+      ]
+    },
+    {
+      "id": "rk-sharma",
+      "label": "R.K. Sharma",
+      "display_label": "R.K. Sharma",
+      "type": "Person",
+      "identifier": "rk-sharma",
+      "description": "Unresolved synthetic source mention. Similarity does not establish identity.",
+      "x": 40,
+      "y": 260,
+      "evidence_ids": [
+        "E-RES-01",
+        "E-RES-03"
+      ]
+    },
+    {
+      "id": "a-verma",
+      "label": "A. Verma",
+      "display_label": "A. Verma",
+      "type": "Person",
+      "identifier": "a-verma",
+      "description": "Unresolved synthetic source mention. Similarity does not establish identity.",
+      "x": 665,
+      "y": 390,
+      "evidence_ids": [
+        "E-RES-04"
+      ]
+    }
+  ]
+}

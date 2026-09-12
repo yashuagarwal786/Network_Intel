@@ -1,0 +1,5 @@
+record_id,vehicle_number,relationship_type,person_name,observed_at,location,source_type
+VR-CW-001,DEMO-VH-71,REGISTERED_KEEPER,Harish Patel,2026-08-17T10:00:00+05:30,Industrial Zone,registration_extract
+VR-CW-002,DEMO-VH-71,OBSERVED_WITH,Aman Verma,2026-08-18T13:30:00+05:30,Central Ring,synthetic_observation
+VR-CW-003,DEMO-VH-72,OBSERVED_WITH,Deepak Rao,2026-08-18T10:15:00+05:30,Old Harbor,synthetic_observation
+VR-CW-004,DEMO-VH-99,REGISTERED_KEEPER,Suresh Gupta,2026-08-18T14:00:00+05:30,South terminal,registration_extract

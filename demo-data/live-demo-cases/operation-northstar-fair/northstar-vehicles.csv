@@ -1,0 +1,3 @@
+record_id,vehicle_number,relationship_type,person_name,observed_at,location,source_type
+VR-NS-001,DEMO-VH-61,REGISTERED_KEEPER,Arjun Mehta,2026-08-22T10:00:00+05:30,North yard,registration_extract
+VR-NS-002,DEMO-VH-61,OBSERVED_WITH,Neha Kapoor,2026-08-24T07:50:00+05:30,East market,synthetic_observation

@@ -1,0 +1,4 @@
+record_id,vehicle_number,relationship_type,person_name,observed_at,location,source_type
+VR-RG-001,DEMO-VH-41,REGISTERED_KEEPER,Neha Kapoor,2026-08-18T09:00:00+05:30,North yard,registration_extract
+VR-RG-002,DEMO-VH-41,OBSERVED_WITH,Rahul Sharma,2026-08-18T17:36:00+05:30,Rivergate depot,synthetic_observation
+VR-RG-003,DEMO-VH-42,OBSERVED_WITH,Amit Verma,2026-08-18T18:12:00+05:30,East market,synthetic_observation

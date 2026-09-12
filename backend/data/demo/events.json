@@ -1,0 +1,470 @@
+{
+  "schema_version": 1,
+  "case_id": "VEIL-DEMO-001",
+  "synthetic": true,
+  "data_version": "golden-v1",
+  "items": [
+    {
+      "id": "EV-E-BASE-08-0",
+      "type": "call",
+      "timestamp": "2026-08-08T10:00:00+05:30",
+      "entity_ids": [
+        "P101",
+        "P204"
+      ],
+      "evidence_ids": [
+        "E-BASE-08-0"
+      ],
+      "relationship_ids": [],
+      "amount_inr": null,
+      "duration_seconds": 60
+    },
+    {
+      "id": "EV-E-BASE-08-1",
+      "type": "call",
+      "timestamp": "2026-08-08T10:10:00+05:30",
+      "entity_ids": [
+        "P101",
+        "P313"
+      ],
+      "evidence_ids": [
+        "E-BASE-08-1"
+      ],
+      "relationship_ids": [],
+      "amount_inr": null,
+      "duration_seconds": 60
+    },
+    {
+      "id": "EV-E-BASE-09-0",
+      "type": "call",
+      "timestamp": "2026-08-09T10:00:00+05:30",
+      "entity_ids": [
+        "P101",
+        "P204"
+      ],
+      "evidence_ids": [
+        "E-BASE-09-0"
+      ],
+      "relationship_ids": [],
+      "amount_inr": null,
+      "duration_seconds": 60
+    },
+    {
+      "id": "EV-E-BASE-09-1",
+      "type": "call",
+      "timestamp": "2026-08-09T10:10:00+05:30",
+      "entity_ids": [
+        "P101",
+        "P313"
+      ],
+      "evidence_ids": [
+        "E-BASE-09-1"
+      ],
+      "relationship_ids": [],
+      "amount_inr": null,
+      "duration_seconds": 60
+    },
+    {
+      "id": "EV-E-BASE-10-0",
+      "type": "call",
+      "timestamp": "2026-08-10T10:00:00+05:30",
+      "entity_ids": [
+        "P101",
+        "P204"
+      ],
+      "evidence_ids": [
+        "E-BASE-10-0"
+      ],
+      "relationship_ids": [],
+      "amount_inr": null,
+      "duration_seconds": 60
+    },
+    {
+      "id": "EV-E-BASE-10-1",
+      "type": "call",
+      "timestamp": "2026-08-10T10:10:00+05:30",
+      "entity_ids": [
+        "P101",
+        "P313"
+      ],
+      "evidence_ids": [
+        "E-BASE-10-1"
+      ],
+      "relationship_ids": [],
+      "amount_inr": null,
+      "duration_seconds": 60
+    },
+    {
+      "id": "EV-E-BASE-11-0",
+      "type": "call",
+      "timestamp": "2026-08-11T10:00:00+05:30",
+      "entity_ids": [
+        "P101",
+        "P204"
+      ],
+      "evidence_ids": [
+        "E-BASE-11-0"
+      ],
+      "relationship_ids": [],
+      "amount_inr": null,
+      "duration_seconds": 60
+    },
+    {
+      "id": "EV-E-BASE-11-1",
+      "type": "call",
+      "timestamp": "2026-08-11T10:10:00+05:30",
+      "entity_ids": [
+        "P101",
+        "P313"
+      ],
+      "evidence_ids": [
+        "E-BASE-11-1"
+      ],
+      "relationship_ids": [],
+      "amount_inr": null,
+      "duration_seconds": 60
+    },
+    {
+      "id": "EV-E-BASE-12-0",
+      "type": "call",
+      "timestamp": "2026-08-12T10:00:00+05:30",
+      "entity_ids": [
+        "P101",
+        "P204"
+      ],
+      "evidence_ids": [
+        "E-BASE-12-0"
+      ],
+      "relationship_ids": [],
+      "amount_inr": null,
+      "duration_seconds": 60
+    },
+    {
+      "id": "EV-E-BASE-12-1",
+      "type": "call",
+      "timestamp": "2026-08-12T10:10:00+05:30",
+      "entity_ids": [
+        "P101",
+        "P313"
+      ],
+      "evidence_ids": [
+        "E-BASE-12-1"
+      ],
+      "relationship_ids": [],
+      "amount_inr": null,
+      "duration_seconds": 60
+    },
+    {
+      "id": "EV-E-BASE-13-0",
+      "type": "call",
+      "timestamp": "2026-08-13T10:00:00+05:30",
+      "entity_ids": [
+        "P101",
+        "P204"
+      ],
+      "evidence_ids": [
+        "E-BASE-13-0"
+      ],
+      "relationship_ids": [],
+      "amount_inr": null,
+      "duration_seconds": 60
+    },
+    {
+      "id": "EV-E-BASE-13-1",
+      "type": "call",
+      "timestamp": "2026-08-13T10:10:00+05:30",
+      "entity_ids": [
+        "P101",
+        "P313"
+      ],
+      "evidence_ids": [
+        "E-BASE-13-1"
+      ],
+      "relationship_ids": [],
+      "amount_inr": null,
+      "duration_seconds": 60
+    },
+    {
+      "id": "EV-E-BASE-14-0",
+      "type": "call",
+      "timestamp": "2026-08-14T10:00:00+05:30",
+      "entity_ids": [
+        "P101",
+        "P204"
+      ],
+      "evidence_ids": [
+        "E-BASE-14-0"
+      ],
+      "relationship_ids": [],
+      "amount_inr": null,
+      "duration_seconds": 60
+    },
+    {
+      "id": "EV-E-BASE-14-1",
+      "type": "call",
+      "timestamp": "2026-08-14T10:10:00+05:30",
+      "entity_ids": [
+        "P101",
+        "P313"
+      ],
+      "evidence_ids": [
+        "E-BASE-14-1"
+      ],
+      "relationship_ids": [],
+      "amount_inr": null,
+      "duration_seconds": 60
+    },
+    {
+      "id": "EV-E-CDR-01",
+      "type": "call",
+      "timestamp": "2026-08-15T18:00:00+05:30",
+      "entity_ids": [
+        "P101",
+        "P204"
+      ],
+      "evidence_ids": [
+        "E-CDR-01"
+      ],
+      "relationship_ids": [
+        "R02"
+      ],
+      "amount_inr": null,
+      "duration_seconds": 60
+    },
+    {
+      "id": "EV-E-CDR-02",
+      "type": "call",
+      "timestamp": "2026-08-15T18:04:00+05:30",
+      "entity_ids": [
+        "P101",
+        "P204"
+      ],
+      "evidence_ids": [
+        "E-CDR-02"
+      ],
+      "relationship_ids": [
+        "R02"
+      ],
+      "amount_inr": null,
+      "duration_seconds": 65
+    },
+    {
+      "id": "EV-E-CDR-03",
+      "type": "call",
+      "timestamp": "2026-08-15T18:08:00+05:30",
+      "entity_ids": [
+        "P101",
+        "P204"
+      ],
+      "evidence_ids": [
+        "E-CDR-03"
+      ],
+      "relationship_ids": [
+        "R02"
+      ],
+      "amount_inr": null,
+      "duration_seconds": 70
+    },
+    {
+      "id": "EV-E-CDR-04",
+      "type": "call",
+      "timestamp": "2026-08-15T18:12:00+05:30",
+      "entity_ids": [
+        "P101",
+        "P305"
+      ],
+      "evidence_ids": [
+        "E-CDR-04"
+      ],
+      "relationship_ids": [
+        "R-CALL-P305"
+      ],
+      "amount_inr": null,
+      "duration_seconds": 75
+    },
+    {
+      "id": "EV-E-CDR-05",
+      "type": "call",
+      "timestamp": "2026-08-15T18:16:00+05:30",
+      "entity_ids": [
+        "P101",
+        "P306"
+      ],
+      "evidence_ids": [
+        "E-CDR-05"
+      ],
+      "relationship_ids": [
+        "R-CALL-P306"
+      ],
+      "amount_inr": null,
+      "duration_seconds": 80
+    },
+    {
+      "id": "EV-E-CDR-06",
+      "type": "call",
+      "timestamp": "2026-08-15T18:20:00+05:30",
+      "entity_ids": [
+        "P101",
+        "P307"
+      ],
+      "evidence_ids": [
+        "E-CDR-06"
+      ],
+      "relationship_ids": [
+        "R-CALL-P307"
+      ],
+      "amount_inr": null,
+      "duration_seconds": 85
+    },
+    {
+      "id": "EV-E-CDR-07",
+      "type": "call",
+      "timestamp": "2026-08-15T18:24:00+05:30",
+      "entity_ids": [
+        "P101",
+        "P308"
+      ],
+      "evidence_ids": [
+        "E-CDR-07"
+      ],
+      "relationship_ids": [
+        "R-CALL-P308"
+      ],
+      "amount_inr": null,
+      "duration_seconds": 90
+    },
+    {
+      "id": "EV-E-CDR-08",
+      "type": "call",
+      "timestamp": "2026-08-15T18:28:00+05:30",
+      "entity_ids": [
+        "P101",
+        "P309"
+      ],
+      "evidence_ids": [
+        "E-CDR-08"
+      ],
+      "relationship_ids": [
+        "R-CALL-P309"
+      ],
+      "amount_inr": null,
+      "duration_seconds": 95
+    },
+    {
+      "id": "EV-E-CDR-09",
+      "type": "call",
+      "timestamp": "2026-08-15T18:32:00+05:30",
+      "entity_ids": [
+        "P101",
+        "P310"
+      ],
+      "evidence_ids": [
+        "E-CDR-09"
+      ],
+      "relationship_ids": [
+        "R-CALL-P310"
+      ],
+      "amount_inr": null,
+      "duration_seconds": 100
+    },
+    {
+      "id": "EV-E-CDR-10",
+      "type": "call",
+      "timestamp": "2026-08-15T18:36:00+05:30",
+      "entity_ids": [
+        "P101",
+        "P311"
+      ],
+      "evidence_ids": [
+        "E-CDR-10"
+      ],
+      "relationship_ids": [
+        "R-CALL-P311"
+      ],
+      "amount_inr": null,
+      "duration_seconds": 105
+    },
+    {
+      "id": "EV-E-CDR-11",
+      "type": "call",
+      "timestamp": "2026-08-15T18:40:00+05:30",
+      "entity_ids": [
+        "P101",
+        "P313"
+      ],
+      "evidence_ids": [
+        "E-CDR-11"
+      ],
+      "relationship_ids": [
+        "R-CALL-P313"
+      ],
+      "amount_inr": null,
+      "duration_seconds": 110
+    },
+    {
+      "id": "EV-E-TX-01",
+      "type": "transfer",
+      "timestamp": "2026-08-15T18:35:00+05:30",
+      "entity_ids": [
+        "A17",
+        "A31"
+      ],
+      "evidence_ids": [
+        "E-TX-01"
+      ],
+      "relationship_ids": [
+        "R05"
+      ],
+      "amount_inr": 75000,
+      "duration_seconds": null
+    },
+    {
+      "id": "EV-E-TX-02",
+      "type": "transfer",
+      "timestamp": "2026-08-15T19:10:00+05:30",
+      "entity_ids": [
+        "A17",
+        "A44"
+      ],
+      "evidence_ids": [
+        "E-TX-02"
+      ],
+      "relationship_ids": [
+        "R-TX-2"
+      ],
+      "amount_inr": 60000,
+      "duration_seconds": null
+    },
+    {
+      "id": "EV-E-TX-03",
+      "type": "transfer",
+      "timestamp": "2026-08-15T19:50:00+05:30",
+      "entity_ids": [
+        "A44",
+        "A31"
+      ],
+      "evidence_ids": [
+        "E-TX-03"
+      ],
+      "relationship_ids": [
+        "R-TX-3"
+      ],
+      "amount_inr": 60000,
+      "duration_seconds": null
+    },
+    {
+      "id": "EV-REPORT-01",
+      "type": "report",
+      "timestamp": "2026-08-15T20:00:00+05:30",
+      "entity_ids": [
+        "L01"
+      ],
+      "evidence_ids": [
+        "E-REPORT-01"
+      ],
+      "relationship_ids": [],
+      "amount_inr": null,
+      "duration_seconds": null
+    }
+  ]
+}

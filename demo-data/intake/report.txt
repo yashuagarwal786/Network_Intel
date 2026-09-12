@@ -1,0 +1,8 @@
+Synthetic Demonstration Data. Case VEIL-DEMO-001. Report dated 12 August 2026.
+Rahul Sharma uses phone +910000000101.
+Neha Kapoor is associated with vehicle DEMO-VH-09.
+Mira Logistics is located at Rivergate depot.
+Rahul Sharma did not meet Vikram Singh on 12 August.
+Rahul Sharma may meet Amit Verma on 12 August.
+The reported amount was INR 75000.00 on 12 August 2026.
+Rahul Sharma secretly directs Mira Logistics.

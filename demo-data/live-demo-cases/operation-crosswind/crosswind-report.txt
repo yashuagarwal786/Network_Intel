@@ -1,0 +1,9 @@
+Synthetic Demonstration Data. Case NI-2026-025. Report dated 18 August 2026.
+Tariq Khan uses phone +910000000701.
+Harish Patel uses phone +910000000702.
+Harish Patel controls account DEMO-A710.
+Aman Verma controls account DEMO-A720.
+Deepak Rao uses phone +910000000703.
+Tariq Khan did not meet Aman Verma on 18 August 2026.
+Rohan Mehra visited South terminal on 18 August 2026.
+The reported transit amount was INR 95000.00 on 18 August 2026.

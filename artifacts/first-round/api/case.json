@@ -1,0 +1,44 @@
+{
+  "case_id": "VEIL-DEMO-001",
+  "synthetic": true,
+  "data_version": "golden-v1",
+  "case": {
+    "id": "VEIL-DEMO-001",
+    "name": "Operation Trinetra",
+    "classification": "Synthetic Demonstration",
+    "status": "Active Review",
+    "timezone": "Asia/Kolkata",
+    "description": "Fictional investigation workspace · leads, not accusations.",
+    "event_label": "Event X",
+    "event_timestamp": "2026-08-15T20:00:00+05:30",
+    "source_default": "rahul",
+    "target_default": "vikram",
+    "focus_entity_ids": [
+      "rahul",
+      "P101",
+      "P204",
+      "amit",
+      "A17",
+      "A31",
+      "vikram",
+      "A44",
+      "P305",
+      "neha",
+      "P306",
+      "arjun",
+      "V01",
+      "L01",
+      "O01",
+      "rk-sharma",
+      "a-verma"
+    ],
+    "max_depth": 8
+  },
+  "counts": {
+    "entities": 60,
+    "relationships": 52,
+    "evidence": 77,
+    "sources": 13,
+    "leads": 1
+  }
+}

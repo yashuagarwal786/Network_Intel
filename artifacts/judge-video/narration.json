@@ -1,0 +1,15 @@
+[
+ {"title":"ONE CASE. FRAGMENTED RECORDS.","voice":"An investigation rarely begins with a complete picture. Information is scattered across reports, call records, payments, and vehicle observations. In this fictional case, VEIL helps an investigator connect those pieces."},
+ {"title":"FOUR SOURCES. ONE INVESTIGATION.","voice":"Operation Trinetra brings four prepared synthetic sources into one workspace. The system validates the records and flags invalid rows. Processing is already complete, so we can move directly to the evidence."},
+ {"title":"FROM RECORDS TO RELATIONSHIPS","voice":"The original rows remain available as the system extracts entities and relationship candidates. Each extracted item retains its source reference."},
+ {"title":"IDENTITY REQUIRES HUMAN REVIEW","voice":"First, an identity question. Could R. K. Sharma and Rahul Kumar Sharma be the same person? Shared phone and vehicle records support the proposal. An investigator confirms it; name similarity alone is insufficient."},
+ {"title":"ORIGINAL MENTIONS PRESERVED","voice":"Rahul's working record now includes the reviewed alias. The original mentions and their evidence remain preserved, and the confirmation can be undone."},
+ {"title":"THE DISCOVERY: A SIX-HOP CONNECTION","voice":"Now we ask a more difficult question. How is Rahul connected to Vikram? The backend searches the graph and computes a six hop path. A phone connection leads through Amit Verma, then through two bank accounts, to Vikram."},
+ {"title":"FOLLOW THE COMPLETE EVIDENCE PATH","voice":"Follow the highlighted chain. Rahul uses phone P one hundred and one. It called P two hundred and four, used by Amit. Amit controls account A seventeen, which transferred to A thirty one, controlled by Vikram. This is an association path, not proof of wrongdoing."},
+ {"title":"COMPUTED SIGNALS. EXPLAINED VALUES.","voice":"Lead seventeen adds temporal context. Calls increased from a historical median of two per day to eleven, with seven contacts absent from the baseline. The calculation and supporting records are visible for inspection."},
+ {"title":"THREE TRANSFERS · INR 195,000","voice":"Three connected transfers total one lakh ninety five thousand rupees over seventy five minutes. The financial signal is explained alongside the graph context."},
+ {"title":"EXACT FILE. EXACT ROW. EXACT EXCERPT.","voice":"Open the evidence, and the explanation reaches the original transaction file: row two, its timestamp, and the exact source excerpt."},
+ {"title":"THE INVESTIGATOR MAKES THE DECISION","voice":"The investigator records Needs More Evidence, with a reason. Analytical priority guides examination order. It does not determine guilt."},
+ {"title":"THE DECISION REMAINS TRACEABLE","voice":"The audit history records the reviewer, the reason, and the change in status. Evidence, analytical inference, and human decisions remain distinct."},
+ {"title":"VEIL · EXPLAINABLE LEADS. HUMAN JUDGMENT.","voice":"VEIL reduces the search space. The investigator decides what comes next."}
+]

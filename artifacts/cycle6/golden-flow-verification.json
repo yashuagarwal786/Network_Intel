@@ -1,0 +1,42 @@
+{
+  "duration_seconds": 11.794,
+  "viewport": {
+    "width": 1366,
+    "height": 768
+  },
+  "console_errors": [],
+  "failed_requests": [],
+  "external_requests": [],
+  "api_requests": [
+    "/api/cases/demo",
+    "/api/cases/demo/graph",
+    "/api/cases/demo/leads",
+    "/api/cases/demo/sources",
+    "/api/cases/demo/processing-summary",
+    "/api/cases/demo/source-records",
+    "/api/cases/demo/extracted-claims",
+    "/api/cases/demo/resolution-proposals",
+    "/api/resolution-proposals/MP-rahul-rk-sharma",
+    "/api/resolution-proposals/MP-rahul-rk-sharma/decisions",
+    "/api/cases/demo/resolution-proposals",
+    "/api/resolution-proposals/MP-rahul-rk-sharma",
+    "/api/cases/demo/graph",
+    "/api/cases/demo",
+    "/api/cases/demo/sources",
+    "/api/cases/demo/leads",
+    "/api/cases/demo/path",
+    "/api/leads/17",
+    "/api/leads/17/reviews",
+    "/api/evidence/E-TX-01",
+    "/api/leads/17/reviews",
+    "/api/leads/17",
+    "/api/leads/17/reviews",
+    "/api/leads/17/reviews",
+    "/api/leads/17/reviews",
+    "/api/cases/demo/leads",
+    "/api/leads/17/reviews",
+    "/api/cases/demo/audit",
+    "/api/cases/demo/audit"
+  ],
+  "computed_path": 6
+}

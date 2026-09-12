@@ -1,0 +1,630 @@
+{
+  "schema_version": 1,
+  "case_id": "VEIL-DEMO-001",
+  "synthetic": true,
+  "data_version": "golden-v1",
+  "items": [
+    {
+      "id": "R01",
+      "source": "rahul",
+      "target": "P101",
+      "type": "USES",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-SUB-01"
+      ],
+      "event_ids": [],
+      "original_source": null,
+      "original_target": null,
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R03",
+      "source": "P204",
+      "target": "amit",
+      "type": "USED_BY",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-SUB-02"
+      ],
+      "event_ids": [],
+      "original_source": null,
+      "original_target": null,
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-SUB-03",
+      "source": "neha",
+      "target": "P305",
+      "type": "USES",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-SUB-03"
+      ],
+      "event_ids": [],
+      "original_source": null,
+      "original_target": null,
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-SUB-04",
+      "source": "arjun",
+      "target": "P306",
+      "type": "USES",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-SUB-04"
+      ],
+      "event_ids": [],
+      "original_source": null,
+      "original_target": null,
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-SUB-05",
+      "source": "sana",
+      "target": "P307",
+      "type": "USES",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-SUB-05"
+      ],
+      "event_ids": [],
+      "original_source": null,
+      "original_target": null,
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-SUB-06",
+      "source": "dev",
+      "target": "P308",
+      "type": "USES",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-SUB-06"
+      ],
+      "event_ids": [],
+      "original_source": null,
+      "original_target": null,
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-SUB-07",
+      "source": "priya",
+      "target": "P309",
+      "type": "USES",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-SUB-07"
+      ],
+      "event_ids": [],
+      "original_source": null,
+      "original_target": null,
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-SUB-08",
+      "source": "kabir",
+      "target": "P310",
+      "type": "USES",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-SUB-08"
+      ],
+      "event_ids": [],
+      "original_source": null,
+      "original_target": null,
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-SUB-09",
+      "source": "meera",
+      "target": "P311",
+      "type": "USES",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-SUB-09"
+      ],
+      "event_ids": [],
+      "original_source": null,
+      "original_target": null,
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-SUB-10",
+      "source": "vikram",
+      "target": "P312",
+      "type": "USES",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-SUB-10"
+      ],
+      "event_ids": [],
+      "original_source": null,
+      "original_target": null,
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R04",
+      "source": "amit",
+      "target": "A17",
+      "type": "CONTROLS",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-ACC-01"
+      ],
+      "event_ids": [],
+      "original_source": null,
+      "original_target": null,
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R06",
+      "source": "A31",
+      "target": "vikram",
+      "type": "CONTROLLED_BY",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-ACC-02"
+      ],
+      "event_ids": [],
+      "original_source": null,
+      "original_target": null,
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-ACC-03",
+      "source": "vikram",
+      "target": "A44",
+      "type": "CONTROLS",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-ACC-03"
+      ],
+      "event_ids": [],
+      "original_source": null,
+      "original_target": null,
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-ACC-04",
+      "source": "neha",
+      "target": "A52",
+      "type": "CONTROLS",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-ACC-04"
+      ],
+      "event_ids": [],
+      "original_source": null,
+      "original_target": null,
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-ACC-05",
+      "source": "arjun",
+      "target": "A63",
+      "type": "CONTROLS",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-ACC-05"
+      ],
+      "event_ids": [],
+      "original_source": null,
+      "original_target": null,
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-ACC-06",
+      "source": "sana",
+      "target": "A74",
+      "type": "CONTROLS",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-ACC-06"
+      ],
+      "event_ids": [],
+      "original_source": null,
+      "original_target": null,
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-ACC-07",
+      "source": "dev",
+      "target": "A85",
+      "type": "CONTROLS",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-ACC-07"
+      ],
+      "event_ids": [],
+      "original_source": null,
+      "original_target": null,
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-ACC-08",
+      "source": "priya",
+      "target": "A96",
+      "type": "CONTROLS",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-ACC-08"
+      ],
+      "event_ids": [],
+      "original_source": null,
+      "original_target": null,
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R02",
+      "source": "P101",
+      "target": "P204",
+      "type": "CALLED",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-CDR-01",
+        "E-CDR-02",
+        "E-CDR-03"
+      ],
+      "event_ids": [
+        "EV-E-CDR-01",
+        "EV-E-CDR-02",
+        "EV-E-CDR-03"
+      ],
+      "original_source": null,
+      "original_target": null,
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-CALL-P305",
+      "source": "P101",
+      "target": "P305",
+      "type": "CALLED",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-CDR-04"
+      ],
+      "event_ids": [
+        "EV-E-CDR-04"
+      ],
+      "original_source": null,
+      "original_target": null,
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-CALL-P306",
+      "source": "P101",
+      "target": "P306",
+      "type": "CALLED",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-CDR-05"
+      ],
+      "event_ids": [
+        "EV-E-CDR-05"
+      ],
+      "original_source": null,
+      "original_target": null,
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-CALL-P307",
+      "source": "P101",
+      "target": "P307",
+      "type": "CALLED",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-CDR-06"
+      ],
+      "event_ids": [
+        "EV-E-CDR-06"
+      ],
+      "original_source": null,
+      "original_target": null,
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-CALL-P308",
+      "source": "P101",
+      "target": "P308",
+      "type": "CALLED",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-CDR-07"
+      ],
+      "event_ids": [
+        "EV-E-CDR-07"
+      ],
+      "original_source": null,
+      "original_target": null,
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-CALL-P309",
+      "source": "P101",
+      "target": "P309",
+      "type": "CALLED",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-CDR-08"
+      ],
+      "event_ids": [
+        "EV-E-CDR-08"
+      ],
+      "original_source": null,
+      "original_target": null,
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-CALL-P310",
+      "source": "P101",
+      "target": "P310",
+      "type": "CALLED",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-CDR-09"
+      ],
+      "event_ids": [
+        "EV-E-CDR-09"
+      ],
+      "original_source": null,
+      "original_target": null,
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-CALL-P311",
+      "source": "P101",
+      "target": "P311",
+      "type": "CALLED",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-CDR-10"
+      ],
+      "event_ids": [
+        "EV-E-CDR-10"
+      ],
+      "original_source": null,
+      "original_target": null,
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-CALL-P313",
+      "source": "P101",
+      "target": "P313",
+      "type": "CALLED",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-CDR-11"
+      ],
+      "event_ids": [
+        "EV-E-CDR-11"
+      ],
+      "original_source": null,
+      "original_target": null,
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-V1",
+      "source": "neha",
+      "target": "V01",
+      "type": "REGISTERED_KEEPER",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-CTX-01"
+      ],
+      "event_ids": [],
+      "original_source": null,
+      "original_target": null,
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-V2",
+      "source": "kabir",
+      "target": "V02",
+      "type": "REGISTERED_KEEPER",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-CTX-02"
+      ],
+      "event_ids": [],
+      "original_source": null,
+      "original_target": null,
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-V3",
+      "source": "meera",
+      "target": "V03",
+      "type": "REGISTERED_KEEPER",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-CTX-03"
+      ],
+      "event_ids": [],
+      "original_source": null,
+      "original_target": null,
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-V4",
+      "source": "V01",
+      "target": "L01",
+      "type": "OBSERVED_AT",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-CTX-04"
+      ],
+      "event_ids": [],
+      "original_source": null,
+      "original_target": null,
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-C1",
+      "source": "O01",
+      "target": "L01",
+      "type": "LISTED_AT",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-CTX-05"
+      ],
+      "event_ids": [],
+      "original_source": null,
+      "original_target": null,
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-C2",
+      "source": "neha",
+      "target": "O01",
+      "type": "LISTED_CONTACT",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-CTX-06"
+      ],
+      "event_ids": [],
+      "original_source": null,
+      "original_target": null,
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-C3",
+      "source": "arjun",
+      "target": "O02",
+      "type": "LISTED_CONTACT",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-CTX-07"
+      ],
+      "event_ids": [],
+      "original_source": null,
+      "original_target": null,
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-C4",
+      "source": "O02",
+      "target": "L02",
+      "type": "LISTED_AT",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-CTX-08"
+      ],
+      "event_ids": [],
+      "original_source": null,
+      "original_target": null,
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-C5",
+      "source": "O03",
+      "target": "L03",
+      "type": "LISTED_AT",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-CTX-09"
+      ],
+      "event_ids": [],
+      "original_source": null,
+      "original_target": null,
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-C6",
+      "source": "P314",
+      "target": "L04",
+      "type": "LISTED_AT",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-CTX-10"
+      ],
+      "event_ids": [],
+      "original_source": null,
+      "original_target": null,
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-RES-01",
+      "source": "rk-sharma",
+      "target": "P101",
+      "type": "USES",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-RES-01"
+      ],
+      "event_ids": [],
+      "original_source": null,
+      "original_target": null,
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-RES-02",
+      "source": "rahul",
+      "target": "V02",
+      "type": "ASSOCIATED_WITH",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-RES-02"
+      ],
+      "event_ids": [],
+      "original_source": null,
+      "original_target": null,
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    },
+    {
+      "id": "R-RES-03",
+      "source": "rk-sharma",
+      "target": "V02",
+      "type": "ASSOCIATED_WITH",
+      "status": "recorded",
+      "evidence_ids": [
+        "E-RES-03"
+      ],
+      "event_ids": [],
+      "original_source": null,
+      "original_target": null,
+      "verification_status": "Synthetic source record · not independently verified",
+      "extractor_version": null
+    }
+  ]
+}

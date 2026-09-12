@@ -1,0 +1,14 @@
+[
+  {
+    "reviewer": "SIH first-round rehearsal",
+    "action": "NEEDS_MORE_EVIDENCE",
+    "reason": "Verify original CDR rows and transaction purpose before further inquiry.",
+    "idempotency_key": "cb8c36d5-cc8a-4314-90fb-bf18541cb882",
+    "lead_revision": "bda3e7beb855d2253e02ac13ef488001cc7f432c64df463ab6d5e648a6c48fbf",
+    "object_id": null,
+    "review_id": "c248aee4-a5d8-4096-a121-3c332a7fda98",
+    "case_id": "VEIL-DEMO-001",
+    "lead_id": "17",
+    "created_at": "2026-09-05T14:44:53.614979+00:00"
+  }
+]

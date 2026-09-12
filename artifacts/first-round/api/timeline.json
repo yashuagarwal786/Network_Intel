@@ -1,0 +1,2266 @@
+[
+  {
+    "timeline_id": "EV-E-BASE-08-0",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-08T10:00:00+05:30",
+    "category": "OBSERVED_SOURCE_EVENT",
+    "event_type": "call",
+    "title": "Call",
+    "description": "P101 → P204; 2026-08-08T10:00:00+05:30; connected call; duration 60 seconds.",
+    "entity_ids": [
+      "P101",
+      "P204"
+    ],
+    "evidence_ids": [
+      "E-BASE-08-0"
+    ],
+    "source_types": [
+      "CDR"
+    ],
+    "object_id": "EV-E-BASE-08-0"
+  },
+  {
+    "timeline_id": "EV-E-BASE-08-1",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-08T10:10:00+05:30",
+    "category": "OBSERVED_SOURCE_EVENT",
+    "event_type": "call",
+    "title": "Call",
+    "description": "P101 → P313; 2026-08-08T10:10:00+05:30; connected call; duration 60 seconds.",
+    "entity_ids": [
+      "P101",
+      "P313"
+    ],
+    "evidence_ids": [
+      "E-BASE-08-1"
+    ],
+    "source_types": [
+      "CDR"
+    ],
+    "object_id": "EV-E-BASE-08-1"
+  },
+  {
+    "timeline_id": "EV-E-BASE-09-0",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-09T10:00:00+05:30",
+    "category": "OBSERVED_SOURCE_EVENT",
+    "event_type": "call",
+    "title": "Call",
+    "description": "P101 → P204; 2026-08-09T10:00:00+05:30; connected call; duration 60 seconds.",
+    "entity_ids": [
+      "P101",
+      "P204"
+    ],
+    "evidence_ids": [
+      "E-BASE-09-0"
+    ],
+    "source_types": [
+      "CDR"
+    ],
+    "object_id": "EV-E-BASE-09-0"
+  },
+  {
+    "timeline_id": "EV-E-BASE-09-1",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-09T10:10:00+05:30",
+    "category": "OBSERVED_SOURCE_EVENT",
+    "event_type": "call",
+    "title": "Call",
+    "description": "P101 → P313; 2026-08-09T10:10:00+05:30; connected call; duration 60 seconds.",
+    "entity_ids": [
+      "P101",
+      "P313"
+    ],
+    "evidence_ids": [
+      "E-BASE-09-1"
+    ],
+    "source_types": [
+      "CDR"
+    ],
+    "object_id": "EV-E-BASE-09-1"
+  },
+  {
+    "timeline_id": "EV-E-BASE-10-0",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-10T10:00:00+05:30",
+    "category": "OBSERVED_SOURCE_EVENT",
+    "event_type": "call",
+    "title": "Call",
+    "description": "P101 → P204; 2026-08-10T10:00:00+05:30; connected call; duration 60 seconds.",
+    "entity_ids": [
+      "P101",
+      "P204"
+    ],
+    "evidence_ids": [
+      "E-BASE-10-0"
+    ],
+    "source_types": [
+      "CDR"
+    ],
+    "object_id": "EV-E-BASE-10-0"
+  },
+  {
+    "timeline_id": "EV-E-BASE-10-1",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-10T10:10:00+05:30",
+    "category": "OBSERVED_SOURCE_EVENT",
+    "event_type": "call",
+    "title": "Call",
+    "description": "P101 → P313; 2026-08-10T10:10:00+05:30; connected call; duration 60 seconds.",
+    "entity_ids": [
+      "P101",
+      "P313"
+    ],
+    "evidence_ids": [
+      "E-BASE-10-1"
+    ],
+    "source_types": [
+      "CDR"
+    ],
+    "object_id": "EV-E-BASE-10-1"
+  },
+  {
+    "timeline_id": "EV-E-BASE-11-0",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-11T10:00:00+05:30",
+    "category": "OBSERVED_SOURCE_EVENT",
+    "event_type": "call",
+    "title": "Call",
+    "description": "P101 → P204; 2026-08-11T10:00:00+05:30; connected call; duration 60 seconds.",
+    "entity_ids": [
+      "P101",
+      "P204"
+    ],
+    "evidence_ids": [
+      "E-BASE-11-0"
+    ],
+    "source_types": [
+      "CDR"
+    ],
+    "object_id": "EV-E-BASE-11-0"
+  },
+  {
+    "timeline_id": "EV-E-BASE-11-1",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-11T10:10:00+05:30",
+    "category": "OBSERVED_SOURCE_EVENT",
+    "event_type": "call",
+    "title": "Call",
+    "description": "P101 → P313; 2026-08-11T10:10:00+05:30; connected call; duration 60 seconds.",
+    "entity_ids": [
+      "P101",
+      "P313"
+    ],
+    "evidence_ids": [
+      "E-BASE-11-1"
+    ],
+    "source_types": [
+      "CDR"
+    ],
+    "object_id": "EV-E-BASE-11-1"
+  },
+  {
+    "timeline_id": "EV-E-BASE-12-0",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-12T10:00:00+05:30",
+    "category": "OBSERVED_SOURCE_EVENT",
+    "event_type": "call",
+    "title": "Call",
+    "description": "P101 → P204; 2026-08-12T10:00:00+05:30; connected call; duration 60 seconds.",
+    "entity_ids": [
+      "P101",
+      "P204"
+    ],
+    "evidence_ids": [
+      "E-BASE-12-0"
+    ],
+    "source_types": [
+      "CDR"
+    ],
+    "object_id": "EV-E-BASE-12-0"
+  },
+  {
+    "timeline_id": "EV-E-BASE-12-1",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-12T10:10:00+05:30",
+    "category": "OBSERVED_SOURCE_EVENT",
+    "event_type": "call",
+    "title": "Call",
+    "description": "P101 → P313; 2026-08-12T10:10:00+05:30; connected call; duration 60 seconds.",
+    "entity_ids": [
+      "P101",
+      "P313"
+    ],
+    "evidence_ids": [
+      "E-BASE-12-1"
+    ],
+    "source_types": [
+      "CDR"
+    ],
+    "object_id": "EV-E-BASE-12-1"
+  },
+  {
+    "timeline_id": "C-099197208e0dbcf04796",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-12T17:00:00+05:30",
+    "category": "EXTRACTED_CLAIM",
+    "event_type": "vehicle_observation",
+    "title": "REGISTERED_KEEPER · GRAPH_CANDIDATE",
+    "description": "POSITIVE / ASSERTED. Exact controlled source template; machine extraction remains unverified. ",
+    "entity_ids": [
+      "I-0fed290e433100f7b67d",
+      "I-4d9bf984339ad5054382"
+    ],
+    "evidence_ids": [
+      "E-F-131b5d2093a9b4572289-r1"
+    ],
+    "source_types": [
+      "Vehicle"
+    ],
+    "object_id": "C-099197208e0dbcf04796"
+  },
+  {
+    "timeline_id": "C-0925a3e6d08f9e0afd61",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-12T18:00:00+05:30",
+    "category": "EXTRACTED_CLAIM",
+    "event_type": "call",
+    "title": "CALLED · GRAPH_CANDIDATE",
+    "description": "POSITIVE / ASSERTED. Exact controlled source template; machine extraction remains unverified. ",
+    "entity_ids": [
+      "I-811a863d34070ab71c39",
+      "I-de9bde9d22b1c67ce74c"
+    ],
+    "evidence_ids": [
+      "E-F-407fb147afef3ebc7ddb-r1"
+    ],
+    "source_types": [
+      "CDR"
+    ],
+    "object_id": "C-0925a3e6d08f9e0afd61"
+  },
+  {
+    "timeline_id": "C-2d96e43278c91ca1cd9d",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-12T18:00:00+05:30",
+    "category": "EXTRACTED_CLAIM",
+    "event_type": "vehicle_observation",
+    "title": "OBSERVED_WITH · GRAPH_CANDIDATE",
+    "description": "POSITIVE / ASSERTED. Exact controlled source template; machine extraction remains unverified. ",
+    "entity_ids": [
+      "I-0fed290e433100f7b67d",
+      "I-139ad16324278011ae1f"
+    ],
+    "evidence_ids": [
+      "E-F-131b5d2093a9b4572289-r2"
+    ],
+    "source_types": [
+      "Vehicle"
+    ],
+    "object_id": "C-2d96e43278c91ca1cd9d"
+  },
+  {
+    "timeline_id": "C-48569993e967b604ee8e",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-12T18:05:00+05:30",
+    "category": "EXTRACTED_CLAIM",
+    "event_type": "call",
+    "title": "CALLED · GRAPH_CANDIDATE",
+    "description": "POSITIVE / ASSERTED. Exact controlled source template; machine extraction remains unverified. ",
+    "entity_ids": [
+      "I-9cdea8af1311a7e84749",
+      "I-de9bde9d22b1c67ce74c"
+    ],
+    "evidence_ids": [
+      "E-F-407fb147afef3ebc7ddb-r2"
+    ],
+    "source_types": [
+      "CDR"
+    ],
+    "object_id": "C-48569993e967b604ee8e"
+  },
+  {
+    "timeline_id": "C-8243b656e2e0196448c5",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-12T18:35:00+05:30",
+    "category": "EXTRACTED_CLAIM",
+    "event_type": "transfer",
+    "title": "TRANSFERRED_TO · GRAPH_CANDIDATE",
+    "description": "POSITIVE / ASSERTED. Exact controlled source template; machine extraction remains unverified. ",
+    "entity_ids": [
+      "I-19c09fcdfb563755e407",
+      "I-ced4c916f2961fedc89a"
+    ],
+    "evidence_ids": [
+      "E-F-ea3c2b8c497d396902f5-r1"
+    ],
+    "source_types": [
+      "Transaction"
+    ],
+    "object_id": "C-8243b656e2e0196448c5"
+  },
+  {
+    "timeline_id": "C-a38b0d4a6a4398392cff",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-12T19:00:00+05:30",
+    "category": "EXTRACTED_CLAIM",
+    "event_type": "transfer",
+    "title": "TRANSFERRED_TO · GRAPH_CANDIDATE",
+    "description": "POSITIVE / ASSERTED. Exact controlled source template; machine extraction remains unverified. ",
+    "entity_ids": [
+      "I-19c09fcdfb563755e407",
+      "I-fc3f6d30ff192496c854"
+    ],
+    "evidence_ids": [
+      "E-F-ea3c2b8c497d396902f5-r2"
+    ],
+    "source_types": [
+      "Transaction"
+    ],
+    "object_id": "C-a38b0d4a6a4398392cff"
+  },
+  {
+    "timeline_id": "EV-E-BASE-13-0",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-13T10:00:00+05:30",
+    "category": "OBSERVED_SOURCE_EVENT",
+    "event_type": "call",
+    "title": "Call",
+    "description": "P101 → P204; 2026-08-13T10:00:00+05:30; connected call; duration 60 seconds.",
+    "entity_ids": [
+      "P101",
+      "P204"
+    ],
+    "evidence_ids": [
+      "E-BASE-13-0"
+    ],
+    "source_types": [
+      "CDR"
+    ],
+    "object_id": "EV-E-BASE-13-0"
+  },
+  {
+    "timeline_id": "EV-E-BASE-13-1",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-13T10:10:00+05:30",
+    "category": "OBSERVED_SOURCE_EVENT",
+    "event_type": "call",
+    "title": "Call",
+    "description": "P101 → P313; 2026-08-13T10:10:00+05:30; connected call; duration 60 seconds.",
+    "entity_ids": [
+      "P101",
+      "P313"
+    ],
+    "evidence_ids": [
+      "E-BASE-13-1"
+    ],
+    "source_types": [
+      "CDR"
+    ],
+    "object_id": "EV-E-BASE-13-1"
+  },
+  {
+    "timeline_id": "source:E-SUB-01",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-14T09:00:00+05:30",
+    "category": "OBSERVED_SOURCE_EVENT",
+    "event_type": "report",
+    "title": "subscriber-register.csv",
+    "description": "rahul: listed user of synthetic phone P101; independently verified identity unavailable.",
+    "entity_ids": [
+      "P101",
+      "rahul"
+    ],
+    "evidence_ids": [
+      "E-SUB-01"
+    ],
+    "source_types": [
+      "Report"
+    ],
+    "object_id": "source:E-SUB-01"
+  },
+  {
+    "timeline_id": "source:E-SUB-02",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-14T09:00:00+05:30",
+    "category": "OBSERVED_SOURCE_EVENT",
+    "event_type": "report",
+    "title": "subscriber-register.csv",
+    "description": "amit: listed user of synthetic phone P204; independently verified identity unavailable.",
+    "entity_ids": [
+      "P204",
+      "amit"
+    ],
+    "evidence_ids": [
+      "E-SUB-02"
+    ],
+    "source_types": [
+      "Report"
+    ],
+    "object_id": "source:E-SUB-02"
+  },
+  {
+    "timeline_id": "source:E-SUB-03",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-14T09:00:00+05:30",
+    "category": "OBSERVED_SOURCE_EVENT",
+    "event_type": "report",
+    "title": "subscriber-register.csv",
+    "description": "neha: listed user of synthetic phone P305; independently verified identity unavailable.",
+    "entity_ids": [
+      "P305",
+      "neha"
+    ],
+    "evidence_ids": [
+      "E-SUB-03"
+    ],
+    "source_types": [
+      "Report"
+    ],
+    "object_id": "source:E-SUB-03"
+  },
+  {
+    "timeline_id": "source:E-SUB-04",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-14T09:00:00+05:30",
+    "category": "OBSERVED_SOURCE_EVENT",
+    "event_type": "report",
+    "title": "subscriber-register.csv",
+    "description": "arjun: listed user of synthetic phone P306; independently verified identity unavailable.",
+    "entity_ids": [
+      "P306",
+      "arjun"
+    ],
+    "evidence_ids": [
+      "E-SUB-04"
+    ],
+    "source_types": [
+      "Report"
+    ],
+    "object_id": "source:E-SUB-04"
+  },
+  {
+    "timeline_id": "source:E-SUB-05",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-14T09:00:00+05:30",
+    "category": "OBSERVED_SOURCE_EVENT",
+    "event_type": "report",
+    "title": "subscriber-register.csv",
+    "description": "sana: listed user of synthetic phone P307; independently verified identity unavailable.",
+    "entity_ids": [
+      "P307",
+      "sana"
+    ],
+    "evidence_ids": [
+      "E-SUB-05"
+    ],
+    "source_types": [
+      "Report"
+    ],
+    "object_id": "source:E-SUB-05"
+  },
+  {
+    "timeline_id": "source:E-SUB-06",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-14T09:00:00+05:30",
+    "category": "OBSERVED_SOURCE_EVENT",
+    "event_type": "report",
+    "title": "subscriber-register.csv",
+    "description": "dev: listed user of synthetic phone P308; independently verified identity unavailable.",
+    "entity_ids": [
+      "P308",
+      "dev"
+    ],
+    "evidence_ids": [
+      "E-SUB-06"
+    ],
+    "source_types": [
+      "Report"
+    ],
+    "object_id": "source:E-SUB-06"
+  },
+  {
+    "timeline_id": "source:E-SUB-07",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-14T09:00:00+05:30",
+    "category": "OBSERVED_SOURCE_EVENT",
+    "event_type": "report",
+    "title": "subscriber-register.csv",
+    "description": "priya: listed user of synthetic phone P309; independently verified identity unavailable.",
+    "entity_ids": [
+      "P309",
+      "priya"
+    ],
+    "evidence_ids": [
+      "E-SUB-07"
+    ],
+    "source_types": [
+      "Report"
+    ],
+    "object_id": "source:E-SUB-07"
+  },
+  {
+    "timeline_id": "source:E-SUB-08",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-14T09:00:00+05:30",
+    "category": "OBSERVED_SOURCE_EVENT",
+    "event_type": "report",
+    "title": "subscriber-register.csv",
+    "description": "kabir: listed user of synthetic phone P310; independently verified identity unavailable.",
+    "entity_ids": [
+      "P310",
+      "kabir"
+    ],
+    "evidence_ids": [
+      "E-SUB-08"
+    ],
+    "source_types": [
+      "Report"
+    ],
+    "object_id": "source:E-SUB-08"
+  },
+  {
+    "timeline_id": "source:E-SUB-09",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-14T09:00:00+05:30",
+    "category": "OBSERVED_SOURCE_EVENT",
+    "event_type": "report",
+    "title": "subscriber-register.csv",
+    "description": "meera: listed user of synthetic phone P311; independently verified identity unavailable.",
+    "entity_ids": [
+      "P311",
+      "meera"
+    ],
+    "evidence_ids": [
+      "E-SUB-09"
+    ],
+    "source_types": [
+      "Report"
+    ],
+    "object_id": "source:E-SUB-09"
+  },
+  {
+    "timeline_id": "source:E-SUB-10",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-14T09:00:00+05:30",
+    "category": "OBSERVED_SOURCE_EVENT",
+    "event_type": "report",
+    "title": "subscriber-register.csv",
+    "description": "vikram: listed user of synthetic phone P312; independently verified identity unavailable.",
+    "entity_ids": [
+      "P312",
+      "vikram"
+    ],
+    "evidence_ids": [
+      "E-SUB-10"
+    ],
+    "source_types": [
+      "Report"
+    ],
+    "object_id": "source:E-SUB-10"
+  },
+  {
+    "timeline_id": "source:E-CTX-01",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-14T09:00:00+05:30",
+    "category": "OBSERVED_SOURCE_EVENT",
+    "event_type": "vehicle_observation",
+    "title": "vehicle-register.csv",
+    "description": "neha → V01; REGISTERED_KEEPER. Synthetic record only; occupants and real-world involvement are unknown.",
+    "entity_ids": [
+      "V01",
+      "neha"
+    ],
+    "evidence_ids": [
+      "E-CTX-01"
+    ],
+    "source_types": [
+      "Vehicle"
+    ],
+    "object_id": "source:E-CTX-01"
+  },
+  {
+    "timeline_id": "source:E-CTX-02",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-14T09:00:00+05:30",
+    "category": "OBSERVED_SOURCE_EVENT",
+    "event_type": "vehicle_observation",
+    "title": "vehicle-register.csv",
+    "description": "kabir → V02; REGISTERED_KEEPER. Synthetic record only; occupants and real-world involvement are unknown.",
+    "entity_ids": [
+      "V02",
+      "kabir"
+    ],
+    "evidence_ids": [
+      "E-CTX-02"
+    ],
+    "source_types": [
+      "Vehicle"
+    ],
+    "object_id": "source:E-CTX-02"
+  },
+  {
+    "timeline_id": "source:E-CTX-03",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-14T09:00:00+05:30",
+    "category": "OBSERVED_SOURCE_EVENT",
+    "event_type": "vehicle_observation",
+    "title": "vehicle-register.csv",
+    "description": "meera → V03; REGISTERED_KEEPER. Synthetic record only; occupants and real-world involvement are unknown.",
+    "entity_ids": [
+      "V03",
+      "meera"
+    ],
+    "evidence_ids": [
+      "E-CTX-03"
+    ],
+    "source_types": [
+      "Vehicle"
+    ],
+    "object_id": "source:E-CTX-03"
+  },
+  {
+    "timeline_id": "source:E-CTX-04",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-14T09:00:00+05:30",
+    "category": "OBSERVED_SOURCE_EVENT",
+    "event_type": "vehicle_observation",
+    "title": "vehicle-register.csv",
+    "description": "V01 → L01; OBSERVED_AT. Synthetic record only; occupants and real-world involvement are unknown.",
+    "entity_ids": [
+      "L01",
+      "V01"
+    ],
+    "evidence_ids": [
+      "E-CTX-04"
+    ],
+    "source_types": [
+      "Vehicle"
+    ],
+    "object_id": "source:E-CTX-04"
+  },
+  {
+    "timeline_id": "source:E-CTX-05",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-14T09:00:00+05:30",
+    "category": "OBSERVED_SOURCE_EVENT",
+    "event_type": "report",
+    "title": "context-register.txt",
+    "description": "O01 → L01; LISTED_AT. Synthetic record only; occupants and real-world involvement are unknown.",
+    "entity_ids": [
+      "L01",
+      "O01"
+    ],
+    "evidence_ids": [
+      "E-CTX-05"
+    ],
+    "source_types": [
+      "Report"
+    ],
+    "object_id": "source:E-CTX-05"
+  },
+  {
+    "timeline_id": "source:E-CTX-06",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-14T09:00:00+05:30",
+    "category": "OBSERVED_SOURCE_EVENT",
+    "event_type": "report",
+    "title": "context-register.txt",
+    "description": "neha → O01; LISTED_CONTACT. Synthetic record only; occupants and real-world involvement are unknown.",
+    "entity_ids": [
+      "O01",
+      "neha"
+    ],
+    "evidence_ids": [
+      "E-CTX-06"
+    ],
+    "source_types": [
+      "Report"
+    ],
+    "object_id": "source:E-CTX-06"
+  },
+  {
+    "timeline_id": "source:E-CTX-07",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-14T09:00:00+05:30",
+    "category": "OBSERVED_SOURCE_EVENT",
+    "event_type": "report",
+    "title": "context-register.txt",
+    "description": "arjun → O02; LISTED_CONTACT. Synthetic record only; occupants and real-world involvement are unknown.",
+    "entity_ids": [
+      "O02",
+      "arjun"
+    ],
+    "evidence_ids": [
+      "E-CTX-07"
+    ],
+    "source_types": [
+      "Report"
+    ],
+    "object_id": "source:E-CTX-07"
+  },
+  {
+    "timeline_id": "source:E-CTX-08",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-14T09:00:00+05:30",
+    "category": "OBSERVED_SOURCE_EVENT",
+    "event_type": "report",
+    "title": "context-register.txt",
+    "description": "O02 → L02; LISTED_AT. Synthetic record only; occupants and real-world involvement are unknown.",
+    "entity_ids": [
+      "L02",
+      "O02"
+    ],
+    "evidence_ids": [
+      "E-CTX-08"
+    ],
+    "source_types": [
+      "Report"
+    ],
+    "object_id": "source:E-CTX-08"
+  },
+  {
+    "timeline_id": "source:E-CTX-09",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-14T09:00:00+05:30",
+    "category": "OBSERVED_SOURCE_EVENT",
+    "event_type": "report",
+    "title": "context-register.txt",
+    "description": "O03 → L03; LISTED_AT. Synthetic record only; occupants and real-world involvement are unknown.",
+    "entity_ids": [
+      "L03",
+      "O03"
+    ],
+    "evidence_ids": [
+      "E-CTX-09"
+    ],
+    "source_types": [
+      "Report"
+    ],
+    "object_id": "source:E-CTX-09"
+  },
+  {
+    "timeline_id": "source:E-CTX-10",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-14T09:00:00+05:30",
+    "category": "OBSERVED_SOURCE_EVENT",
+    "event_type": "report",
+    "title": "context-register.txt",
+    "description": "P314 → L04; LISTED_AT. Synthetic record only; occupants and real-world involvement are unknown.",
+    "entity_ids": [
+      "L04",
+      "P314"
+    ],
+    "evidence_ids": [
+      "E-CTX-10"
+    ],
+    "source_types": [
+      "Report"
+    ],
+    "object_id": "source:E-CTX-10"
+  },
+  {
+    "timeline_id": "EV-E-BASE-14-0",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-14T10:00:00+05:30",
+    "category": "OBSERVED_SOURCE_EVENT",
+    "event_type": "call",
+    "title": "Call",
+    "description": "P101 → P204; 2026-08-14T10:00:00+05:30; connected call; duration 60 seconds.",
+    "entity_ids": [
+      "P101",
+      "P204"
+    ],
+    "evidence_ids": [
+      "E-BASE-14-0"
+    ],
+    "source_types": [
+      "CDR"
+    ],
+    "object_id": "EV-E-BASE-14-0"
+  },
+  {
+    "timeline_id": "EV-E-BASE-14-1",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-14T10:10:00+05:30",
+    "category": "OBSERVED_SOURCE_EVENT",
+    "event_type": "call",
+    "title": "Call",
+    "description": "P101 → P313; 2026-08-14T10:10:00+05:30; connected call; duration 60 seconds.",
+    "entity_ids": [
+      "P101",
+      "P313"
+    ],
+    "evidence_ids": [
+      "E-BASE-14-1"
+    ],
+    "source_types": [
+      "CDR"
+    ],
+    "object_id": "EV-E-BASE-14-1"
+  },
+  {
+    "timeline_id": "source:E-RES-01",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-15T17:00:00+05:30",
+    "category": "OBSERVED_SOURCE_EVENT",
+    "event_type": "report",
+    "title": "resolution-mentions.csv",
+    "description": "Mention: R.K. Sharma; USES: P101. Identity not independently verified.",
+    "entity_ids": [
+      "P101",
+      "rk-sharma"
+    ],
+    "evidence_ids": [
+      "E-RES-01"
+    ],
+    "source_types": [
+      "Report"
+    ],
+    "object_id": "source:E-RES-01"
+  },
+  {
+    "timeline_id": "source:E-RES-02",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-15T17:00:00+05:30",
+    "category": "OBSERVED_SOURCE_EVENT",
+    "event_type": "report",
+    "title": "resolution-mentions.csv",
+    "description": "Mention: Rahul Kumar Sharma; ASSOCIATED_WITH: V02. Identity not independently verified.",
+    "entity_ids": [
+      "V02",
+      "rahul"
+    ],
+    "evidence_ids": [
+      "E-RES-02"
+    ],
+    "source_types": [
+      "Report"
+    ],
+    "object_id": "source:E-RES-02"
+  },
+  {
+    "timeline_id": "source:E-RES-03",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-15T17:00:00+05:30",
+    "category": "OBSERVED_SOURCE_EVENT",
+    "event_type": "report",
+    "title": "resolution-mentions.csv",
+    "description": "Mention: R.K. Sharma; ASSOCIATED_WITH: V02. Identity not independently verified.",
+    "entity_ids": [
+      "V02",
+      "rk-sharma"
+    ],
+    "evidence_ids": [
+      "E-RES-03"
+    ],
+    "source_types": [
+      "Report"
+    ],
+    "object_id": "source:E-RES-03"
+  },
+  {
+    "timeline_id": "source:E-RES-04",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-15T17:00:00+05:30",
+    "category": "OBSERVED_SOURCE_EVENT",
+    "event_type": "report",
+    "title": "resolution-mentions.csv",
+    "description": "Mention: A. Verma; No phone or vehicle identifier supplied.",
+    "entity_ids": [
+      "a-verma"
+    ],
+    "evidence_ids": [
+      "E-RES-04"
+    ],
+    "source_types": [
+      "Report"
+    ],
+    "object_id": "source:E-RES-04"
+  },
+  {
+    "timeline_id": "source:E-RES-05",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-15T17:00:00+05:30",
+    "category": "OBSERVED_SOURCE_EVENT",
+    "event_type": "report",
+    "title": "resolution-mentions.csv",
+    "description": "Mention: Amit Verma; No phone or vehicle identifier supplied.",
+    "entity_ids": [
+      "amit"
+    ],
+    "evidence_ids": [
+      "E-RES-05"
+    ],
+    "source_types": [
+      "Report"
+    ],
+    "object_id": "source:E-RES-05"
+  },
+  {
+    "timeline_id": "EV-E-CDR-01",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-15T18:00:00+05:30",
+    "category": "OBSERVED_SOURCE_EVENT",
+    "event_type": "call",
+    "title": "Call",
+    "description": "P101 → P204; 2026-08-15T18:00:00+05:30; connected call; duration 60 seconds. Call content unavailable.",
+    "entity_ids": [
+      "P101",
+      "P204"
+    ],
+    "evidence_ids": [
+      "E-CDR-01"
+    ],
+    "source_types": [
+      "CDR"
+    ],
+    "object_id": "EV-E-CDR-01"
+  },
+  {
+    "timeline_id": "EV-E-CDR-02",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-15T18:04:00+05:30",
+    "category": "OBSERVED_SOURCE_EVENT",
+    "event_type": "call",
+    "title": "Call",
+    "description": "P101 → P204; 2026-08-15T18:04:00+05:30; connected call; duration 65 seconds. Call content unavailable.",
+    "entity_ids": [
+      "P101",
+      "P204"
+    ],
+    "evidence_ids": [
+      "E-CDR-02"
+    ],
+    "source_types": [
+      "CDR"
+    ],
+    "object_id": "EV-E-CDR-02"
+  },
+  {
+    "timeline_id": "EV-E-CDR-03",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-15T18:08:00+05:30",
+    "category": "OBSERVED_SOURCE_EVENT",
+    "event_type": "call",
+    "title": "Call",
+    "description": "P101 → P204; 2026-08-15T18:08:00+05:30; connected call; duration 70 seconds. Call content unavailable.",
+    "entity_ids": [
+      "P101",
+      "P204"
+    ],
+    "evidence_ids": [
+      "E-CDR-03"
+    ],
+    "source_types": [
+      "CDR"
+    ],
+    "object_id": "EV-E-CDR-03"
+  },
+  {
+    "timeline_id": "EV-E-CDR-04",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-15T18:12:00+05:30",
+    "category": "OBSERVED_SOURCE_EVENT",
+    "event_type": "call",
+    "title": "Call",
+    "description": "P101 → P305; 2026-08-15T18:12:00+05:30; connected call; duration 75 seconds. Call content unavailable.",
+    "entity_ids": [
+      "P101",
+      "P305"
+    ],
+    "evidence_ids": [
+      "E-CDR-04"
+    ],
+    "source_types": [
+      "CDR"
+    ],
+    "object_id": "EV-E-CDR-04"
+  },
+  {
+    "timeline_id": "EV-E-CDR-05",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-15T18:16:00+05:30",
+    "category": "OBSERVED_SOURCE_EVENT",
+    "event_type": "call",
+    "title": "Call",
+    "description": "P101 → P306; 2026-08-15T18:16:00+05:30; connected call; duration 80 seconds. Call content unavailable.",
+    "entity_ids": [
+      "P101",
+      "P306"
+    ],
+    "evidence_ids": [
+      "E-CDR-05"
+    ],
+    "source_types": [
+      "CDR"
+    ],
+    "object_id": "EV-E-CDR-05"
+  },
+  {
+    "timeline_id": "EV-E-CDR-06",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-15T18:20:00+05:30",
+    "category": "OBSERVED_SOURCE_EVENT",
+    "event_type": "call",
+    "title": "Call",
+    "description": "P101 → P307; 2026-08-15T18:20:00+05:30; connected call; duration 85 seconds. Call content unavailable.",
+    "entity_ids": [
+      "P101",
+      "P307"
+    ],
+    "evidence_ids": [
+      "E-CDR-06"
+    ],
+    "source_types": [
+      "CDR"
+    ],
+    "object_id": "EV-E-CDR-06"
+  },
+  {
+    "timeline_id": "EV-E-CDR-07",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-15T18:24:00+05:30",
+    "category": "OBSERVED_SOURCE_EVENT",
+    "event_type": "call",
+    "title": "Call",
+    "description": "P101 → P308; 2026-08-15T18:24:00+05:30; connected call; duration 90 seconds. Call content unavailable.",
+    "entity_ids": [
+      "P101",
+      "P308"
+    ],
+    "evidence_ids": [
+      "E-CDR-07"
+    ],
+    "source_types": [
+      "CDR"
+    ],
+    "object_id": "EV-E-CDR-07"
+  },
+  {
+    "timeline_id": "EV-E-CDR-08",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-15T18:28:00+05:30",
+    "category": "OBSERVED_SOURCE_EVENT",
+    "event_type": "call",
+    "title": "Call",
+    "description": "P101 → P309; 2026-08-15T18:28:00+05:30; connected call; duration 95 seconds. Call content unavailable.",
+    "entity_ids": [
+      "P101",
+      "P309"
+    ],
+    "evidence_ids": [
+      "E-CDR-08"
+    ],
+    "source_types": [
+      "CDR"
+    ],
+    "object_id": "EV-E-CDR-08"
+  },
+  {
+    "timeline_id": "EV-E-CDR-09",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-15T18:32:00+05:30",
+    "category": "OBSERVED_SOURCE_EVENT",
+    "event_type": "call",
+    "title": "Call",
+    "description": "P101 → P310; 2026-08-15T18:32:00+05:30; connected call; duration 100 seconds. Call content unavailable.",
+    "entity_ids": [
+      "P101",
+      "P310"
+    ],
+    "evidence_ids": [
+      "E-CDR-09"
+    ],
+    "source_types": [
+      "CDR"
+    ],
+    "object_id": "EV-E-CDR-09"
+  },
+  {
+    "timeline_id": "EV-E-TX-01",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-15T18:35:00+05:30",
+    "category": "OBSERVED_SOURCE_EVENT",
+    "event_type": "transfer",
+    "title": "Transfer",
+    "description": "A17 → A31; INR 75,000; 2026-08-15T18:35:00+05:30; purpose unspecified.",
+    "entity_ids": [
+      "A17",
+      "A31"
+    ],
+    "evidence_ids": [
+      "E-TX-01"
+    ],
+    "source_types": [
+      "Transaction"
+    ],
+    "object_id": "EV-E-TX-01"
+  },
+  {
+    "timeline_id": "EV-E-CDR-10",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-15T18:36:00+05:30",
+    "category": "OBSERVED_SOURCE_EVENT",
+    "event_type": "call",
+    "title": "Call",
+    "description": "P101 → P311; 2026-08-15T18:36:00+05:30; connected call; duration 105 seconds. Call content unavailable.",
+    "entity_ids": [
+      "P101",
+      "P311"
+    ],
+    "evidence_ids": [
+      "E-CDR-10"
+    ],
+    "source_types": [
+      "CDR"
+    ],
+    "object_id": "EV-E-CDR-10"
+  },
+  {
+    "timeline_id": "EV-E-CDR-11",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-15T18:40:00+05:30",
+    "category": "OBSERVED_SOURCE_EVENT",
+    "event_type": "call",
+    "title": "Call",
+    "description": "P101 → P313; 2026-08-15T18:40:00+05:30; connected call; duration 110 seconds. Call content unavailable.",
+    "entity_ids": [
+      "P101",
+      "P313"
+    ],
+    "evidence_ids": [
+      "E-CDR-11"
+    ],
+    "source_types": [
+      "CDR"
+    ],
+    "object_id": "EV-E-CDR-11"
+  },
+  {
+    "timeline_id": "EV-E-TX-02",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-15T19:10:00+05:30",
+    "category": "OBSERVED_SOURCE_EVENT",
+    "event_type": "transfer",
+    "title": "Transfer",
+    "description": "A17 → A44; INR 60,000; 2026-08-15T19:10:00+05:30; purpose unspecified.",
+    "entity_ids": [
+      "A17",
+      "A44"
+    ],
+    "evidence_ids": [
+      "E-TX-02"
+    ],
+    "source_types": [
+      "Transaction"
+    ],
+    "object_id": "EV-E-TX-02"
+  },
+  {
+    "timeline_id": "EV-E-TX-03",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-15T19:50:00+05:30",
+    "category": "OBSERVED_SOURCE_EVENT",
+    "event_type": "transfer",
+    "title": "Transfer",
+    "description": "A44 → A31; INR 60,000; 2026-08-15T19:50:00+05:30; purpose unspecified.",
+    "entity_ids": [
+      "A31",
+      "A44"
+    ],
+    "evidence_ids": [
+      "E-TX-03"
+    ],
+    "source_types": [
+      "Transaction"
+    ],
+    "object_id": "EV-E-TX-03"
+  },
+  {
+    "timeline_id": "EV-REPORT-01",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-15T20:00:00+05:30",
+    "category": "OBSERVED_SOURCE_EVENT",
+    "event_type": "report",
+    "title": "Report",
+    "description": "Event X: a fictional delivery discrepancy was reported near Rivergate depot at 20:00 IST on 15 August 2026. This report does not establish an offence or identify responsible persons.",
+    "entity_ids": [
+      "L01"
+    ],
+    "evidence_ids": [
+      "E-REPORT-01"
+    ],
+    "source_types": [
+      "Report"
+    ],
+    "object_id": "EV-REPORT-01"
+  },
+  {
+    "timeline_id": "COMMUNICATION_BURST-2323512c6d164735",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-15T20:00:00+05:30",
+    "category": "ANALYTICAL_SIGNAL",
+    "event_type": "COMMUNICATION_BURST",
+    "title": "2 calls/day → 11 calls",
+    "description": "Replay analysis timestamp. Median of [2, 2, 2, 2, 2, 2, 2] = 2; current outgoing records = 11. Trigger at max(5, 3 × median) = 6.",
+    "entity_ids": [
+      "P101"
+    ],
+    "evidence_ids": [
+      "E-BASE-08-0",
+      "E-BASE-08-1",
+      "E-BASE-09-0",
+      "E-BASE-09-1",
+      "E-BASE-10-0",
+      "E-BASE-10-1",
+      "E-BASE-11-0",
+      "E-BASE-11-1",
+      "E-BASE-12-0",
+      "E-BASE-12-1",
+      "E-BASE-13-0",
+      "E-BASE-13-1",
+      "E-BASE-14-0",
+      "E-BASE-14-1",
+      "E-CDR-01",
+      "E-CDR-02",
+      "E-CDR-03",
+      "E-CDR-04",
+      "E-CDR-05",
+      "E-CDR-06",
+      "E-CDR-07",
+      "E-CDR-08",
+      "E-CDR-09",
+      "E-CDR-10",
+      "E-CDR-11"
+    ],
+    "source_types": [
+      "CDR"
+    ],
+    "object_id": "COMMUNICATION_BURST-2323512c6d164735"
+  },
+  {
+    "timeline_id": "GRAPH_PATH-19ca48012598487b",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-15T20:00:00+05:30",
+    "category": "ANALYTICAL_SIGNAL",
+    "event_type": "GRAPH_PATH",
+    "title": "6-hop path connects communication and transfers",
+    "description": "Replay analysis timestamp. Bounded NetworkX path contains P101 and 2 of 3 transaction accounts. No new graph edge is inferred.",
+    "entity_ids": [
+      "A17",
+      "A31",
+      "P101",
+      "P204",
+      "amit",
+      "rahul",
+      "vikram"
+    ],
+    "evidence_ids": [
+      "E-ACC-01",
+      "E-ACC-02",
+      "E-CDR-01",
+      "E-CDR-02",
+      "E-CDR-03",
+      "E-RES-01",
+      "E-SUB-02",
+      "E-TX-01"
+    ],
+    "source_types": [
+      "CDR",
+      "Report",
+      "Transaction"
+    ],
+    "object_id": "GRAPH_PATH-19ca48012598487b"
+  },
+  {
+    "timeline_id": "NEW_CONTACT_BURST-2323512c6d164735",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-15T20:00:00+05:30",
+    "category": "ANALYTICAL_SIGNAL",
+    "event_type": "NEW_CONTACT_BURST",
+    "title": "7 contacts new to the baseline",
+    "description": "Replay analysis timestamp. Event-day distinct recipients minus baseline recipients = ['P305', 'P306', 'P307', 'P308', 'P309', 'P310', 'P311']; count = 7.",
+    "entity_ids": [
+      "P101",
+      "P305",
+      "P306",
+      "P307",
+      "P308",
+      "P309",
+      "P310",
+      "P311"
+    ],
+    "evidence_ids": [
+      "E-BASE-08-0",
+      "E-BASE-08-1",
+      "E-BASE-09-0",
+      "E-BASE-09-1",
+      "E-BASE-10-0",
+      "E-BASE-10-1",
+      "E-BASE-11-0",
+      "E-BASE-11-1",
+      "E-BASE-12-0",
+      "E-BASE-12-1",
+      "E-BASE-13-0",
+      "E-BASE-13-1",
+      "E-BASE-14-0",
+      "E-BASE-14-1",
+      "E-CDR-04",
+      "E-CDR-05",
+      "E-CDR-06",
+      "E-CDR-07",
+      "E-CDR-08",
+      "E-CDR-09",
+      "E-CDR-10"
+    ],
+    "source_types": [
+      "CDR"
+    ],
+    "object_id": "NEW_CONTACT_BURST-2323512c6d164735"
+  },
+  {
+    "timeline_id": "TRANSACTION_SEQUENCE-5c70c7b4d9af6db7",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-08-15T20:00:00+05:30",
+    "category": "ANALYTICAL_SIGNAL",
+    "event_type": "TRANSACTION_SEQUENCE",
+    "title": "3 connected transfers · ₹1,95,000",
+    "description": "Replay analysis timestamp. 75000 + 60000 + 60000 = INR 195000; 75 elapsed minutes; weakly connected account component.",
+    "entity_ids": [
+      "A17",
+      "A31",
+      "A44"
+    ],
+    "evidence_ids": [
+      "E-TX-01",
+      "E-TX-02",
+      "E-TX-03"
+    ],
+    "source_types": [
+      "Transaction"
+    ],
+    "object_id": "TRANSACTION_SEQUENCE-5c70c7b4d9af6db7"
+  },
+  {
+    "timeline_id": "c12d2e64-f413-446e-b3f7-49c743424714",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-09-05T13:25:08.223192Z",
+    "category": "HUMAN_SYSTEM_ACTION",
+    "event_type": "INTAKE_RESET",
+    "title": "INTAKE RESET",
+    "description": "Local demo session · case VEIL-DEMO-001 · ",
+    "entity_ids": [],
+    "evidence_ids": [],
+    "source_types": [],
+    "object_id": "VEIL-DEMO-001"
+  },
+  {
+    "timeline_id": "a61041ee-8d6c-461c-b66e-c16a10b7afd5",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-09-05T13:25:08.225321Z",
+    "category": "HUMAN_SYSTEM_ACTION",
+    "event_type": "SOURCE_UPLOADED",
+    "title": "SOURCE UPLOADED",
+    "description": "Local demo session · source F-f6a1e88dd6f4b1669d94 · ",
+    "entity_ids": [],
+    "evidence_ids": [],
+    "source_types": [
+      "Report"
+    ],
+    "object_id": "F-f6a1e88dd6f4b1669d94"
+  },
+  {
+    "timeline_id": "b8881216-f3ff-4fe7-b989-edd449f72f2d",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-09-05T13:25:08.225545Z",
+    "category": "HUMAN_SYSTEM_ACTION",
+    "event_type": "SOURCE_UPLOADED",
+    "title": "SOURCE UPLOADED",
+    "description": "Local demo session · source F-407fb147afef3ebc7ddb · ",
+    "entity_ids": [],
+    "evidence_ids": [],
+    "source_types": [
+      "CDR"
+    ],
+    "object_id": "F-407fb147afef3ebc7ddb"
+  },
+  {
+    "timeline_id": "e3157379-960c-405d-ae24-c3e6610e64d2",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-09-05T13:25:08.225674Z",
+    "category": "HUMAN_SYSTEM_ACTION",
+    "event_type": "SOURCE_UPLOADED",
+    "title": "SOURCE UPLOADED",
+    "description": "Local demo session · source F-ea3c2b8c497d396902f5 · ",
+    "entity_ids": [],
+    "evidence_ids": [],
+    "source_types": [
+      "Transaction"
+    ],
+    "object_id": "F-ea3c2b8c497d396902f5"
+  },
+  {
+    "timeline_id": "0241938e-1e16-447d-a344-423120d17daa",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-09-05T13:25:08.225779Z",
+    "category": "HUMAN_SYSTEM_ACTION",
+    "event_type": "SOURCE_UPLOADED",
+    "title": "SOURCE UPLOADED",
+    "description": "Local demo session · source F-131b5d2093a9b4572289 · ",
+    "entity_ids": [],
+    "evidence_ids": [],
+    "source_types": [
+      "Vehicle"
+    ],
+    "object_id": "F-131b5d2093a9b4572289"
+  },
+  {
+    "timeline_id": "666073f4-fee6-4477-b189-513d71a85dc0",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-09-05T13:25:15.674469Z",
+    "category": "HUMAN_SYSTEM_ACTION",
+    "event_type": "SOURCE_PROCESSED",
+    "title": "SOURCE PROCESSED",
+    "description": "controlled-intake-v1 · source F-f6a1e88dd6f4b1669d94 · ",
+    "entity_ids": [
+      "I-0657c0e4f781ed75550c",
+      "I-0fed290e433100f7b67d",
+      "I-2c4b879e57d6b9183c55",
+      "I-811a863d34070ab71c39",
+      "I-a72c9f4e36d3c8ae516e",
+      "I-add56ab07cb090b13f45",
+      "I-bd6a5bf267d56b864e56",
+      "I-d04cab7ee67746895070",
+      "I-de6836f9b12d10924b1e",
+      "I-e41fbbff00f640d0f4f7"
+    ],
+    "evidence_ids": [
+      "E-F-f6a1e88dd6f4b1669d94-r1",
+      "E-F-f6a1e88dd6f4b1669d94-r2",
+      "E-F-f6a1e88dd6f4b1669d94-r3",
+      "E-F-f6a1e88dd6f4b1669d94-r4",
+      "E-F-f6a1e88dd6f4b1669d94-r5",
+      "E-F-f6a1e88dd6f4b1669d94-r6",
+      "E-F-f6a1e88dd6f4b1669d94-r7",
+      "E-F-f6a1e88dd6f4b1669d94-r8"
+    ],
+    "source_types": [
+      "Report"
+    ],
+    "object_id": "F-f6a1e88dd6f4b1669d94"
+  },
+  {
+    "timeline_id": "44916c51-8711-4760-a42b-bf31d64d181c",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-09-05T13:25:15.677200Z",
+    "category": "HUMAN_SYSTEM_ACTION",
+    "event_type": "SOURCE_PROCESSED",
+    "title": "SOURCE PROCESSED",
+    "description": "controlled-intake-v1 · source F-407fb147afef3ebc7ddb · ",
+    "entity_ids": [
+      "I-3768b18f2af964e165e4",
+      "I-811a863d34070ab71c39",
+      "I-9cdea8af1311a7e84749",
+      "I-de9bde9d22b1c67ce74c",
+      "I-e41fbbff00f640d0f4f7"
+    ],
+    "evidence_ids": [
+      "E-F-407fb147afef3ebc7ddb-r1",
+      "E-F-407fb147afef3ebc7ddb-r2",
+      "E-F-407fb147afef3ebc7ddb-r3"
+    ],
+    "source_types": [
+      "CDR"
+    ],
+    "object_id": "F-407fb147afef3ebc7ddb"
+  },
+  {
+    "timeline_id": "47e4a7a4-cb77-4d48-bf0b-9767ef056bb1",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-09-05T13:25:15.677496Z",
+    "category": "HUMAN_SYSTEM_ACTION",
+    "event_type": "SOURCE_PROCESSED",
+    "title": "SOURCE PROCESSED",
+    "description": "controlled-intake-v1 · source F-ea3c2b8c497d396902f5 · ",
+    "entity_ids": [
+      "I-19c09fcdfb563755e407",
+      "I-ced4c916f2961fedc89a",
+      "I-fc3f6d30ff192496c854"
+    ],
+    "evidence_ids": [
+      "E-F-ea3c2b8c497d396902f5-r1",
+      "E-F-ea3c2b8c497d396902f5-r2"
+    ],
+    "source_types": [
+      "Transaction"
+    ],
+    "object_id": "F-ea3c2b8c497d396902f5"
+  },
+  {
+    "timeline_id": "7b7e9de6-7852-48c8-8625-88190f534365",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-09-05T13:25:15.677674Z",
+    "category": "HUMAN_SYSTEM_ACTION",
+    "event_type": "SOURCE_PROCESSED",
+    "title": "SOURCE PROCESSED",
+    "description": "controlled-intake-v1 · source F-131b5d2093a9b4572289 · ",
+    "entity_ids": [
+      "I-0fed290e433100f7b67d",
+      "I-139ad16324278011ae1f",
+      "I-3768b18f2af964e165e4",
+      "I-4d9bf984339ad5054382",
+      "I-e41fbbff00f640d0f4f7"
+    ],
+    "evidence_ids": [
+      "E-F-131b5d2093a9b4572289-r1",
+      "E-F-131b5d2093a9b4572289-r2"
+    ],
+    "source_types": [
+      "Vehicle"
+    ],
+    "object_id": "F-131b5d2093a9b4572289"
+  },
+  {
+    "timeline_id": "41e55412-141d-4cd4-a5c8-70d04cb6033f",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-09-05T13:25:51.622073Z",
+    "category": "HUMAN_SYSTEM_ACTION",
+    "event_type": "LEAD_GENERATED",
+    "title": "LEAD GENERATED",
+    "description": "temporal-leads-v1 · lead 17 · ",
+    "entity_ids": [
+      "A17",
+      "A31",
+      "A44",
+      "P101",
+      "P204",
+      "P305",
+      "P306",
+      "P307",
+      "P308",
+      "P309",
+      "P310",
+      "P311",
+      "amit",
+      "rahul",
+      "vikram"
+    ],
+    "evidence_ids": [
+      "E-ACC-01",
+      "E-ACC-02",
+      "E-BASE-08-0",
+      "E-BASE-08-1",
+      "E-BASE-09-0",
+      "E-BASE-09-1",
+      "E-BASE-10-0",
+      "E-BASE-10-1",
+      "E-BASE-11-0",
+      "E-BASE-11-1",
+      "E-BASE-12-0",
+      "E-BASE-12-1",
+      "E-BASE-13-0",
+      "E-BASE-13-1",
+      "E-BASE-14-0",
+      "E-BASE-14-1",
+      "E-CDR-01",
+      "E-CDR-02",
+      "E-CDR-03",
+      "E-CDR-04",
+      "E-CDR-05",
+      "E-CDR-06",
+      "E-CDR-07",
+      "E-CDR-08",
+      "E-CDR-09",
+      "E-CDR-10",
+      "E-CDR-11",
+      "E-SUB-01",
+      "E-SUB-02",
+      "E-TX-01",
+      "E-TX-02",
+      "E-TX-03"
+    ],
+    "source_types": [
+      "CDR",
+      "Report",
+      "Transaction"
+    ],
+    "object_id": "17"
+  },
+  {
+    "timeline_id": "35c4cb8f-4b4f-4ebd-85c1-f08d586b7873",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-09-05T13:26:39.711004Z",
+    "category": "HUMAN_SYSTEM_ACTION",
+    "event_type": "ENTITY_RESOLUTION_DECISION",
+    "title": "ENTITY RESOLUTION DECISION",
+    "description": "Demo investigator · resolution_proposal MP-rahul-rk-sharma · Reviewed exact shared phone P101 and vehicle V02 source records; confirm the synthetic identity match.",
+    "entity_ids": [
+      "rahul",
+      "rk-sharma"
+    ],
+    "evidence_ids": [
+      "E-RES-01",
+      "E-RES-02",
+      "E-RES-03",
+      "E-SUB-01"
+    ],
+    "source_types": [
+      "Report"
+    ],
+    "object_id": "MP-rahul-rk-sharma"
+  },
+  {
+    "timeline_id": "5e45f56d-b728-47e2-b854-aab01aa03288",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-09-05T13:26:40.093032Z",
+    "category": "HUMAN_SYSTEM_ACTION",
+    "event_type": "LEAD_GENERATED",
+    "title": "LEAD GENERATED",
+    "description": "temporal-leads-v1 · lead 17 · ",
+    "entity_ids": [
+      "A17",
+      "A31",
+      "A44",
+      "P101",
+      "P204",
+      "P305",
+      "P306",
+      "P307",
+      "P308",
+      "P309",
+      "P310",
+      "P311",
+      "amit",
+      "rahul",
+      "vikram"
+    ],
+    "evidence_ids": [
+      "E-ACC-01",
+      "E-ACC-02",
+      "E-BASE-08-0",
+      "E-BASE-08-1",
+      "E-BASE-09-0",
+      "E-BASE-09-1",
+      "E-BASE-10-0",
+      "E-BASE-10-1",
+      "E-BASE-11-0",
+      "E-BASE-11-1",
+      "E-BASE-12-0",
+      "E-BASE-12-1",
+      "E-BASE-13-0",
+      "E-BASE-13-1",
+      "E-BASE-14-0",
+      "E-BASE-14-1",
+      "E-CDR-01",
+      "E-CDR-02",
+      "E-CDR-03",
+      "E-CDR-04",
+      "E-CDR-05",
+      "E-CDR-06",
+      "E-CDR-07",
+      "E-CDR-08",
+      "E-CDR-09",
+      "E-CDR-10",
+      "E-CDR-11",
+      "E-RES-01",
+      "E-SUB-02",
+      "E-TX-01",
+      "E-TX-02",
+      "E-TX-03"
+    ],
+    "source_types": [
+      "CDR",
+      "Report",
+      "Transaction"
+    ],
+    "object_id": "17"
+  },
+  {
+    "timeline_id": "1afd2274-f3e9-481c-b368-9c44faec2c33",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-09-05T13:27:25.858906Z",
+    "category": "HUMAN_SYSTEM_ACTION",
+    "event_type": "LEAD_OPENED",
+    "title": "LEAD OPENED",
+    "description": "Local demo session · lead 17 · ",
+    "entity_ids": [
+      "A17",
+      "A31",
+      "A44",
+      "P101",
+      "P204",
+      "P305",
+      "P306",
+      "P307",
+      "P308",
+      "P309",
+      "P310",
+      "P311",
+      "amit",
+      "rahul",
+      "vikram"
+    ],
+    "evidence_ids": [
+      "E-ACC-01",
+      "E-ACC-02",
+      "E-BASE-08-0",
+      "E-BASE-08-1",
+      "E-BASE-09-0",
+      "E-BASE-09-1",
+      "E-BASE-10-0",
+      "E-BASE-10-1",
+      "E-BASE-11-0",
+      "E-BASE-11-1",
+      "E-BASE-12-0",
+      "E-BASE-12-1",
+      "E-BASE-13-0",
+      "E-BASE-13-1",
+      "E-BASE-14-0",
+      "E-BASE-14-1",
+      "E-CDR-01",
+      "E-CDR-02",
+      "E-CDR-03",
+      "E-CDR-04",
+      "E-CDR-05",
+      "E-CDR-06",
+      "E-CDR-07",
+      "E-CDR-08",
+      "E-CDR-09",
+      "E-CDR-10",
+      "E-CDR-11",
+      "E-RES-01",
+      "E-SUB-02",
+      "E-TX-01",
+      "E-TX-02",
+      "E-TX-03"
+    ],
+    "source_types": [
+      "CDR",
+      "Report",
+      "Transaction"
+    ],
+    "object_id": "17"
+  },
+  {
+    "timeline_id": "4e571968-3644-4534-a233-821922679bbd",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-09-05T14:41:34.050066Z",
+    "category": "HUMAN_SYSTEM_ACTION",
+    "event_type": "LEAD_OPENED",
+    "title": "LEAD OPENED",
+    "description": "Local demo session · lead 17 · ",
+    "entity_ids": [
+      "A17",
+      "A31",
+      "A44",
+      "P101",
+      "P204",
+      "P305",
+      "P306",
+      "P307",
+      "P308",
+      "P309",
+      "P310",
+      "P311",
+      "amit",
+      "rahul",
+      "vikram"
+    ],
+    "evidence_ids": [
+      "E-ACC-01",
+      "E-ACC-02",
+      "E-BASE-08-0",
+      "E-BASE-08-1",
+      "E-BASE-09-0",
+      "E-BASE-09-1",
+      "E-BASE-10-0",
+      "E-BASE-10-1",
+      "E-BASE-11-0",
+      "E-BASE-11-1",
+      "E-BASE-12-0",
+      "E-BASE-12-1",
+      "E-BASE-13-0",
+      "E-BASE-13-1",
+      "E-BASE-14-0",
+      "E-BASE-14-1",
+      "E-CDR-01",
+      "E-CDR-02",
+      "E-CDR-03",
+      "E-CDR-04",
+      "E-CDR-05",
+      "E-CDR-06",
+      "E-CDR-07",
+      "E-CDR-08",
+      "E-CDR-09",
+      "E-CDR-10",
+      "E-CDR-11",
+      "E-RES-01",
+      "E-SUB-02",
+      "E-TX-01",
+      "E-TX-02",
+      "E-TX-03"
+    ],
+    "source_types": [
+      "CDR",
+      "Report",
+      "Transaction"
+    ],
+    "object_id": "17"
+  },
+  {
+    "timeline_id": "a77f968e-b081-49b9-a0dd-5592d87b040d",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-09-05T14:41:34.176324Z",
+    "category": "HUMAN_SYSTEM_ACTION",
+    "event_type": "EVIDENCE_OPENED",
+    "title": "EVIDENCE OPENED",
+    "description": "Local demo session · evidence E-TX-01 · ",
+    "entity_ids": [
+      "A17",
+      "A31"
+    ],
+    "evidence_ids": [
+      "E-TX-01"
+    ],
+    "source_types": [
+      "Transaction"
+    ],
+    "object_id": "E-TX-01"
+  },
+  {
+    "timeline_id": "1c21a729-8ffe-45a9-9525-31dc0b8f3a89",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-09-05T14:44:35.046983Z",
+    "category": "HUMAN_SYSTEM_ACTION",
+    "event_type": "LEAD_OPENED",
+    "title": "LEAD OPENED",
+    "description": "Local demo session · lead 17 · ",
+    "entity_ids": [
+      "A17",
+      "A31",
+      "A44",
+      "P101",
+      "P204",
+      "P305",
+      "P306",
+      "P307",
+      "P308",
+      "P309",
+      "P310",
+      "P311",
+      "amit",
+      "rahul",
+      "vikram"
+    ],
+    "evidence_ids": [
+      "E-ACC-01",
+      "E-ACC-02",
+      "E-BASE-08-0",
+      "E-BASE-08-1",
+      "E-BASE-09-0",
+      "E-BASE-09-1",
+      "E-BASE-10-0",
+      "E-BASE-10-1",
+      "E-BASE-11-0",
+      "E-BASE-11-1",
+      "E-BASE-12-0",
+      "E-BASE-12-1",
+      "E-BASE-13-0",
+      "E-BASE-13-1",
+      "E-BASE-14-0",
+      "E-BASE-14-1",
+      "E-CDR-01",
+      "E-CDR-02",
+      "E-CDR-03",
+      "E-CDR-04",
+      "E-CDR-05",
+      "E-CDR-06",
+      "E-CDR-07",
+      "E-CDR-08",
+      "E-CDR-09",
+      "E-CDR-10",
+      "E-CDR-11",
+      "E-RES-01",
+      "E-SUB-02",
+      "E-TX-01",
+      "E-TX-02",
+      "E-TX-03"
+    ],
+    "source_types": [
+      "CDR",
+      "Report",
+      "Transaction"
+    ],
+    "object_id": "17"
+  },
+  {
+    "timeline_id": "cebac773-a04b-42a0-9df9-8effb9f89416",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-09-05T14:44:53.369618Z",
+    "category": "HUMAN_SYSTEM_ACTION",
+    "event_type": "LEAD_OPENED",
+    "title": "LEAD OPENED",
+    "description": "Local demo session · lead 17 · ",
+    "entity_ids": [
+      "A17",
+      "A31",
+      "A44",
+      "P101",
+      "P204",
+      "P305",
+      "P306",
+      "P307",
+      "P308",
+      "P309",
+      "P310",
+      "P311",
+      "amit",
+      "rahul",
+      "vikram"
+    ],
+    "evidence_ids": [
+      "E-ACC-01",
+      "E-ACC-02",
+      "E-BASE-08-0",
+      "E-BASE-08-1",
+      "E-BASE-09-0",
+      "E-BASE-09-1",
+      "E-BASE-10-0",
+      "E-BASE-10-1",
+      "E-BASE-11-0",
+      "E-BASE-11-1",
+      "E-BASE-12-0",
+      "E-BASE-12-1",
+      "E-BASE-13-0",
+      "E-BASE-13-1",
+      "E-BASE-14-0",
+      "E-BASE-14-1",
+      "E-CDR-01",
+      "E-CDR-02",
+      "E-CDR-03",
+      "E-CDR-04",
+      "E-CDR-05",
+      "E-CDR-06",
+      "E-CDR-07",
+      "E-CDR-08",
+      "E-CDR-09",
+      "E-CDR-10",
+      "E-CDR-11",
+      "E-RES-01",
+      "E-SUB-02",
+      "E-TX-01",
+      "E-TX-02",
+      "E-TX-03"
+    ],
+    "source_types": [
+      "CDR",
+      "Report",
+      "Transaction"
+    ],
+    "object_id": "17"
+  },
+  {
+    "timeline_id": "4d3dd18e-a03b-4863-9191-057d5a7bc7be",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-09-05T14:44:53.614979Z",
+    "category": "HUMAN_SYSTEM_ACTION",
+    "event_type": "LEAD_REVIEW_SUBMITTED",
+    "title": "LEAD REVIEW SUBMITTED",
+    "description": "SIH first-round rehearsal · lead 17 · Verify original CDR rows and transaction purpose before further inquiry.",
+    "entity_ids": [
+      "A17",
+      "A31",
+      "A44",
+      "P101",
+      "P204",
+      "P305",
+      "P306",
+      "P307",
+      "P308",
+      "P309",
+      "P310",
+      "P311",
+      "amit",
+      "rahul",
+      "vikram"
+    ],
+    "evidence_ids": [
+      "E-ACC-01",
+      "E-ACC-02",
+      "E-BASE-08-0",
+      "E-BASE-08-1",
+      "E-BASE-09-0",
+      "E-BASE-09-1",
+      "E-BASE-10-0",
+      "E-BASE-10-1",
+      "E-BASE-11-0",
+      "E-BASE-11-1",
+      "E-BASE-12-0",
+      "E-BASE-12-1",
+      "E-BASE-13-0",
+      "E-BASE-13-1",
+      "E-BASE-14-0",
+      "E-BASE-14-1",
+      "E-CDR-01",
+      "E-CDR-02",
+      "E-CDR-03",
+      "E-CDR-04",
+      "E-CDR-05",
+      "E-CDR-06",
+      "E-CDR-07",
+      "E-CDR-08",
+      "E-CDR-09",
+      "E-CDR-10",
+      "E-CDR-11",
+      "E-RES-01",
+      "E-SUB-02",
+      "E-TX-01",
+      "E-TX-02",
+      "E-TX-03"
+    ],
+    "source_types": [
+      "CDR",
+      "Report",
+      "Transaction"
+    ],
+    "object_id": "17"
+  },
+  {
+    "timeline_id": "12a18bee-ec8e-4c11-a36c-5836c583283a",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-09-05T14:44:54.492395Z",
+    "category": "HUMAN_SYSTEM_ACTION",
+    "event_type": "LEAD_OPENED",
+    "title": "LEAD OPENED",
+    "description": "Local demo session · lead 17 · ",
+    "entity_ids": [
+      "A17",
+      "A31",
+      "A44",
+      "P101",
+      "P204",
+      "P305",
+      "P306",
+      "P307",
+      "P308",
+      "P309",
+      "P310",
+      "P311",
+      "amit",
+      "rahul",
+      "vikram"
+    ],
+    "evidence_ids": [
+      "E-ACC-01",
+      "E-ACC-02",
+      "E-BASE-08-0",
+      "E-BASE-08-1",
+      "E-BASE-09-0",
+      "E-BASE-09-1",
+      "E-BASE-10-0",
+      "E-BASE-10-1",
+      "E-BASE-11-0",
+      "E-BASE-11-1",
+      "E-BASE-12-0",
+      "E-BASE-12-1",
+      "E-BASE-13-0",
+      "E-BASE-13-1",
+      "E-BASE-14-0",
+      "E-BASE-14-1",
+      "E-CDR-01",
+      "E-CDR-02",
+      "E-CDR-03",
+      "E-CDR-04",
+      "E-CDR-05",
+      "E-CDR-06",
+      "E-CDR-07",
+      "E-CDR-08",
+      "E-CDR-09",
+      "E-CDR-10",
+      "E-CDR-11",
+      "E-RES-01",
+      "E-SUB-02",
+      "E-TX-01",
+      "E-TX-02",
+      "E-TX-03"
+    ],
+    "source_types": [
+      "CDR",
+      "Report",
+      "Transaction"
+    ],
+    "object_id": "17"
+  },
+  {
+    "timeline_id": "aaccf021-19e4-4e6f-b714-c3c22f90d048",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": "2026-09-05T14:44:54.537452Z",
+    "category": "HUMAN_SYSTEM_ACTION",
+    "event_type": "EVIDENCE_OPENED",
+    "title": "EVIDENCE OPENED",
+    "description": "Local demo session · evidence E-TX-01 · ",
+    "entity_ids": [
+      "A17",
+      "A31"
+    ],
+    "evidence_ids": [
+      "E-TX-01"
+    ],
+    "source_types": [
+      "Transaction"
+    ],
+    "object_id": "E-TX-01"
+  },
+  {
+    "timeline_id": "C-c1485cc66f44e132c650",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": null,
+    "category": "EXTRACTED_CLAIM",
+    "event_type": "report",
+    "title": "UNSUPPORTED · UNSUPPORTED",
+    "description": "UNKNOWN / UNKNOWN. No supported relationship template. Extracted values are retained; no graph relationship asserted. Timestamp not specified in source.",
+    "entity_ids": [],
+    "evidence_ids": [
+      "E-F-f6a1e88dd6f4b1669d94-r1"
+    ],
+    "source_types": [
+      "Report"
+    ],
+    "object_id": "C-c1485cc66f44e132c650"
+  },
+  {
+    "timeline_id": "C-e1588967fc93f6160394",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": null,
+    "category": "EXTRACTED_CLAIM",
+    "event_type": "report",
+    "title": "USES · GRAPH_CANDIDATE",
+    "description": "POSITIVE / ASSERTED. Exact controlled source template; machine extraction remains unverified. Timestamp not specified in source.",
+    "entity_ids": [
+      "I-811a863d34070ab71c39",
+      "I-de6836f9b12d10924b1e"
+    ],
+    "evidence_ids": [
+      "E-F-f6a1e88dd6f4b1669d94-r2"
+    ],
+    "source_types": [
+      "Report"
+    ],
+    "object_id": "C-e1588967fc93f6160394"
+  },
+  {
+    "timeline_id": "C-8f7588aed0d534a3602d",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": null,
+    "category": "EXTRACTED_CLAIM",
+    "event_type": "report",
+    "title": "ASSOCIATED_WITH · GRAPH_CANDIDATE",
+    "description": "POSITIVE / ASSERTED. Exact controlled source template; machine extraction remains unverified. Timestamp not specified in source.",
+    "entity_ids": [
+      "I-0fed290e433100f7b67d",
+      "I-d04cab7ee67746895070"
+    ],
+    "evidence_ids": [
+      "E-F-f6a1e88dd6f4b1669d94-r3"
+    ],
+    "source_types": [
+      "Report"
+    ],
+    "object_id": "C-8f7588aed0d534a3602d"
+  },
+  {
+    "timeline_id": "C-5a9171387ca57b7e8833",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": null,
+    "category": "EXTRACTED_CLAIM",
+    "event_type": "report",
+    "title": "LISTED_AT · GRAPH_CANDIDATE",
+    "description": "POSITIVE / ASSERTED. Exact controlled source template; machine extraction remains unverified. Timestamp not specified in source.",
+    "entity_ids": [
+      "I-add56ab07cb090b13f45",
+      "I-e41fbbff00f640d0f4f7"
+    ],
+    "evidence_ids": [
+      "E-F-f6a1e88dd6f4b1669d94-r4"
+    ],
+    "source_types": [
+      "Report"
+    ],
+    "object_id": "C-5a9171387ca57b7e8833"
+  },
+  {
+    "timeline_id": "C-3aaeaa4c6c074bc69fb4",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": null,
+    "category": "EXTRACTED_CLAIM",
+    "event_type": "report",
+    "title": "MET · NEGATED",
+    "description": "NEGATIVE / ASSERTED. Negative source assertion retained. No positive graph relationship is created. Timestamp not specified in source.",
+    "entity_ids": [
+      "I-bd6a5bf267d56b864e56",
+      "I-de6836f9b12d10924b1e"
+    ],
+    "evidence_ids": [
+      "E-F-f6a1e88dd6f4b1669d94-r5"
+    ],
+    "source_types": [
+      "Report"
+    ],
+    "object_id": "C-3aaeaa4c6c074bc69fb4"
+  },
+  {
+    "timeline_id": "C-c4dfa6d5b9ee66d7cab9",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": null,
+    "category": "EXTRACTED_CLAIM",
+    "event_type": "report",
+    "title": "MET · UNCERTAIN",
+    "description": "POSITIVE / POSSIBLE. Possible relationship retained for review. Uncertainty prevents adding a graph edge. Timestamp not specified in source.",
+    "entity_ids": [
+      "I-0657c0e4f781ed75550c",
+      "I-de6836f9b12d10924b1e"
+    ],
+    "evidence_ids": [
+      "E-F-f6a1e88dd6f4b1669d94-r6"
+    ],
+    "source_types": [
+      "Report"
+    ],
+    "object_id": "C-c4dfa6d5b9ee66d7cab9"
+  },
+  {
+    "timeline_id": "C-16c3e42f98501b05bf2f",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": null,
+    "category": "EXTRACTED_CLAIM",
+    "event_type": "report",
+    "title": "UNSUPPORTED · UNSUPPORTED",
+    "description": "UNKNOWN / UNKNOWN. No supported relationship template. Extracted values are retained; no graph relationship asserted. Timestamp not specified in source.",
+    "entity_ids": [],
+    "evidence_ids": [
+      "E-F-f6a1e88dd6f4b1669d94-r7"
+    ],
+    "source_types": [
+      "Report"
+    ],
+    "object_id": "C-16c3e42f98501b05bf2f"
+  },
+  {
+    "timeline_id": "C-2e91244b295b04f6ddb9",
+    "case_id": "VEIL-DEMO-001",
+    "timestamp": null,
+    "category": "EXTRACTED_CLAIM",
+    "event_type": "report",
+    "title": "UNSUPPORTED · UNSUPPORTED",
+    "description": "UNKNOWN / UNKNOWN. No supported relationship template. Extracted values are retained; no graph relationship asserted. Timestamp not specified in source.",
+    "entity_ids": [],
+    "evidence_ids": [
+      "E-F-f6a1e88dd6f4b1669d94-r8"
+    ],
+    "source_types": [
+      "Report"
+    ],
+    "object_id": "C-2e91244b295b04f6ddb9"
+  }
+]

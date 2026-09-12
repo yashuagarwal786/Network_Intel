@@ -1,0 +1,3 @@
+record_id,vehicle_number,relationship_type,person_name,observed_at,location,source_type
+VR-001,DEMO-VH-09,REGISTERED_KEEPER,Neha Kapoor,2026-08-12T17:00:00+05:30,Rivergate depot,registration_extract
+VR-002,DEMO-VH-09,OBSERVED_WITH,Rahul Sharma,2026-08-12T18:00:00+05:30,East market,synthetic_observation

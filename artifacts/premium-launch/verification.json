@@ -1,0 +1,27 @@
+{
+  "master": "Network-Intel-SIH26189-Premium-1080p.mp4",
+  "duration_seconds": 175.0,
+  "resolution": "1920x1080",
+  "frame_rate": 30,
+  "display_aspect_ratio": "16:9",
+  "video_codec": "H.264 High",
+  "audio_codec": "AAC LC",
+  "audio_sample_rate_hz": 48000,
+  "audio_peak_dbfs": -1.8,
+  "optional_english_subtitles": true,
+  "full_decode": "passed",
+  "all_voice_segments_fit_allocated_windows": true,
+  "live_capture": {
+    "viewport": "1920x1080",
+    "console_errors": 0,
+    "failed_requests": 0,
+    "external_requests": 0,
+    "path_length": 6,
+    "evidence_references": 8,
+    "path_nodes": ["rahul", "P101", "P204", "amit", "A17", "A31", "vikram"]
+  },
+  "branding": {
+    "delivery_brand": "Network Intel",
+    "legacy_brand_frames_used": false
+  }
+}

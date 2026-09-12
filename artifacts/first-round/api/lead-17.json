@@ -1,0 +1,824 @@
+{
+  "case_id": "VEIL-DEMO-001",
+  "synthetic": true,
+  "data_version": "golden-v1",
+  "lead": {
+    "lead_id": "17",
+    "case_id": "VEIL-DEMO-001",
+    "title": "Communication and connected transfers on 2026-08-15",
+    "review_priority": "HIGH",
+    "summary": "P101: 2 calls/day → 11 calls; 7 contacts new to the baseline. 3 connected transfers · ₹1,95,000 over 75 minutes. A computed 6-hop association path connects the records.",
+    "involved_entity_ids": [
+      "A17",
+      "A31",
+      "A44",
+      "P101",
+      "P204",
+      "P305",
+      "P306",
+      "P307",
+      "P308",
+      "P309",
+      "P310",
+      "P311",
+      "amit",
+      "rahul",
+      "vikram"
+    ],
+    "signal_ids": [
+      "COMMUNICATION_BURST-2323512c6d164735",
+      "NEW_CONTACT_BURST-2323512c6d164735",
+      "TRANSACTION_SEQUENCE-5c70c7b4d9af6db7",
+      "GRAPH_PATH-19ca48012598487b"
+    ],
+    "evidence_ids": [
+      "E-ACC-01",
+      "E-ACC-02",
+      "E-BASE-08-0",
+      "E-BASE-08-1",
+      "E-BASE-09-0",
+      "E-BASE-09-1",
+      "E-BASE-10-0",
+      "E-BASE-10-1",
+      "E-BASE-11-0",
+      "E-BASE-11-1",
+      "E-BASE-12-0",
+      "E-BASE-12-1",
+      "E-BASE-13-0",
+      "E-BASE-13-1",
+      "E-BASE-14-0",
+      "E-BASE-14-1",
+      "E-CDR-01",
+      "E-CDR-02",
+      "E-CDR-03",
+      "E-CDR-04",
+      "E-CDR-05",
+      "E-CDR-06",
+      "E-CDR-07",
+      "E-CDR-08",
+      "E-CDR-09",
+      "E-CDR-10",
+      "E-CDR-11",
+      "E-RES-01",
+      "E-SUB-02",
+      "E-TX-01",
+      "E-TX-02",
+      "E-TX-03"
+    ],
+    "generated_at": "2026-08-15T20:00:00+05:30",
+    "engine_version": "temporal-leads-v1",
+    "review_status": "NEEDS_MORE_EVIDENCE",
+    "lead_revision": "bda3e7beb855d2253e02ac13ef488001cc7f432c64df463ab6d5e648a6c48fbf",
+    "limitations": [
+      "Deterministic rules over synthetic records; no real-world accuracy estimate.",
+      "Ordinary business coordination or payments could explain the same records.",
+      "Priority is a review-order policy, not a risk model. Human assessment is recorded separately from analytical priority.",
+      "Generation time uses the deterministic case replay clock, not wall-clock request time."
+    ],
+    "disclaimer": "Review priority determines examination order. It is not a probability of criminal activity.",
+    "signal_categories": [
+      "COMMUNICATION",
+      "FINANCIAL",
+      "GRAPH_CONTEXT"
+    ],
+    "priority_explanation": "HIGH: 3 distinct categories (COMMUNICATION, FINANCIAL, GRAPH CONTEXT), time proximity, bounded connectivity and complete evidence traces. Burst and new contacts count once. Graph context counts only with separate phone/account association evidence.",
+    "time_window": {
+      "start": "2026-08-15T18:00:00+05:30",
+      "end": "2026-08-15T19:50:00+05:30",
+      "timezone": "Asia/Kolkata",
+      "boundary": "start inclusive; end inclusive unless stated otherwise"
+    },
+    "signals": [
+      {
+        "signal_id": "COMMUNICATION_BURST-2323512c6d164735",
+        "case_id": "VEIL-DEMO-001",
+        "signal_type": "COMMUNICATION_BURST",
+        "category": "COMMUNICATION",
+        "independent_category": true,
+        "title": "2 calls/day → 11 calls",
+        "involved_entity_ids": [
+          "P101"
+        ],
+        "time_window": {
+          "start": "2026-08-15T00:00:00+05:30",
+          "end": "2026-08-15T20:00:00+05:30",
+          "timezone": "Asia/Kolkata",
+          "boundary": "start inclusive; end inclusive unless stated otherwise"
+        },
+        "baseline_definition": "7 complete IST calendar days [2026-08-08T00:00:00+05:30, 2026-08-15T00:00:00+05:30); outgoing calls, missing dataset days counted as zero.",
+        "observed_value": {
+          "calls": 11,
+          "daily_baseline": [
+            {
+              "date": "2026-08-08",
+              "calls": 2
+            },
+            {
+              "date": "2026-08-09",
+              "calls": 2
+            },
+            {
+              "date": "2026-08-10",
+              "calls": 2
+            },
+            {
+              "date": "2026-08-11",
+              "calls": 2
+            },
+            {
+              "date": "2026-08-12",
+              "calls": 2
+            },
+            {
+              "date": "2026-08-13",
+              "calls": 2
+            },
+            {
+              "date": "2026-08-14",
+              "calls": 2
+            }
+          ],
+          "activity_start": "2026-08-15T18:00:00+05:30",
+          "activity_end": "2026-08-15T18:40:00+05:30"
+        },
+        "expected_value": {
+          "median_calls_per_day": 2.0
+        },
+        "calculation": "Median of [2, 2, 2, 2, 2, 2, 2] = 2; current outgoing records = 11. Trigger at max(5, 3 × median) = 6.",
+        "threshold": {
+          "minimum_calls": 5,
+          "median_multiplier": 3,
+          "effective_calls": 6.0
+        },
+        "supporting_evidence_ids": [
+          "E-BASE-08-0",
+          "E-BASE-08-1",
+          "E-BASE-09-0",
+          "E-BASE-09-1",
+          "E-BASE-10-0",
+          "E-BASE-10-1",
+          "E-BASE-11-0",
+          "E-BASE-11-1",
+          "E-BASE-12-0",
+          "E-BASE-12-1",
+          "E-BASE-13-0",
+          "E-BASE-13-1",
+          "E-BASE-14-0",
+          "E-BASE-14-1",
+          "E-CDR-01",
+          "E-CDR-02",
+          "E-CDR-03",
+          "E-CDR-04",
+          "E-CDR-05",
+          "E-CDR-06",
+          "E-CDR-07",
+          "E-CDR-08",
+          "E-CDR-09",
+          "E-CDR-10",
+          "E-CDR-11"
+        ],
+        "event_ids": [
+          "EV-E-BASE-08-0",
+          "EV-E-BASE-08-1",
+          "EV-E-BASE-09-0",
+          "EV-E-BASE-09-1",
+          "EV-E-BASE-10-0",
+          "EV-E-BASE-10-1",
+          "EV-E-BASE-11-0",
+          "EV-E-BASE-11-1",
+          "EV-E-BASE-12-0",
+          "EV-E-BASE-12-1",
+          "EV-E-BASE-13-0",
+          "EV-E-BASE-13-1",
+          "EV-E-BASE-14-0",
+          "EV-E-BASE-14-1",
+          "EV-E-CDR-01",
+          "EV-E-CDR-02",
+          "EV-E-CDR-03",
+          "EV-E-CDR-04",
+          "EV-E-CDR-05",
+          "EV-E-CDR-06",
+          "EV-E-CDR-07",
+          "EV-E-CDR-08",
+          "EV-E-CDR-09",
+          "EV-E-CDR-10",
+          "EV-E-CDR-11"
+        ],
+        "algorithm_version": "temporal-leads-v1",
+        "limitations": [
+          "Incomplete records can change the baseline; absence in this dataset is not absence of real activity.",
+          "Current day is counted only through the replay analysis timestamp. Call content and operator identity are unknown."
+        ],
+        "generated_at": "2026-08-15T20:00:00+05:30",
+        "path": null
+      },
+      {
+        "signal_id": "NEW_CONTACT_BURST-2323512c6d164735",
+        "case_id": "VEIL-DEMO-001",
+        "signal_type": "NEW_CONTACT_BURST",
+        "category": "COMMUNICATION",
+        "independent_category": true,
+        "title": "7 contacts new to the baseline",
+        "involved_entity_ids": [
+          "P101",
+          "P305",
+          "P306",
+          "P307",
+          "P308",
+          "P309",
+          "P310",
+          "P311"
+        ],
+        "time_window": {
+          "start": "2026-08-15T00:00:00+05:30",
+          "end": "2026-08-15T20:00:00+05:30",
+          "timezone": "Asia/Kolkata",
+          "boundary": "start inclusive; end inclusive unless stated otherwise"
+        },
+        "baseline_definition": "7 complete IST calendar days [2026-08-08T00:00:00+05:30, 2026-08-15T00:00:00+05:30); outgoing calls, missing dataset days counted as zero.",
+        "observed_value": {
+          "new_contacts": 7,
+          "contact_ids": [
+            "P305",
+            "P306",
+            "P307",
+            "P308",
+            "P309",
+            "P310",
+            "P311"
+          ],
+          "baseline_contact_ids": [
+            "P204",
+            "P313"
+          ]
+        },
+        "expected_value": {
+          "baseline_new_contacts": 0
+        },
+        "calculation": "Event-day distinct recipients minus baseline recipients = ['P305', 'P306', 'P307', 'P308', 'P309', 'P310', 'P311']; count = 7.",
+        "threshold": {
+          "minimum_new_contacts": 3
+        },
+        "supporting_evidence_ids": [
+          "E-BASE-08-0",
+          "E-BASE-08-1",
+          "E-BASE-09-0",
+          "E-BASE-09-1",
+          "E-BASE-10-0",
+          "E-BASE-10-1",
+          "E-BASE-11-0",
+          "E-BASE-11-1",
+          "E-BASE-12-0",
+          "E-BASE-12-1",
+          "E-BASE-13-0",
+          "E-BASE-13-1",
+          "E-BASE-14-0",
+          "E-BASE-14-1",
+          "E-CDR-04",
+          "E-CDR-05",
+          "E-CDR-06",
+          "E-CDR-07",
+          "E-CDR-08",
+          "E-CDR-09",
+          "E-CDR-10"
+        ],
+        "event_ids": [
+          "EV-E-BASE-08-0",
+          "EV-E-BASE-08-1",
+          "EV-E-BASE-09-0",
+          "EV-E-BASE-09-1",
+          "EV-E-BASE-10-0",
+          "EV-E-BASE-10-1",
+          "EV-E-BASE-11-0",
+          "EV-E-BASE-11-1",
+          "EV-E-BASE-12-0",
+          "EV-E-BASE-12-1",
+          "EV-E-BASE-13-0",
+          "EV-E-BASE-13-1",
+          "EV-E-BASE-14-0",
+          "EV-E-BASE-14-1",
+          "EV-E-CDR-04",
+          "EV-E-CDR-05",
+          "EV-E-CDR-06",
+          "EV-E-CDR-07",
+          "EV-E-CDR-08",
+          "EV-E-CDR-09",
+          "EV-E-CDR-10"
+        ],
+        "algorithm_version": "temporal-leads-v1",
+        "limitations": [
+          "New means not observed in the selected records/window, not a new real-world relationship.",
+          "Shares the communication category with call volume; it does not add an independent priority vote."
+        ],
+        "generated_at": "2026-08-15T20:00:00+05:30",
+        "path": null
+      },
+      {
+        "signal_id": "TRANSACTION_SEQUENCE-5c70c7b4d9af6db7",
+        "case_id": "VEIL-DEMO-001",
+        "signal_type": "TRANSACTION_SEQUENCE",
+        "category": "FINANCIAL",
+        "independent_category": true,
+        "title": "3 connected transfers · ₹1,95,000",
+        "involved_entity_ids": [
+          "A17",
+          "A31",
+          "A44"
+        ],
+        "time_window": {
+          "start": "2026-08-15T18:35:00+05:30",
+          "end": "2026-08-15T19:50:00+05:30",
+          "timezone": "Asia/Kolkata",
+          "boundary": "start inclusive; end inclusive unless stated otherwise"
+        },
+        "baseline_definition": "No historical expectation used.",
+        "observed_value": {
+          "transfers": 3,
+          "total_inr": "195000",
+          "elapsed_minutes": 75.0,
+          "transaction_ids": [
+            "EV-E-TX-01",
+            "EV-E-TX-02",
+            "EV-E-TX-03"
+          ],
+          "account_ids": [
+            "A17",
+            "A31",
+            "A44"
+          ]
+        },
+        "expected_value": {},
+        "calculation": "75000 + 60000 + 60000 = INR 195000; 75 elapsed minutes; weakly connected account component.",
+        "threshold": {
+          "minimum_transfers": 3,
+          "window_minutes": 90
+        },
+        "supporting_evidence_ids": [
+          "E-TX-01",
+          "E-TX-02",
+          "E-TX-03"
+        ],
+        "event_ids": [
+          "EV-E-TX-01",
+          "EV-E-TX-02",
+          "EV-E-TX-03"
+        ],
+        "algorithm_version": "temporal-leads-v1",
+        "limitations": [
+          "Total transfer volume can count the same funds more than once.",
+          "Account connectivity and temporal proximity do not establish purpose, money laundering or crime.",
+          "Overlapping strict-subset windows are suppressed; distinct event IDs are treated as separate records."
+        ],
+        "generated_at": "2026-08-15T20:00:00+05:30",
+        "path": null
+      },
+      {
+        "signal_id": "GRAPH_PATH-19ca48012598487b",
+        "case_id": "VEIL-DEMO-001",
+        "signal_type": "GRAPH_PATH",
+        "category": "GRAPH_CONTEXT",
+        "independent_category": true,
+        "title": "6-hop path connects communication and transfers",
+        "involved_entity_ids": [
+          "A17",
+          "A31",
+          "P101",
+          "P204",
+          "amit",
+          "rahul",
+          "vikram"
+        ],
+        "time_window": {
+          "start": "2026-08-15T18:00:00+05:30",
+          "end": "2026-08-15T19:50:00+05:30",
+          "timezone": "Asia/Kolkata",
+          "boundary": "start inclusive; end inclusive unless stated otherwise"
+        },
+        "baseline_definition": "No historical expectation used.",
+        "observed_value": {
+          "path_length": 6,
+          "phone_on_path": "P101",
+          "accounts_on_path": [
+            "A17",
+            "A31"
+          ],
+          "sequence_accounts": [
+            "A17",
+            "A31",
+            "A44"
+          ],
+          "independent_association_evidence_ids": [
+            "E-ACC-01",
+            "E-ACC-02",
+            "E-RES-01",
+            "E-SUB-02"
+          ]
+        },
+        "expected_value": {},
+        "calculation": "Bounded NetworkX path contains P101 and 2 of 3 transaction accounts. No new graph edge is inferred.",
+        "threshold": {
+          "max_path_depth": 8,
+          "minimum_path_accounts": 2,
+          "temporal_tolerance_minutes": 90
+        },
+        "supporting_evidence_ids": [
+          "E-ACC-01",
+          "E-ACC-02",
+          "E-CDR-01",
+          "E-CDR-02",
+          "E-CDR-03",
+          "E-RES-01",
+          "E-SUB-02",
+          "E-TX-01"
+        ],
+        "event_ids": [],
+        "algorithm_version": "temporal-leads-v1",
+        "limitations": [
+          "A path is an association trace, not chronology, causation, leadership or wrongdoing.",
+          "Accounts outside the returned path are not represented as being on it.",
+          "Operational categories are distinct evidence checks, not proven statistical independence."
+        ],
+        "generated_at": "2026-08-15T20:00:00+05:30",
+        "path": {
+          "case_id": "VEIL-DEMO-001",
+          "synthetic": true,
+          "data_version": "golden-v1",
+          "nodes": [
+            {
+              "id": "rahul",
+              "label": "Rahul Kumar Sharma",
+              "display_label": "Rahul Sharma",
+              "type": "Person",
+              "identifier": "DEMO-PER-01",
+              "description": "Fictional person listed in authorized demonstration records.",
+              "x": 40.0,
+              "y": 85.0,
+              "evidence_ids": [
+                "E-RES-01",
+                "E-RES-02",
+                "E-RES-03",
+                "E-SUB-01"
+              ],
+              "aliases": [
+                "R.K. Sharma"
+              ],
+              "original_entity_ids": [
+                "rahul",
+                "rk-sharma"
+              ],
+              "verification_status": "Synthetic source record · not independently verified",
+              "extractor_version": null
+            },
+            {
+              "id": "P101",
+              "label": "Phone P101",
+              "display_label": "P101",
+              "type": "Phone",
+              "identifier": "+91 DEMO 1000 (non-dialable)",
+              "description": "Synthetic phone number. Association does not establish who made a call.",
+              "x": 215.0,
+              "y": 85.0,
+              "evidence_ids": [
+                "E-BASE-08-0",
+                "E-BASE-08-1",
+                "E-BASE-09-0",
+                "E-BASE-09-1",
+                "E-BASE-10-0",
+                "E-BASE-10-1",
+                "E-BASE-11-0",
+                "E-BASE-11-1",
+                "E-BASE-12-0",
+                "E-BASE-12-1",
+                "E-BASE-13-0",
+                "E-BASE-13-1",
+                "E-BASE-14-0",
+                "E-BASE-14-1",
+                "E-CDR-01",
+                "E-CDR-02",
+                "E-CDR-03",
+                "E-CDR-04",
+                "E-CDR-05",
+                "E-CDR-06",
+                "E-CDR-07",
+                "E-CDR-08",
+                "E-CDR-09",
+                "E-CDR-10",
+                "E-CDR-11",
+                "E-RES-01",
+                "E-SUB-01"
+              ],
+              "aliases": [],
+              "original_entity_ids": [
+                "P101"
+              ],
+              "verification_status": "Synthetic source record · not independently verified",
+              "extractor_version": null
+            },
+            {
+              "id": "P204",
+              "label": "Phone P204",
+              "display_label": "P204",
+              "type": "Phone",
+              "identifier": "+91 DEMO 1001 (non-dialable)",
+              "description": "Synthetic phone number. Association does not establish who made a call.",
+              "x": 390.0,
+              "y": 85.0,
+              "evidence_ids": [
+                "E-BASE-08-0",
+                "E-BASE-09-0",
+                "E-BASE-10-0",
+                "E-BASE-11-0",
+                "E-BASE-12-0",
+                "E-BASE-13-0",
+                "E-BASE-14-0",
+                "E-CDR-01",
+                "E-CDR-02",
+                "E-CDR-03",
+                "E-SUB-02"
+              ],
+              "aliases": [],
+              "original_entity_ids": [
+                "P204"
+              ],
+              "verification_status": "Synthetic source record · not independently verified",
+              "extractor_version": null
+            },
+            {
+              "id": "amit",
+              "label": "Amit Verma",
+              "display_label": "Amit Verma",
+              "type": "Person",
+              "identifier": "DEMO-PER-02",
+              "description": "Fictional person listed in authorized demonstration records.",
+              "x": 565.0,
+              "y": 85.0,
+              "evidence_ids": [
+                "E-ACC-01",
+                "E-RES-05",
+                "E-SUB-02"
+              ],
+              "aliases": [],
+              "original_entity_ids": [
+                "amit"
+              ],
+              "verification_status": "Synthetic source record · not independently verified",
+              "extractor_version": null
+            },
+            {
+              "id": "A17",
+              "label": "Account A17",
+              "display_label": "A17",
+              "type": "Account",
+              "identifier": "DEMO-BANK-A17",
+              "description": "Synthetic bank account. Listed control is a record assertion, not independent verification.",
+              "x": 565.0,
+              "y": 245.0,
+              "evidence_ids": [
+                "E-ACC-01",
+                "E-TX-01",
+                "E-TX-02"
+              ],
+              "aliases": [],
+              "original_entity_ids": [
+                "A17"
+              ],
+              "verification_status": "Synthetic source record · not independently verified",
+              "extractor_version": null
+            },
+            {
+              "id": "A31",
+              "label": "Account A31",
+              "display_label": "A31",
+              "type": "Account",
+              "identifier": "DEMO-BANK-A31",
+              "description": "Synthetic bank account. Listed control is a record assertion, not independent verification.",
+              "x": 390.0,
+              "y": 245.0,
+              "evidence_ids": [
+                "E-ACC-02",
+                "E-TX-01",
+                "E-TX-03"
+              ],
+              "aliases": [],
+              "original_entity_ids": [
+                "A31"
+              ],
+              "verification_status": "Synthetic source record · not independently verified",
+              "extractor_version": null
+            },
+            {
+              "id": "vikram",
+              "label": "Vikram Singh",
+              "display_label": "Vikram Singh",
+              "type": "Person",
+              "identifier": "DEMO-PER-03",
+              "description": "Fictional person listed in authorized demonstration records.",
+              "x": 215.0,
+              "y": 245.0,
+              "evidence_ids": [
+                "E-ACC-02",
+                "E-ACC-03",
+                "E-SUB-10"
+              ],
+              "aliases": [],
+              "original_entity_ids": [
+                "vikram"
+              ],
+              "verification_status": "Synthetic source record · not independently verified",
+              "extractor_version": null
+            }
+          ],
+          "relationships": [
+            {
+              "id": "R-RES-01",
+              "source": "rahul",
+              "target": "P101",
+              "type": "USES",
+              "status": "recorded",
+              "evidence_ids": [
+                "E-RES-01"
+              ],
+              "event_ids": [],
+              "original_source": "rk-sharma",
+              "original_target": "P101",
+              "verification_status": "Synthetic source record · not independently verified",
+              "extractor_version": null
+            },
+            {
+              "id": "R02",
+              "source": "P101",
+              "target": "P204",
+              "type": "CALLED",
+              "status": "recorded",
+              "evidence_ids": [
+                "E-CDR-01",
+                "E-CDR-02",
+                "E-CDR-03"
+              ],
+              "event_ids": [
+                "EV-E-CDR-01",
+                "EV-E-CDR-02",
+                "EV-E-CDR-03"
+              ],
+              "original_source": "P101",
+              "original_target": "P204",
+              "verification_status": "Synthetic source record · not independently verified",
+              "extractor_version": null
+            },
+            {
+              "id": "R03",
+              "source": "P204",
+              "target": "amit",
+              "type": "USED_BY",
+              "status": "recorded",
+              "evidence_ids": [
+                "E-SUB-02"
+              ],
+              "event_ids": [],
+              "original_source": "P204",
+              "original_target": "amit",
+              "verification_status": "Synthetic source record · not independently verified",
+              "extractor_version": null
+            },
+            {
+              "id": "R04",
+              "source": "amit",
+              "target": "A17",
+              "type": "CONTROLS",
+              "status": "recorded",
+              "evidence_ids": [
+                "E-ACC-01"
+              ],
+              "event_ids": [],
+              "original_source": "amit",
+              "original_target": "A17",
+              "verification_status": "Synthetic source record · not independently verified",
+              "extractor_version": null
+            },
+            {
+              "id": "R05",
+              "source": "A17",
+              "target": "A31",
+              "type": "TRANSFERRED_TO",
+              "status": "recorded",
+              "evidence_ids": [
+                "E-TX-01"
+              ],
+              "event_ids": [
+                "EV-E-TX-01"
+              ],
+              "original_source": "A17",
+              "original_target": "A31",
+              "verification_status": "Synthetic source record · not independently verified",
+              "extractor_version": null
+            },
+            {
+              "id": "R06",
+              "source": "A31",
+              "target": "vikram",
+              "type": "CONTROLLED_BY",
+              "status": "recorded",
+              "evidence_ids": [
+                "E-ACC-02"
+              ],
+              "event_ids": [],
+              "original_source": "A31",
+              "original_target": "vikram",
+              "verification_status": "Synthetic source record · not independently verified",
+              "extractor_version": null
+            }
+          ],
+          "node_ids": [
+            "rahul",
+            "P101",
+            "P204",
+            "amit",
+            "A17",
+            "A31",
+            "vikram"
+          ],
+          "relationship_ids": [
+            "R-RES-01",
+            "R02",
+            "R03",
+            "R04",
+            "R05",
+            "R06"
+          ],
+          "evidence_ids": [
+            "E-ACC-01",
+            "E-ACC-02",
+            "E-CDR-01",
+            "E-CDR-02",
+            "E-CDR-03",
+            "E-RES-01",
+            "E-SUB-02",
+            "E-TX-01"
+          ],
+          "steps": [
+            {
+              "from_id": "rahul",
+              "to_id": "P101",
+              "relationship_id": "R-RES-01",
+              "traversal": "forward",
+              "evidence_ids": [
+                "E-RES-01"
+              ]
+            },
+            {
+              "from_id": "P101",
+              "to_id": "P204",
+              "relationship_id": "R02",
+              "traversal": "forward",
+              "evidence_ids": [
+                "E-CDR-01",
+                "E-CDR-02",
+                "E-CDR-03"
+              ]
+            },
+            {
+              "from_id": "P204",
+              "to_id": "amit",
+              "relationship_id": "R03",
+              "traversal": "forward",
+              "evidence_ids": [
+                "E-SUB-02"
+              ]
+            },
+            {
+              "from_id": "amit",
+              "to_id": "A17",
+              "relationship_id": "R04",
+              "traversal": "forward",
+              "evidence_ids": [
+                "E-ACC-01"
+              ]
+            },
+            {
+              "from_id": "A17",
+              "to_id": "A31",
+              "relationship_id": "R05",
+              "traversal": "forward",
+              "evidence_ids": [
+                "E-TX-01"
+              ]
+            },
+            {
+              "from_id": "A31",
+              "to_id": "vikram",
+              "relationship_id": "R06",
+              "traversal": "forward",
+              "evidence_ids": [
+                "E-ACC-02"
+              ]
+            }
+          ],
+          "path_length": 6,
+          "max_depth": 8,
+          "method": "NetworkX bounded shortest path · undirected associations · deterministic ID ordering",
+          "disclaimer": "A connected path is an investigative lead, not proof of criminal activity or a chronological sequence."
+        }
+      }
+    ]
+  }
+}

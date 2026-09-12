@@ -1,0 +1,61 @@
+{
+  "manifests": [
+    {
+      "source_file_id": "F-f6a1e88dd6f4b1669d94",
+      "case_id": "VEIL-DEMO-001",
+      "filename": "report.txt",
+      "source_type": "Report",
+      "checksum": "84a499e01dc066c3c3569eed8f7fc09022b4c6c0f785a23e8c49c6431b660f07",
+      "parser_version": "controlled-intake-v1",
+      "uploaded_at": "2026-09-05T08:05:41.084915+00:00",
+      "record_count": 8,
+      "processing_status": "PROCESSED",
+      "validation_errors": []
+    },
+    {
+      "source_file_id": "F-407fb147afef3ebc7ddb",
+      "case_id": "VEIL-DEMO-001",
+      "filename": "cdr.csv",
+      "source_type": "CDR",
+      "checksum": "314e16568f2bb7319a1eb961aebf430cbe6a6a2ea548812759d40019f40947f8",
+      "parser_version": "controlled-intake-v1",
+      "uploaded_at": "2026-09-05T08:05:41.085727+00:00",
+      "record_count": 3,
+      "processing_status": "PROCESSED_WITH_ERRORS",
+      "validation_errors": [
+        "Row 4: duration_seconds must be between 0 and 86400"
+      ]
+    },
+    {
+      "source_file_id": "F-ea3c2b8c497d396902f5",
+      "case_id": "VEIL-DEMO-001",
+      "filename": "transactions.csv",
+      "source_type": "Transaction",
+      "checksum": "0cf33ed9be7197fd59267a93e426a0b410a4ea6a1a2e6414039e4050241e274a",
+      "parser_version": "controlled-intake-v1",
+      "uploaded_at": "2026-09-05T08:05:41.087035+00:00",
+      "record_count": 2,
+      "processing_status": "PROCESSED",
+      "validation_errors": []
+    },
+    {
+      "source_file_id": "F-131b5d2093a9b4572289",
+      "case_id": "VEIL-DEMO-001",
+      "filename": "vehicles.csv",
+      "source_type": "Vehicle",
+      "checksum": "cf8e8162da3f84345d9e80c41328a227529ecb55c1d1dba917e4874a16ae981c",
+      "parser_version": "controlled-intake-v1",
+      "uploaded_at": "2026-09-05T08:05:41.087763+00:00",
+      "record_count": 2,
+      "processing_status": "PROCESSED",
+      "validation_errors": []
+    }
+  ],
+  "records_processed": 15,
+  "valid_records": 14,
+  "rejected_records": 1,
+  "entity_mentions": 46,
+  "relationship_candidates": 9,
+  "withheld_claims": 5,
+  "processed": true
+}

@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "case_id": "VEIL-DEMO-001",
+  "synthetic": true,
+  "data_version": "golden-v1",
+  "items": [
+    {
+      "id": "S01",
+      "filename": "subscriber-register.csv",
+      "type": "Report",
+      "description": "Synthetic phone association records",
+      "representation": "canonical_synthetic_records",
+      "evidence_ids": [
+        "E-SUB-01",
+        "E-SUB-02",
+        "E-SUB-03",
+        "E-SUB-04",
+        "E-SUB-05",
+        "E-SUB-06",
+        "E-SUB-07",
+        "E-SUB-08",
+        "E-SUB-09",
+        "E-SUB-10"
+      ]
+    },
+    {
+      "id": "S02",
+      "filename": "validation-22-cdr-baseline-08-15-to-08-21.csv",
+      "type": "CDR",
+      "description": "Deterministic alternate-seed source records; see rows for actual counts and amounts.",
+      "representation": "canonical_synthetic_records",
+      "evidence_ids": [
+        "E-BASE-08-0",
+        "E-BASE-08-1",
+        "E-BASE-09-0",
+        "E-BASE-09-1",
+        "E-BASE-10-0",
+        "E-BASE-10-1",
+        "E-BASE-11-0",
+        "E-BASE-11-1",
+        "E-BASE-12-0",
+        "E-BASE-12-1",
+        "E-BASE-13-0",
+        "E-BASE-13-1",
+        "E-BASE-14-0",
+        "E-BASE-14-1",
+        "E-ALT-BASE-0-0",
+        "E-ALT-BASE-2-0",
+        "E-ALT-BASE-3-0",
+        "E-ALT-BASE-3-1",
+        "E-ALT-BASE-4-0",
+        "E-ALT-BASE-6-0",
+        "E-ALT-BASE-6-1",
+        "E-BENIGN-BASE-0-0",
+        "E-BENIGN-BASE-0-1",
+        "E-BENIGN-BASE-1-0",
+        "E-BENIGN-BASE-1-1",
+        "E-BENIGN-BASE-2-0",
+        "E-BENIGN-BASE-2-1",
+        "E-BENIGN-BASE-3-0",
+        "E-BENIGN-BASE-3-1",
+        "E-BENIGN-BASE-4-0",
+        "E-BENIGN-BASE-4-1",
+        "E-BENIGN-BASE-5-0",
+        "E-BENIGN-BASE-5-1",
+        "E-BENIGN-BASE-6-0",
+        "E-BENIGN-BASE-6-1"
+      ]
+    },
+    {
+      "id": "S03",
+      "filename": "validation-22-cdr-event-2026-08-22.csv",
+      "type": "CDR",
+      "description": "Deterministic alternate-seed source records; see rows for actual counts and amounts.",
+      "representation": "canonical_synthetic_records",
+      "evidence_ids": [
+        "E-CDR-01",
+        "E-CDR-02",
+        "E-CDR-03",
+        "E-CDR-04",
+        "E-CDR-05",
+        "E-CDR-06",
+        "E-CDR-07",
+        "E-CDR-08",
+        "E-CDR-09",
+        "E-CDR-10",
+        "E-CDR-11",
+        "E-ALT-DAY-0",
+        "E-ALT-DAY-1",
+        "E-ALT-DAY-2",
+        "E-BENIGN-DAY-0",
+        "E-BENIGN-DAY-1",
+        "E-BENIGN-DAY-2",
+        "E-BENIGN-DAY-3",
+        "E-BENIGN-DAY-4",
+        "E-BENIGN-DAY-5",
+        "E-BENIGN-DAY-6",
+        "E-BENIGN-DAY-7",
+        "E-BENIGN-DAY-8",
+        "E-BENIGN-DAY-9",
+        "E-BENIGN-DAY-10",
+        "E-BENIGN-DAY-11"
+      ]
+    },
+    {
+      "id": "S04",
+      "filename": "account-control-register.csv",
+      "type": "Transaction",
+      "description": "Synthetic account control assertions",
+      "representation": "canonical_synthetic_records",
+      "evidence_ids": [
+        "E-ACC-01",
+        "E-ACC-02",
+        "E-ACC-03",
+        "E-ACC-04",
+        "E-ACC-05",
+        "E-ACC-06",
+        "E-ACC-07",
+        "E-ACC-08"
+      ]
+    },
+    {
+      "id": "S05",
+      "filename": "validation-22-transactions-2026-08-22.csv",
+      "type": "Transaction",
+      "description": "Deterministic alternate-seed source records; see rows for actual counts and amounts.",
+      "representation": "canonical_synthetic_records",
+      "evidence_ids": [
+        "E-TX-01",
+        "E-TX-02",
+        "E-TX-03"
+      ]
+    },
+    {
+      "id": "S06",
+      "filename": "event-x-report.txt",
+      "type": "Report",
+      "description": "Fictional report sentence and report timestamp",
+      "representation": "canonical_synthetic_records",
+      "evidence_ids": [
+        "E-REPORT-01"
+      ]
+    },
+    {
+      "id": "S07",
+      "filename": "vehicle-register.csv",
+      "type": "Vehicle",
+      "description": "Synthetic keeper and location observations",
+      "representation": "canonical_synthetic_records",
+      "evidence_ids": [
+        "E-CTX-01",
+        "E-CTX-02",
+        "E-CTX-03",
+        "E-CTX-04"
+      ]
+    },
+    {
+      "id": "S08",
+      "filename": "context-register.txt",
+      "type": "Report",
+      "description": "Supporting fictional organization and location links",
+      "representation": "canonical_synthetic_records",
+      "evidence_ids": [
+        "E-CTX-05",
+        "E-CTX-06",
+        "E-CTX-07",
+        "E-CTX-08",
+        "E-CTX-09",
+        "E-CTX-10"
+      ]
+    },
+    {
+      "id": "S09",
+      "filename": "resolution-mentions.csv",
+      "type": "Report",
+      "description": "Fictional named mentions and asserted identifiers for resolution review.",
+      "representation": "canonical_synthetic_records",
+      "evidence_ids": [
+        "E-RES-01",
+        "E-RES-02",
+        "E-RES-03",
+        "E-RES-04",
+        "E-RES-05"
+      ]
+    }
+  ]
+}

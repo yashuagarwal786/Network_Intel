@@ -1,0 +1,296 @@
+{
+  "public": {
+    "/api/cases/demo": {
+      "data": {
+        "case_id": "VEIL-DEMO-001",
+        "synthetic": true,
+        "data_version": "golden-v1",
+        "case": {
+          "id": "VEIL-DEMO-001",
+          "name": "Operation Trinetra",
+          "classification": "Synthetic Demonstration",
+          "status": "Active Review",
+          "timezone": "Asia/Kolkata",
+          "description": "Fictional investigation workspace \u00b7 leads, not accusations.",
+          "event_label": "Event X",
+          "event_timestamp": "2026-08-15T20:00:00+05:30",
+          "source_default": "rahul",
+          "target_default": "vikram",
+          "focus_entity_ids": [
+            "rahul",
+            "P101",
+            "P204",
+            "amit",
+            "A17",
+            "A31",
+            "vikram",
+            "A44",
+            "P305",
+            "neha",
+            "P306",
+            "arjun",
+            "V01",
+            "L01",
+            "O01",
+            "rk-sharma",
+            "a-verma"
+          ],
+          "max_depth": 8
+        },
+        "counts": {
+          "entities": 42,
+          "relationships": 43,
+          "evidence": 62,
+          "sources": 9,
+          "leads": 1
+        }
+      },
+      "single_request_seconds": 0.573
+    },
+    "/api/cases/demo/ner-status": {
+      "data": {
+        "available": false,
+        "model": "en_core_web_sm",
+        "extractor_version": "spacy-en_core_web_sm-unavailable",
+        "status_text": "NER Model unavailable \u2022 Structured extraction only"
+      },
+      "single_request_seconds": 0.439
+    },
+    "/api/cases/demo/processing-summary": {
+      "data": {
+        "manifests": [],
+        "records_processed": 0,
+        "valid_records": 0,
+        "rejected_records": 0,
+        "entity_mentions": 0,
+        "relationship_candidates": 0,
+        "withheld_claims": 0,
+        "processed": false
+      },
+      "single_request_seconds": 0.694
+    },
+    "/api/cases/demo/anomalies": {
+      "data": {
+        "status": "SUCCESS",
+        "sample_size": 14,
+        "generated_at": "2026-08-15T20:00:00+05:30"
+      },
+      "single_request_seconds": 0.897
+    }
+  },
+  "isolated_local": {
+    "/api/cases/demo": {
+      "data": {
+        "case_id": "VEIL-DEMO-001",
+        "synthetic": true,
+        "data_version": "golden-v1",
+        "case": {
+          "id": "VEIL-DEMO-001",
+          "name": "Operation Trinetra",
+          "classification": "Synthetic Demonstration",
+          "status": "Active Review",
+          "timezone": "Asia/Kolkata",
+          "description": "Fictional investigation workspace \u00b7 leads, not accusations.",
+          "event_label": "Event X",
+          "event_timestamp": "2026-08-15T20:00:00+05:30",
+          "source_default": "rahul",
+          "target_default": "vikram",
+          "focus_entity_ids": [
+            "rahul",
+            "P101",
+            "P204",
+            "amit",
+            "A17",
+            "A31",
+            "vikram",
+            "A44",
+            "P305",
+            "neha",
+            "P306",
+            "arjun",
+            "V01",
+            "L01",
+            "O01",
+            "rk-sharma",
+            "a-verma"
+          ],
+          "max_depth": 8
+        },
+        "counts": {
+          "entities": 60,
+          "relationships": 52,
+          "evidence": 77,
+          "sources": 13,
+          "leads": 1
+        }
+      },
+      "single_request_seconds": 0.027
+    },
+    "/api/cases/demo/ner-status": {
+      "data": {
+        "available": true,
+        "model": "en_core_web_sm",
+        "extractor_version": "spacy-en_core_web_sm",
+        "status_text": "NER Model: en_core_web_sm \u2022 Active"
+      },
+      "single_request_seconds": 0.004
+    },
+    "/api/cases/demo/processing-summary": {
+      "data": {
+        "manifests": [
+          {
+            "source_file_id": "F-f6a1e88dd6f4b1669d94",
+            "case_id": "VEIL-DEMO-001",
+            "filename": "report.txt",
+            "source_type": "Report",
+            "checksum": "84a499e01dc066c3c3569eed8f7fc09022b4c6c0f785a23e8c49c6431b660f07",
+            "parser_version": "controlled-intake-v1",
+            "uploaded_at": "2026-09-06T16:59:09.780064+00:00",
+            "record_count": 8,
+            "processing_status": "PROCESSED",
+            "validation_errors": []
+          },
+          {
+            "source_file_id": "F-407fb147afef3ebc7ddb",
+            "case_id": "VEIL-DEMO-001",
+            "filename": "cdr.csv",
+            "source_type": "CDR",
+            "checksum": "314e16568f2bb7319a1eb961aebf430cbe6a6a2ea548812759d40019f40947f8",
+            "parser_version": "controlled-intake-v1",
+            "uploaded_at": "2026-09-06T16:59:09.781322+00:00",
+            "record_count": 3,
+            "processing_status": "PROCESSED_WITH_ERRORS",
+            "validation_errors": [
+              "Row 4: duration_seconds must be between 0 and 86400"
+            ]
+          },
+          {
+            "source_file_id": "F-ea3c2b8c497d396902f5",
+            "case_id": "VEIL-DEMO-001",
+            "filename": "transactions.csv",
+            "source_type": "Transaction",
+            "checksum": "0cf33ed9be7197fd59267a93e426a0b410a4ea6a1a2e6414039e4050241e274a",
+            "parser_version": "controlled-intake-v1",
+            "uploaded_at": "2026-09-06T16:59:09.782746+00:00",
+            "record_count": 2,
+            "processing_status": "PROCESSED",
+            "validation_errors": []
+          },
+          {
+            "source_file_id": "F-131b5d2093a9b4572289",
+            "case_id": "VEIL-DEMO-001",
+            "filename": "vehicles.csv",
+            "source_type": "Vehicle",
+            "checksum": "cf8e8162da3f84345d9e80c41328a227529ecb55c1d1dba917e4874a16ae981c",
+            "parser_version": "controlled-intake-v1",
+            "uploaded_at": "2026-09-06T16:59:09.783656+00:00",
+            "record_count": 2,
+            "processing_status": "PROCESSED",
+            "validation_errors": []
+          }
+        ],
+        "records_processed": 15,
+        "valid_records": 14,
+        "rejected_records": 1,
+        "entity_mentions": 48,
+        "relationship_candidates": 9,
+        "withheld_claims": 5,
+        "processed": true
+      },
+      "single_request_seconds": 0.007
+    },
+    "/api/cases/demo/anomalies": {
+      "data": {
+        "status": "SUCCESS",
+        "sample_size": 20,
+        "generated_at": "2026-08-15T20:00:00+05:30"
+      },
+      "single_request_seconds": 0.292
+    }
+  },
+  "baseline": {
+    "entities": 42,
+    "relationships": 43,
+    "events": 29,
+    "leads": 1,
+    "path": [
+      "rahul",
+      "P101",
+      "P204",
+      "amit",
+      "A17",
+      "A31",
+      "vikram"
+    ],
+    "relationship_ids": [
+      "R01",
+      "R02",
+      "R03",
+      "R04",
+      "R05",
+      "R06"
+    ],
+    "resolution_proposals": [
+      "MP-amit-a-verma",
+      "MP-rahul-rk-sharma"
+    ]
+  },
+  "without_events_leads": 0,
+  "cut_first_path_edge": [
+    "rahul",
+    "V02",
+    "rk-sharma",
+    "P101",
+    "P204",
+    "amit",
+    "A17",
+    "A31",
+    "vikram"
+  ],
+  "fresh_alias_probe": {
+    "records": 2,
+    "mentions": 4,
+    "added_persons": [
+      "Rahul Sharma (alias-a.txt)",
+      "R.K. Sharma (alias-b.txt)"
+    ],
+    "baseline_proposals": 2,
+    "recomputed_proposals": 3,
+    "new_proposals": [
+      "MP-I-a822b481f4e2c3d57f66-I-93fde00ce0629c7e43ca"
+    ],
+    "api_behavior": "main.matches computed once at startup over baseline, not updated by process_sources"
+  },
+  "grammar_probe": [
+    {
+      "raw": "Rahul Sharma uses phone +910000009991.",
+      "relationship": "USES",
+      "disposition": "GRAPH_CANDIDATE"
+    },
+    {
+      "raw": "Rahul Sharma can be reached on +910000009992.",
+      "relationship": "UNSUPPORTED",
+      "disposition": "UNSUPPORTED"
+    },
+    {
+      "raw": "Rahul Sharma did not meet Vikram Singh on 12 August 2026.",
+      "relationship": "MET",
+      "disposition": "NEGATED"
+    },
+    {
+      "raw": "Rahul Sharma met Vikram Singh on 12 September 2026.",
+      "relationship": "UNSUPPORTED",
+      "disposition": "UNSUPPORTED"
+    }
+  ],
+  "ordinary_location_probe": {
+    "valid": 0,
+    "rejected": 1,
+    "errors": [
+      [
+        "tower_location outside controlled dictionary"
+      ]
+    ]
+  },
+  "local_ner_available": true
+}

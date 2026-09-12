@@ -1,0 +1,14 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Title,Segoe UI,25,&H00E9D554,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,1,0,1,0,0,5,65,65,0,1
+Style: Speech,Segoe UI,30,&H00F7F5F1,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,80,80,0,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:05.00,Title,,0,0,0,,{\pos(960,945)\fad(220,220)}VEIL · EXPLAINABLE LEADS. HUMAN JUDGMENT.
+Dialogue: 1,0:00:00.25,0:00:02.04,Speech,,0,0,0,,{\pos(960,1010)\fad(120,120)}VEIL reduces the search space.
+Dialogue: 1,0:00:02.04,0:00:04.49,Speech,,0,0,0,,{\pos(960,1010)\fad(120,120)}The investigator decides what comes next.

@@ -1,0 +1,4 @@
+call_id,caller_phone,receiver_phone,started_at,duration_seconds,tower_location
+CALL-001,+910000000101,+910000000204,2026-08-12T18:00:00+05:30,60,Rivergate depot
+CALL-002,+910000000204,+910000000305,2026-08-12T18:05:00+05:30,120,East market
+CALL-INVALID,+910000000101,+910000000305,2026-08-12T18:10:00+05:30,-5,East market

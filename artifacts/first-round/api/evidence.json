@@ -1,0 +1,36 @@
+{
+  "case_id": "VEIL-DEMO-001",
+  "synthetic": true,
+  "data_version": "golden-v1",
+  "evidence": {
+    "id": "E-TX-01",
+    "source_id": "S05",
+    "source_filename": "transactions-2026-08-15.csv",
+    "source_type": "Transaction",
+    "locator": {
+      "row": 2,
+      "page": null,
+      "paragraph": null,
+      "span_start": null,
+      "span_end": null,
+      "fields": [
+        "sender",
+        "receiver",
+        "amount_inr",
+        "timestamp"
+      ]
+    },
+    "timestamp": "2026-08-15T18:35:00+05:30",
+    "exact_excerpt": "A17 → A31; INR 75,000; 2026-08-15T18:35:00+05:30; purpose unspecified.",
+    "verification_status": "Synthetic source record · not independently verified",
+    "entity_ids": [
+      "A17",
+      "A31"
+    ],
+    "relationship_ids": [
+      "R05"
+    ],
+    "parser_version": null,
+    "source_record_id": null
+  }
+}

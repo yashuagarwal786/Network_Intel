@@ -1,0 +1,9 @@
+Synthetic Demonstration Data. Case VEIL-DEMO-102. Report dated 21 August 2026.
+Amit Verma uses phone +910000000501.
+Arjun Mehta is associated with vehicle DEMO-VH-51.
+Cedar Services is located at Canal junction.
+Amit Verma may meet Arjun Mehta on 21 August 2026.
+Amit Verma did not meet Rahul Sharma on 21 August 2026.
+The reported amount was INR 84000.00 on 21 August 2026.
+The payment descriptions refer to ordinary equipment invoices and require verification.
+

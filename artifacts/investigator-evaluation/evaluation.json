@@ -1,0 +1,57 @@
+{
+  "evaluation_timestamp": "2026-09-11T18:02:36.386147+00:00",
+  "target_score": "9.0 / 10 internal prototype",
+  "suite_version": "controlled-evaluation-v2",
+  "total_criteria": 12,
+  "passed_criteria": 12,
+  "results": {
+    "01_exact_provenance_spans": {
+      "status": "PASSED",
+      "detail": "All mentions match exact substring spans in source text"
+    },
+    "02_honest_extraction_methods": {
+      "status": "PASSED",
+      "detail": "Methods accurately declare deterministic vs NER without fake probabilities"
+    },
+    "03_stale_parser_version_detection": {
+      "status": "PASSED",
+      "detail": "IntakeStore flags needs_reprocess when parser specs differ"
+    },
+    "04_resolution_name_cleaning": {
+      "status": "PASSED",
+      "detail": "Source filenames are stripped from entity resolution comparison"
+    },
+    "05_resolution_conflict_penalties": {
+      "status": "PASSED",
+      "detail": "Conflicting surnames receive <= 0.25 compatibility penalty"
+    },
+    "06_vehicle_property_demotion": {
+      "status": "PASSED",
+      "detail": "Vehicles treated as corroborating property, never standalone proof of identity"
+    },
+    "07_bounded_rule_score": {
+      "status": "PASSED",
+      "detail": "Rule scores bounded in [0.0, 1.0] and explicitly documented as not a probability"
+    },
+    "08_epistemic_status_lifecycle": {
+      "status": "PASSED",
+      "detail": "Epistemic state correctly transitions from EXTRACTED_UNVERIFIED to INVESTIGATOR_VERIFIED"
+    },
+    "09_graph_verification_gate": {
+      "status": "PASSED",
+      "detail": "Investigator-rejected claims are strictly excluded from graph augmentation"
+    },
+    "10_multi_hop_crosswind_corridor": {
+      "status": "PASSED",
+      "detail": "Operation Crosswind verified with a 6-hop cross-modal corridor"
+    },
+    "11_noise_entity_isolation": {
+      "status": "PASSED",
+      "detail": "Unrelated entities (Rohan Mehra, Suresh Gupta) remain isolated from corridor"
+    },
+    "12_grounded_explanation_guardrails": {
+      "status": "PASSED",
+      "detail": "Strict guardrails against hallucinations, accusatory labels, and API absence"
+    }
+  }
+}

@@ -1,0 +1,61 @@
+1
+00:00:00,000 --> 00:00:15,000
+One fictional case. Information scattered across reports, calls, payments and vehicle
+records.
+
+2
+00:00:15,000 --> 00:00:30,000
+Four prepared synthetic sources have been processed. Invalid records are flagged for
+review.
+
+3
+00:00:30,000 --> 00:00:40,000
+Source rows remain available. Extraction preserves where each piece of information came
+from.
+
+4
+00:00:40,000 --> 00:00:55,000
+Similar names are a proposal, not an automatic merge. Shared phone and vehicle records
+support review.
+
+5
+00:00:55,000 --> 00:01:05,000
+Rahul’s record now retains the reviewed alias and the original source mentions.
+
+6
+00:01:05,000 --> 00:01:25,000
+A computed six-hop path connects Rahul to Vikram through phones, Amit Verma and bank
+accounts.
+
+7
+00:01:25,000 --> 00:01:45,000
+Rahul → P101 → P204 → Amit → A17 → A31 → Vikram. Every step has supporting evidence.
+
+8
+00:01:45,000 --> 00:02:00,000
+Lead 17 is computed: 11 calls versus a historical median of 2, alongside seven new
+contacts.
+
+9
+00:02:00,000 --> 00:02:10,000
+Three connected transfers total ₹1,95,000 over 75 minutes. These are review signals, not
+accusations.
+
+10
+00:02:10,000 --> 00:02:20,000
+The explanation reaches the exact source: transaction file, row 2, timestamp and unaltered
+excerpt.
+
+11
+00:02:20,000 --> 00:02:30,000
+The investigator records Needs more evidence. Human judgment remains separate from
+analytical priority.
+
+12
+00:02:30,000 --> 00:02:40,000
+The decision is recorded with reviewer, reason and previous/new state in the audit
+history.
+
+13
+00:02:40,000 --> 00:02:45,000
+VEIL reduces the search space with explainable leads. The system does not determine guilt.

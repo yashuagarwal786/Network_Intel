@@ -1,0 +1,180 @@
+{
+  "duration": 175,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 30,
+  "shots": [
+    [
+      "01-fragments",
+      8
+    ],
+    [
+      "02-fragments",
+      7
+    ],
+    [
+      "03-overload",
+      8
+    ],
+    [
+      "04-manual",
+      8
+    ],
+    [
+      "05-question",
+      10
+    ],
+    [
+      "06-brand",
+      8
+    ],
+    [
+      "07-pipeline",
+      8
+    ],
+    [
+      "08-sources-ui",
+      9
+    ],
+    [
+      "09-names",
+      6
+    ],
+    [
+      "10-resolution-ui",
+      9
+    ],
+    [
+      "11-graph-build",
+      10
+    ],
+    [
+      "12-network-ui",
+      9
+    ],
+    [
+      "13-hero-question",
+      6
+    ],
+    [
+      "14-path-progressive",
+      12
+    ],
+    [
+      "15-path-live",
+      6
+    ],
+    [
+      "16-trust",
+      9
+    ],
+    [
+      "17-evidence-live",
+      5
+    ],
+    [
+      "18-evidence-close",
+      7
+    ],
+    [
+      "19-review-ui",
+      7
+    ],
+    [
+      "20-audit-ui",
+      7
+    ],
+    [
+      "21-benefits",
+      10
+    ],
+    [
+      "22-final",
+      6
+    ]
+  ],
+  "voiceover": [
+    [
+      0.7,
+      6.4,
+      "A criminal network rarely appears in a single file."
+    ],
+    [
+      7.0,
+      14.6,
+      "One name may sit in a complaint. A phone in a call record. An account in a transaction. A location somewhere else."
+    ],
+    [
+      15.2,
+      22.6,
+      "The evidence may already exist. The connection may still be buried."
+    ],
+    [
+      23.3,
+      30.1,
+      "And as records multiply, the search space grows faster than any manual review."
+    ],
+    [
+      33.1,
+      39.1,
+      "What if those fragments could become one connected investigation?"
+    ],
+    [
+      43.1,
+      45.1,
+      "Network Intel."
+    ],
+    [
+      50.0,
+      64.8,
+      "It processes supported structured records and controlled report text, turning isolated mentions into entities investigators can work with: people, phones, accounts, vehicles and locations."
+    ],
+    [
+      67.0,
+      79.7,
+      "Because the same person can appear differently across records, Network Intel proposes possible identity matches. Evidence supports the comparison. Uncertainty stays with the investigator."
+    ],
+    [
+      82.1,
+      98.3,
+      "Relationships once scattered across files become part of one investigation graph. People, devices and accounts can now be explored in context, without losing the records that support them."
+    ],
+    [
+      101.0,
+      110.8,
+      "Now ask a question that would otherwise require record-by-record searching. How are Rahul Sharma and Vikram Singh connected?"
+    ],
+    [
+      111.4,
+      122.4,
+      "Network Intel runs a bounded graph search. One sourced step at a time, a six-hop association emerges through P101, P204, Amit Verma, A17 and A31."
+    ],
+    [
+      125.2,
+      131.7,
+      "But an investigation cannot depend on a black box. Every important connection must remain inspectable."
+    ],
+    [
+      134.0,
+      143.9,
+      "Here, the analytical lead returns to the transaction file, exact row, timestamp, verification status and original excerpt."
+    ],
+    [
+      146.0,
+      157.9,
+      "The system surfaces a connection. Evidence supports it. The investigator remains the final authority, able to confirm, reject, defer, or request more evidence."
+    ],
+    [
+      160.0,
+      168.2,
+      "Less manual cross-referencing. Non-obvious paths made visible. Reviewable leads with their evidence still attached."
+    ],
+    [
+      169.2,
+      174.7,
+      "The evidence may already be there. Network Intel helps investigators see how it connects."
+    ]
+  ]
+}

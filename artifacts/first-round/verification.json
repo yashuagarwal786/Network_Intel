@@ -1,0 +1,11 @@
+{
+  "scope": "SIH first-round judge prototype",
+  "synthetic_data": true,
+  "backend_tests": {"passed": 98, "warnings": 2},
+  "frontend": {"lint": "passed", "typecheck": "passed", "production_build": "passed", "browser_tests_passed": 4},
+  "golden_flow": {"duration_seconds_excluding_narration": 13.383, "computed_path_hops": 6, "console_errors": 0, "failed_requests": 0, "external_requests": 0},
+  "responsive_widths_tested": [1366, 1440, 1920, 768],
+  "live_api_verification": {"path_length": 6, "path_evidence_records": 8, "lead_priority": "HIGH", "lead_signals": 4, "rahul_resolution": "CONFIRMED"},
+  "primary_route_external_ai_required": false,
+  "narrated_demo_timed": false
+}

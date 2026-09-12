@@ -1,0 +1,239 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "Z:\\XLab\\New\\Network Intel\\frontend\\node_modules\\@playwright\\test\\cli.js",
+      "test"
+    ],
+    "configFile": "Z:\\XLab\\New\\Network Intel\\frontend\\playwright.config.ts",
+    "rootDir": "Z:/XLab/New/Network Intel/frontend/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "Z:/XLab/New/Network Intel/frontend/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "Z:/XLab/New/Network Intel/frontend/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 180000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "../artifacts/cycle6/smoke-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 1,
+    "webServer": {
+      "command": "\"Z:\\XLab\\New\\Network Intel\\.venv\\Scripts\\python.exe\" -m backend.serve_demo --port 8001 --state-dir backend/data/smoke --reset",
+      "cwd": "..",
+      "url": "http://127.0.0.1:8001/api/cases/demo",
+      "reuseExistingServer": false,
+      "timeout": 60000
+    }
+  },
+  "suites": [
+    {
+      "title": "golden.spec.ts",
+      "file": "golden.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "judge flow: sources → resolution → path → signals → evidence → review → audit",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6717,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T13:14:34.226Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "golden-flow-verification",
+                      "contentType": "application/json",
+                      "body": "ewogICJkdXJhdGlvbl9zZWNvbmRzIjogNS40ODcsCiAgInZpZXdwb3J0IjogewogICAgIndpZHRoIjogMTM2NiwKICAgICJoZWlnaHQiOiA3NjgKICB9LAogICJjb25zb2xlX2Vycm9ycyI6IFtdLAogICJmYWlsZWRfcmVxdWVzdHMiOiBbXSwKICAiZXh0ZXJuYWxfcmVxdWVzdHMiOiBbXSwKICAiYXBpX3JlcXVlc3RzIjogWwogICAgIi9hcGkvY2FzZXMvZGVtby9yZXNvbHV0aW9uLXByb3Bvc2FscyIsCiAgICAiL2FwaS9jYXNlcy9kZW1vL3Byb2Nlc3Npbmctc3VtbWFyeSIsCiAgICAiL2FwaS9jYXNlcy9kZW1vL3RpbWVsaW5lIiwKICAgICIvYXBpL2Nhc2VzL2RlbW8iLAogICAgIi9hcGkvY2FzZXMvZGVtby9ncmFwaCIsCiAgICAiL2FwaS9jYXNlcy9kZW1vL2xlYWRzIiwKICAgICIvYXBpL2Nhc2VzL2RlbW8vc291cmNlcyIsCiAgICAiL2FwaS9jYXNlcy9kZW1vL3Byb2Nlc3Npbmctc3VtbWFyeSIsCiAgICAiL2FwaS9jYXNlcy9kZW1vL3NvdXJjZS1yZWNvcmRzIiwKICAgICIvYXBpL2Nhc2VzL2RlbW8vZXh0cmFjdGVkLWNsYWltcyIsCiAgICAiL2FwaS9jYXNlcy9kZW1vL3NvdXJjZS1maWxlcyIsCiAgICAiL2FwaS9jYXNlcy9kZW1vL25lci1zdGF0dXMiLAogICAgIi9hcGkvY2FzZXMvZGVtby9yZXNvbHV0aW9uLXByb3Bvc2FscyIsCiAgICAiL2FwaS9yZXNvbHV0aW9uLXByb3Bvc2Fscy9NUC1yYWh1bC1yay1zaGFybWEiLAogICAgIi9hcGkvcmVzb2x1dGlvbi1wcm9wb3NhbHMvTVAtcmFodWwtcmstc2hhcm1hL2RlY2lzaW9ucyIsCiAgICAiL2FwaS9jYXNlcy9kZW1vL3Jlc29sdXRpb24tcHJvcG9zYWxzIiwKICAgICIvYXBpL3Jlc29sdXRpb24tcHJvcG9zYWxzL01QLXJhaHVsLXJrLXNoYXJtYSIsCiAgICAiL2FwaS9jYXNlcy9kZW1vL2dyYXBoIiwKICAgICIvYXBpL2Nhc2VzL2RlbW8iLAogICAgIi9hcGkvY2FzZXMvZGVtby9zb3VyY2VzIiwKICAgICIvYXBpL2Nhc2VzL2RlbW8vbGVhZHMiLAogICAgIi9hcGkvY2FzZXMvZGVtby9yZXNvbHV0aW9uLXByb3Bvc2FscyIsCiAgICAiL2FwaS9jYXNlcy9kZW1vL3Byb2Nlc3Npbmctc3VtbWFyeSIsCiAgICAiL2FwaS9jYXNlcy9kZW1vL3RpbWVsaW5lIiwKICAgICIvYXBpL2Nhc2VzL2RlbW8vcGF0aCIsCiAgICAiL2FwaS9sZWFkcy8xNyIsCiAgICAiL2FwaS9sZWFkcy8xNy9yZXZpZXdzIiwKICAgICIvYXBpL2V2aWRlbmNlL0UtVFgtMDEiLAogICAgIi9hcGkvbGVhZHMvMTcvcmV2aWV3cyIsCiAgICAiL2FwaS9sZWFkcy8xNyIsCiAgICAiL2FwaS9sZWFkcy8xNy9yZXZpZXdzIiwKICAgICIvYXBpL2xlYWRzLzE3L3Jldmlld3MiLAogICAgIi9hcGkvbGVhZHMvMTcvcmV2aWV3cyIsCiAgICAiL2FwaS9jYXNlcy9kZW1vL2xlYWRzIiwKICAgICIvYXBpL2xlYWRzLzE3L3Jldmlld3MiLAogICAgIi9hcGkvY2FzZXMvZGVtby9hdWRpdCIsCiAgICAiL2FwaS9jYXNlcy9kZW1vL2F1ZGl0IgogIF0sCiAgImNvbXB1dGVkX3BhdGgiOiA2Cn0="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "368b625b608da03d5a27-bdf7e36ff191b9bc8e8f",
+          "file": "golden.spec.ts",
+          "line": 6,
+          "column": 1
+        },
+        {
+          "title": "failure recovery, graph controls, keyboard focus, empty states and laptop layouts",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2656,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T13:14:41.569Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "368b625b608da03d5a27-20d3e1a42129092dc74e",
+          "file": "golden.spec.ts",
+          "line": 79,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "redesign.spec.ts",
+      "file": "redesign.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "redesigned pages, contextual navigation, filters, responsive drawers and evidence continuity",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "timedOut",
+                  "duration": 180731,
+                  "error": {
+                    "message": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m",
+                    "stack": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m"
+                  },
+                  "errors": [
+                    {
+                      "message": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m"
+                    },
+                    {
+                      "location": {
+                        "file": "Z:\\XLab\\New\\Network Intel\\frontend\\e2e\\redesign.spec.ts",
+                        "column": 76,
+                        "line": 13
+                      },
+                      "message": "Error: locator.click: Test timeout of 180000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Continue Entity Review', exact: true })\u001b[22m\n\n\n  11 |  await expect(page.getByRole('heading',{name:'Investigation inputs'})).toBeVisible();await expect(page.locator('.overview-source')).toHaveCount(4);\n  12 |  await page.screenshot({path:path.join(folder,'08-case-overview.png')});\n> 13 |  await page.getByRole('button',{name:'Continue Entity Review',exact:true}).click();\n     |                                                                            ^\n  14 |  await page.getByLabel('Resolution proposal',{exact:true}).selectOption('MP-amit-a-verma');\n  15 |  await expect(page.locator('.identity-comparison')).toContainText('A. Verma');\n  16 |  const proposal=await page.getByLabel('Resolution proposal',{exact:true}).inputValue();\n    at Z:\\XLab\\New\\Network Intel\\frontend\\e2e\\redesign.spec.ts:13:76"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-05T13:14:44.274Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "Z:\\XLab\\New\\Network Intel\\frontend\\test-results\\redesign-redesigned-pages--00dfa-ers-and-evidence-continuity\\test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "Z:\\XLab\\New\\Network Intel\\frontend\\test-results\\redesign-redesigned-pages--00dfa-ers-and-evidence-continuity\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "Z:\\XLab\\New\\Network Intel\\frontend\\test-results\\redesign-redesigned-pages--00dfa-ers-and-evidence-continuity\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "8c55c0801a27607fa79e-43947379d0bcb1801749",
+          "file": "redesign.spec.ts",
+          "line": 5,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-09-05T13:14:25.740Z",
+    "duration": 201260.183,
+    "expected": 2,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

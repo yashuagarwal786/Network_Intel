@@ -1,0 +1,111 @@
+1
+00:00:00,700 --> 00:00:04,900
+A criminal network rarely appears in a single file.
+
+2
+00:00:06,550 --> 00:00:09,166
+It appears in fragments.
+
+3
+00:00:10,500 --> 00:00:14,868
+A name, a phone number, an account, a location.
+
+4
+00:00:15,350 --> 00:00:17,750
+The evidence is there.
+
+5
+00:00:19,750 --> 00:00:22,918
+But the connection can stay buried.
+
+6
+00:00:23,750 --> 00:00:29,918
+And as records multiply, manual review becomes slower... and harder to scale.
+
+7
+00:00:33,000 --> 00:00:38,616
+So, what if every fragment could become part of one connected investigation?
+
+8
+00:00:42,450 --> 00:00:44,994
+This is Network Intel.
+
+9
+00:00:49,600 --> 00:00:55,720
+It turns supported investigation records into entities an investigator can work with.
+
+10
+00:00:56,200 --> 00:01:02,968
+People, phones, accounts, vehicles, and locations, all connected to their source.
+
+11
+00:01:07,000 --> 00:01:11,824
+The same person may appear differently across different records.
+
+12
+00:01:13,000 --> 00:01:19,408
+Network Intel proposes a possible match, then leaves the decision with the investigator.
+
+13
+00:01:22,000 --> 00:01:26,656
+Now, those scattered relationships begin to form a network.
+
+14
+00:01:27,450 --> 00:01:34,722
+People, devices, and accounts can be explored together, without losing the evidence behind them.
+
+15
+00:01:41,000 --> 00:01:43,928
+Here is the question that matters.
+
+16
+00:01:46,100 --> 00:01:49,820
+How are Rahul Sharma and Vikram Singh connected?
+
+17
+00:01:51,150 --> 00:01:54,078
+Network Intel traces the graph.
+
+18
+00:01:55,900 --> 00:02:00,796
+One sourced step at a time... a six-hop association emerges.
+
+19
+00:02:05,000 --> 00:02:07,880
+And this is where trust matters.
+
+20
+00:02:08,900 --> 00:02:12,620
+Investigations can't depend on a black box.
+
+21
+00:02:14,000 --> 00:02:18,368
+Open the lead, and the path returns to evidence.
+
+22
+00:02:19,550 --> 00:02:25,910
+The exact file, row, timestamp, verification status, and original excerpt.
+
+23
+00:02:26,000 --> 00:02:31,256
+The system surfaces the connection. The evidence supports review.
+
+24
+00:02:31,700 --> 00:02:35,996
+But the investigator remains the final authority.
+
+25
+00:02:40,000 --> 00:02:42,808
+Less manual cross-referencing.
+
+26
+00:02:44,750 --> 00:02:48,038
+Non-obvious paths, made visible.
+
+27
+00:02:49,000 --> 00:02:51,808
+The evidence may already be there.
+
+28
+00:02:51,950 --> 00:02:54,830
+Network Intel reveals the connection.

@@ -1,0 +1,39 @@
+{
+  "captured_at": "2026-09-07T11:29:58.734Z",
+  "viewport": {
+    "width": 1920,
+    "height": 1080
+  },
+  "product_title": "Network Intel — Connected evidence. Clearer intelligence.",
+  "path_length": 6,
+  "path_nodes": [
+    "rahul",
+    "P101",
+    "P204",
+    "amit",
+    "A17",
+    "A31",
+    "vikram"
+  ],
+  "path_relationships": [
+    "R01",
+    "R02",
+    "R03",
+    "R04",
+    "R05",
+    "R06"
+  ],
+  "evidence_references": [
+    "E-ACC-01",
+    "E-ACC-02",
+    "E-CDR-01",
+    "E-CDR-02",
+    "E-CDR-03",
+    "E-SUB-01",
+    "E-SUB-02",
+    "E-TX-01"
+  ],
+  "errors": [],
+  "failed_requests": [],
+  "external_requests": []
+}

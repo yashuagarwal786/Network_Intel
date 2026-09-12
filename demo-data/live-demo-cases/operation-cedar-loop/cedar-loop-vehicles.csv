@@ -1,0 +1,3 @@
+record_id,vehicle_number,relationship_type,person_name,observed_at,location,source_type
+VR-CL-001,DEMO-VH-51,REGISTERED_KEEPER,Arjun Mehta,2026-08-20T11:00:00+05:30,Canal junction,registration_extract
+VR-CL-002,DEMO-VH-51,OBSERVED_WITH,Amit Verma,2026-08-21T16:30:00+05:30,North yard,synthetic_observation

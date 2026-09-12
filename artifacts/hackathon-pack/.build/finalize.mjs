@@ -1,0 +1,5 @@
+import {finalizePresentation} from 'file:///C:/Users/tanis/.codex/plugins/cache/openai-primary-runtime/presentations/26.904.11930/skills/presentations/container_tools/artifact_tool_utils.mjs';
+const W='Z:/XLab/New/Network Intel/artifacts/hackathon-pack';
+const SK='C:/Users/tanis/.codex/plugins/cache/openai-primary-runtime/presentations/26.904.11930/skills/presentations';
+const r=await finalizePresentation({workspaceDir:W,candidatePath:W+'/.chart-data-Lnjve7/candidate.pptx',finalPath:W+'/output/Network-Intel-Internal-Hackathon-Hinglish.pptx',pythonExecutable:'C:/Users/tanis/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe',integrityValidatorPath:SK+'/container_tools/inspect_presentation_package_integrity.py',layoutValidatorPath:SK+'/container_tools/inspect_presentation_layout_geometry.py',layoutArgs:['--expected-slide-size-emu','12192000,6858000','--validate-bullet-geometry','--validate-heading-fit'],fontPolicy:{basis:'design',families:['Arial']},requiredNativeChartOwnerSlides:[4],requiredNativeTableOwnerSlides:[],verifyArtifactToolImport:true,receiptPath:W+'/.build/validation.json'});
+console.log(JSON.stringify(r));
